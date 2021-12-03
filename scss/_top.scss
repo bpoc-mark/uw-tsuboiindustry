@@ -23,7 +23,7 @@
           }
         }
         .base{
-          .content{
+          .b_content{
             .wall{
               width: 0;
             }
@@ -32,11 +32,13 @@
       }
       .container{
         position: relative;
-        z-index: 2;
+        z-index: 3;
         padding-top: 187px;
+        color: #001c3e;
+        mix-blend-mode: exclusion;
         .sticky{
           width: 50%;
-          height: 1200px;
+          height: 1180px;
           .content{
             position: sticky;
             top: 180px;
@@ -52,17 +54,17 @@
             transform: translateY(20px);
             opacity: 0;
             &:nth-child(1){
-              background-image: url(/images/top/sect_1/sect_1_txt_img_1-1.svg);
+              background-image: url(/images/top/sect_1/sect_1_txt_img_1-1-wh.svg);
               transition: transform 1s cubic-bezier(0.215, 0.61, 0.355, 1), opacity 0.6s linear;
             }
             &:nth-child(2){
               margin-top: 47px;
-              background-image: url(/images/top/sect_1/sect_1_txt_img_1-2.svg);
+              background-image: url(/images/top/sect_1/sect_1_txt_img_1-2-wh.svg);
               transition: transform 1s cubic-bezier(0.215, 0.61, 0.355, 1) 0.4s, opacity 0.6s linear 0.4s;
             }
             &:nth-child(3){
               margin-top: 47px;
-              background-image: url(/images/top/sect_1/sect_1_txt_img_1-3.svg);
+              background-image: url(/images/top/sect_1/sect_1_txt_img_1-3-wh.svg);
               transition: transform 1s cubic-bezier(0.215, 0.61, 0.355, 1) 0.8s, opacity 0.6s linear 0.8s;
             }
             i{
@@ -78,7 +80,7 @@
             height: 20px;
             background-size: contain;
             background-repeat: no-repeat;
-            background-image: url(/images/top/sect_1/sect_1_txt_img_2.svg);
+            background-image: url(/images/top/sect_1/sect_1_txt_img_2-wh.svg);
             transform: translateY(20px);
             transition: transform 1s cubic-bezier(0.215, 0.61, 0.355, 1) 0.8s, opacity 0.6s linear 1s;
             opacity: 0;
@@ -90,7 +92,7 @@
       }
       .base{
         position: absolute;
-        z-index: 1;
+        z-index: 2;
         bottom: 0;
         left: 50%;
         right: 0;
@@ -99,7 +101,7 @@
         @include is-max(1200px){
           left: 100px;
         }
-        .content{
+        .b_content{
           z-index: 1;
           position: absolute;
           bottom: 0;
@@ -482,7 +484,7 @@
       }
       .float_img{
         position: absolute;
-        bottom: -30px;
+        bottom: -65px;
         right: 0;
       }
     }

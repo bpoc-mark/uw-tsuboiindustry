@@ -4,9 +4,11 @@ $(function () {
     var t = $(this).scrollTop();
     if (t > 100) {
       $('#pageTop').addClass('active');
+      $('.float_sp').addClass('active');
       $('header').addClass('scroll');
     } else {
       $('#pageTop').removeClass('active');
+      $('.float_sp').removeClass('active');
       $('header').removeClass('scroll');
     };
   });

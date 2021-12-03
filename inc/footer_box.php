@@ -7,7 +7,7 @@
 				</div>
 				<div class="col">
 					<a href="">
-						<img src="/images/common/footer_top_img_1.png" class="footer_top_img" alt="">
+						<img src="/images/common/footer_top_img_1.png" class="footer_top_img" alt="ONLY ONE CLEARN ROOM">
 						<span>
 						つぼい工業 クリーンルーム
 						<img src="/images/common/arrow_footer_icon.svg" alt="">
@@ -16,7 +16,7 @@
 				</div>
 				<div class="col">
 					<a href="">
-						<img src="/images/common/footer_top_img_2.png" class="footer_top_img" alt="">
+						<img src="/images/common/footer_top_img_2.png" class="footer_top_img" alt="SOUSUI 株式会社蒼水">
 						<span>
 						株式会社蒼水
 						<img src="/images/common/arrow_footer_icon.svg" alt="">
@@ -25,7 +25,7 @@
 				</div>
 				<div class="col">
 					<a href="">
-						<img src="/images/common/footer_top_img_3.png" class="footer_top_img" alt=""><img src="/images/common/footer_top_img_3-1.png" class="footer_top_img" alt="">
+						<img src="/images/common/footer_top_img_3.png" class="footer_top_img" alt="FROST">
 						<span>
 						株式会社フロスト
 						<img src="/images/common/arrow_footer_icon.svg" alt="">
@@ -36,7 +36,7 @@
 		</div>
 		<div class="bottom">
 			<div class="b_left">
-				<div class="logo"><a href="/"><img src="/images/common/footer_logo.svg" alt="<?php echo SITE_NAME; ?>"></a></div>
+				<div class="logo"><a href="/"><img src="/images/common/footer_logo.svg" alt="<?php echo SITE_NAME; ?> つぼい工業株式会社"></a></div>
 				<p>
 					つぼい工業株式会社<br>
 					〒433-8105 静岡県浜松市北区三方原町874-5<br>

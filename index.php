@@ -54,7 +54,7 @@
 						</div>
 					</div>
 					<div class="base">
-						<div class="content">
+						<div class="b_content">
 							<figure class="bg_img">
 							</figure>
 							<div class="wall"></div>

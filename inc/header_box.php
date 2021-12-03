@@ -6,9 +6,9 @@ $str = explode('/', $url); ?>
 	<div class="header_inner--left">
 		<?php
 		if ($str[1] == "") {
-			echo '<h1 class="logo"><a href="/"><img src="/images/common/header_logo.svg" alt=""><img src="/images/common/header_logo_1.svg" class="pc" alt=""></a></h1>';
+			echo '<h1 class="logo"><a href="/"><img src="/images/common/header_logo.svg" alt="つぼい工業株式会社"><img src="/images/common/header_logo_1.svg" class="pc" alt="つぼい工業株式会社"></a></h1>';
 		} else {
-			echo '<p class="logo"><a href="/"><img src="/images/common/header_logo.svg" alt=""><img src="/images/common/header_logo_1.svg" class="pc" alt=""></a></p>';
+			echo '<p class="logo"><a href="/"><img src="/images/common/header_logo.svg" alt="つぼい工業株式会社"><img src="/images/common/header_logo_1.svg" class="pc" alt="つぼい工業株式会社"></a></p>';
 		}
 		?>
 	</div>
@@ -139,4 +139,17 @@ $str = explode('/', $url); ?>
 		</nav>
 	</div>
 
+</div>
+
+<div class="float_sp sp">
+	<div class="wrap row">
+		<div class="col">
+			<a href="tel:053-438-111" class="btn_tel">
+				<span class="tel">Tel.</span>053-438-111
+			</a>
+		</div>
+		<div class="col">
+			<a href="" class="btn_contact"><img src="/images/common/mail_icon.svg" alt="">メールフォーム</a>
+		</div>
+	</div>
 </div>
