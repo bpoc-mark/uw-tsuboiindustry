@@ -331,7 +331,7 @@ body.vegas-container > .vegas-slide {
 
 @-webkit-keyframes kenburns {
     0% {
-        transform: scale(1.5);
+        transform: scale(1.2);
     }
     100% {
         transform: scale(1);
@@ -340,7 +340,7 @@ body.vegas-container > .vegas-slide {
 
 @keyframes kenburns {
     0% {
-        transform: scale(1.5);
+        transform: scale(1.2);
     }
     100% {
         transform: scale(1);

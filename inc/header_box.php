@@ -111,12 +111,12 @@ $str = explode('/', $url); ?>
 				<li class="nav__item"><a class="nav__item__link" href="/" <?php if ($str[1] == "") {
 																echo ' class="here"';
 															} ?>>よくあるご質問</a></li>
-				<li class="nav__item"><a class="nav__item__link" href="/" <?php if ($str[1] == "") {
+				<li class="nav__item"><a class="nav__item__link" href="https://www.tsuboi.biz/recruit/" target="_blank" <?php if ($str[1] == "") {
 																echo ' class="here"';
 															} ?>>採用情報 <img src="/images/common/arrow_header_icon.svg" class="nav__item__link--arrow" alt=""></a></li>
 				<li class="nav__item--btn-contact"><a class="nav__item__link" href="/" <?php if ($str[1] == "") {
 																echo ' class="here"';
-															} ?>><img src="/images/common/mail_icon.svg" alt=""> お問い合わせ</a></li>
+															} ?>><img src="/images/common/mail_icon.svg" alt="お問い合わせ"> お問い合わせ</a></li>
 			</ul>
 			<div class="overlay"></div>
 		</nav>
@@ -124,7 +124,7 @@ $str = explode('/', $url); ?>
 			<ul class="nav_sp--list">
 				<li class="nav_sp--list--item">
 					<a href="">
-						<img src="/images/common/mail_icon_blue.svg" alt="">
+						<img src="/images/common/mail_icon_blue.svg" alt="お問い合わせ">
 					</a>
 				</li>
 				<li class="nav_sp--list--item">
@@ -149,7 +149,7 @@ $str = explode('/', $url); ?>
 			</a>
 		</div>
 		<div class="col">
-			<a href="" class="btn_contact"><img src="/images/common/mail_icon.svg" alt="">メールフォーム</a>
+			<a href="" class="btn_contact"><img src="/images/common/mail_icon.svg" alt="お問い合わせ">メールフォーム</a>
 		</div>
 	</div>
 </div>

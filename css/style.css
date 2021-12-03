@@ -1235,13 +1235,13 @@ img[src$=".png"], img[src$=".jpg"] {
 #Top main .sect_1 .wrapper .container h1 span:nth-child(2) {
   margin-top: 47px;
   background-image: url(/images/top/sect_1/sect_1_txt_img_1-2-wh.svg);
-  transition: transform 1s cubic-bezier(0.215, 0.61, 0.355, 1) 0.4s, opacity 0.6s linear 0.4s;
+  transition: transform 1s cubic-bezier(0.215, 0.61, 0.355, 1) 0.2s, opacity 0.6s linear 0.2s;
 }
 
 #Top main .sect_1 .wrapper .container h1 span:nth-child(3) {
   margin-top: 47px;
   background-image: url(/images/top/sect_1/sect_1_txt_img_1-3-wh.svg);
-  transition: transform 1s cubic-bezier(0.215, 0.61, 0.355, 1) 0.8s, opacity 0.6s linear 0.8s;
+  transition: transform 1s cubic-bezier(0.215, 0.61, 0.355, 1) 0.6s, opacity 0.6s linear 0.6s;
 }
 
 #Top main .sect_1 .wrapper .container h1 span i {
@@ -1260,7 +1260,7 @@ img[src$=".png"], img[src$=".jpg"] {
   background-repeat: no-repeat;
   background-image: url(/images/top/sect_1/sect_1_txt_img_2-wh.svg);
   transform: translateY(20px);
-  transition: transform 1s cubic-bezier(0.215, 0.61, 0.355, 1) 0.8s, opacity 0.6s linear 1s;
+  transition: transform 1s cubic-bezier(0.215, 0.61, 0.355, 1) 0.8s, opacity 0.8s linear 0.8s;
   opacity: 0;
 }
 
@@ -1311,7 +1311,7 @@ img[src$=".png"], img[src$=".jpg"] {
   width: 200%;
   height: 100%;
   background-color: #fff;
-  transition: width 1.2s cubic-bezier(0.65, 0, 0.35, 1) 1.1s;
+  transition: width 1s cubic-bezier(0.65, 0, 0.35, 1) 1s;
 }
 
 #Top main .sect_1 .wrapper .scroll_wrap {

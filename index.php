@@ -228,7 +228,7 @@
 									<p class="c-heading--sub">採用情報</p>
 								</div>
 								<p class="desc">つぼい工業は働きやすい環境づくりにも本気で取り組んでいます。<br>一人ひとりがやりがいと成長を感じることのできる会社です。</p>
-								<a href="" class="btn_wrap">
+								<a href="https://www.tsuboi.biz/recruit/" target="_blank" class="btn_wrap">
 									<span class="btn_wrap--circle"></span>
 									<span class="btn_wrap--text" data-text="詳しくはこちら">詳しくはこちら</span>
 								</a>
@@ -316,7 +316,7 @@
 								</div>
 								<div class="btn_contact">
 									<a href="">
-										<img src="/images/common/mail_icon.svg" alt="">
+										<img src="/images/common/mail_icon.svg" alt="お問い合わせ">
 										メールでの<br class="pc">お問い合わせ
 									</a>
 								</div>
@@ -340,9 +340,10 @@
 				{ src: "/images/top/sect_1/bg_img-2.jpg" },
 				{ src: "/images/top/sect_1/bg_img-3.jpg" }
 			],
-			transition: ['zoomOut', 'fade2'],
+			transition: ['fade'],
 			animation: 'kenburns',
-			timer: false
+			timer: false,
+			delay: 7000,
 		});
 	</script>
 

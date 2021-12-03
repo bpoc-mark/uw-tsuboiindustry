@@ -6,7 +6,7 @@
 					<p>関連事業</p>
 				</div>
 				<div class="col">
-					<a href="">
+					<a href="https://www.tsuboi.biz/cleanroom/company/" target="_blank">
 						<img src="/images/common/footer_top_img_1.png" class="footer_top_img" alt="ONLY ONE CLEARN ROOM">
 						<span>
 						つぼい工業 クリーンルーム
@@ -15,7 +15,7 @@
 					</a>
 				</div>
 				<div class="col">
-					<a href="">
+					<a href="https://www.sousui03.co.jp/" target="_blank">
 						<img src="/images/common/footer_top_img_2.png" class="footer_top_img" alt="SOUSUI 株式会社蒼水">
 						<span>
 						株式会社蒼水
@@ -24,7 +24,7 @@
 					</a>
 				</div>
 				<div class="col">
-					<a href="">
+					<a href="https://www.frost-ltd.co.jp/" target="_blank">
 						<img src="/images/common/footer_top_img_3.png" class="footer_top_img" alt="FROST">
 						<span>
 						株式会社フロスト
@@ -36,15 +36,15 @@
 		</div>
 		<div class="bottom">
 			<div class="b_left">
-				<div class="logo"><a href="/"><img src="/images/common/footer_logo.svg" alt="<?php echo SITE_NAME; ?> つぼい工業株式会社"></a></div>
+				<div class="logo"><a href="/"><img src="/images/common/footer_logo.svg" alt="<?php echo SITE_NAME; ?>"></a></div>
 				<p>
 					つぼい工業株式会社<br>
 					〒433-8105 静岡県浜松市北区三方原町874-5<br>
 					TEL：<a href="tel:053-438-1111">053-438-1111</a>（代）<br>
-					FAX：<a href="tel:053-438-1118">053-438-1118</a>
+					FAX：053-438-1118
 				</p>
 				<div class="menu">
-					<a href="">採用情報 <img src="/images/common/arrow_footer_icon.svg" alt=""></a>
+					<a href="https://www.tsuboi.biz/recruit/" target="_blank">採用情報 <img src="/images/common/arrow_footer_icon.svg" alt=""></a>
 					<a href="">プライバシーポリシー</a>
 				</div>
 				<div class="copy">
