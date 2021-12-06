@@ -349,9 +349,9 @@
 
 	<script>
 		$(document).ready(function(){
-			$(window).on('load', function (e) {
+			// $(window).on('load', function (e) {
 				$('.sect_1 .wrapper').addClass('isOpened');
-			})
+			// })
 		});
 	</script>
 </body>
