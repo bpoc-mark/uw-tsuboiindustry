@@ -348,11 +348,19 @@
 	</script>
 
 	<script>
-		$(document).ready(function(){
-			// $(window).on('load', function (e) {
-				$('.sect_1 .wrapper').addClass('isOpened');
-			// })
+		// $(document).ready(function(){
+		// 	// $(window).on('load', function (e) {
+		// 		$('.sect_1 .wrapper').addClass('isOpened');
+		// 	// })
+		// });
+
+		const sect1 = document.querySelector('.sect_1 .wrapper');
+		window.addEventListener('load', function() {
+			sect1.classList.add('isOpened');
 		});
+		setTimeout( function () {
+			sect1.classList.add('isOpened');
+		}, 3000);
 	</script>
 </body>
 
