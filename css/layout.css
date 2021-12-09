@@ -133,6 +133,8 @@ select {
 }
 body {
   color: #131313;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
   background-color: #ffffff;
   font-family: YakuHanJP_Noto, "Noto Sans JP", sans-serif;
   line-height: 1;

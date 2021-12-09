@@ -216,12 +216,6 @@ header {
                     top: 13px;
                     transform: rotate(-45deg);
                   }
-                  // &.line-m {
-                  //   left: 22px;
-                  //   &.show {
-                  //     opacity: 0;
-                  //   }
-                  // }
                   &.line-b {
                     left: 10px;
                     &.show {
@@ -233,7 +227,6 @@ header {
                 }
                 p {
                   color: #fff;
-                  // padding: 35px 0 0;
                   font-size: 10px;
                   text-align: center;
                 }
@@ -267,7 +260,6 @@ header {
         }
         a{
           display: flex;
-          // flex-wrap: wrap;
           align-items: center;
           justify-content: center;
           width: 100%;

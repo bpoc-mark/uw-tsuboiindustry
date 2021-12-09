@@ -130,7 +130,6 @@ $str = explode('/', $url); ?>
 				<li class="nav_sp--list--item">
 					<div class="menu" id="nav_menu">
 						<span class="line line-t"></span>
-						<!-- <span class="line line-m"></span> -->
 						<span class="line line-b"></span>
 						<p></p>
 					</div>
