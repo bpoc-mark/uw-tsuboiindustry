@@ -524,6 +524,7 @@
                 }
                 &--sub{
                   color: #fff;
+                  font-weight: 500;
                 }
               }
             } 
@@ -535,6 +536,7 @@
                 letter-spacing: .1em;
                 padding-bottom: 20px;
                 padding-top: 15px;
+                font-weight: 400;
               }
               .tel{
                 p{
@@ -542,6 +544,7 @@
                   line-height: 33px;
                   letter-spacing: .1em;
                   margin-bottom: 0;
+                  font-weight: 400;
                 }
                 a{
                   @include Noto_Serif(700);
@@ -567,7 +570,6 @@
                   justify-content: center;
                   text-align: center;
                   width: 100%;
-                  height: 100%;
                   @include Noto_Serif(500);
                   font-size: 18px;
                   color: #fff;

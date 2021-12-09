@@ -469,6 +469,7 @@ footer .footer_inner .container .bottom .b_left p {
   letter-spacing: .1em;
   margin-bottom: 20px;
   padding-left: 10px;
+  font-weight: 400;
 }
 
 footer .footer_inner .container .bottom .b_left p a {
@@ -485,6 +486,7 @@ footer .footer_inner .container .bottom .b_left .menu {
 footer .footer_inner .container .bottom .b_left .menu a {
   font-size: 15px;
   color: #fff;
+  font-weight: 400;
 }
 
 @media only screen and (max-width: 350px) {
@@ -513,6 +515,7 @@ footer .footer_inner .container .bottom .b_left .copy {
 
 footer .footer_inner .container .bottom .b_left .copy small {
   color: #fff;
+  font-weight: 400;
   font-size: 10px;
 }
 
@@ -619,6 +622,7 @@ footer .footer_inner .container .bottom .b_right .nav__item--m-t-b {
 footer .footer_inner .container .bottom .b_right .nav__link {
   color: #fff;
   font-size: 15px;
+  font-weight: 400;
 }
 
 footer .footer_inner .container .bottom .b_right .nav__link--sub-menu {
@@ -633,6 +637,7 @@ footer .footer_inner .container .bottom .b_right .nav__link--sub-menu__item:not(
 footer .footer_inner .container .bottom .b_right .nav__link--sub-menu__link {
   color: #fff;
   font-size: 15px;
+  font-weight: 400;
 }
 
 #pageTop {
@@ -1713,6 +1718,7 @@ img[src$=".png"], img[src$=".jpg"] {
 
 #Top main .sect_7 .wrapper .container .row .col:first-child .c-heading--sub {
   color: #fff;
+  font-weight: 500;
 }
 
 #Top main .sect_7 .wrapper .container .row .col:last-child {
@@ -1725,6 +1731,7 @@ img[src$=".png"], img[src$=".jpg"] {
   letter-spacing: .1em;
   padding-bottom: 20px;
   padding-top: 15px;
+  font-weight: 400;
 }
 
 #Top main .sect_7 .wrapper .container .row .col:last-child .tel p {
@@ -1732,6 +1739,7 @@ img[src$=".png"], img[src$=".jpg"] {
   line-height: 33px;
   letter-spacing: .1em;
   margin-bottom: 0;
+  font-weight: 400;
 }
 
 #Top main .sect_7 .wrapper .container .row .col:last-child .tel a {
@@ -1766,7 +1774,6 @@ img[src$=".png"], img[src$=".jpg"] {
   justify-content: center;
   text-align: center;
   width: 100%;
-  height: 100%;
   font-family: 'Noto Serif JP', serif;
   font-weight: 500;
   font-size: 18px;

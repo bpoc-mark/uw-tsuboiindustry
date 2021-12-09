@@ -447,6 +447,7 @@ footer {
           p{
             color: #fff;
             font-size: 14px;
+            font-weight: 400;
             line-height: 28px;
             letter-spacing: .1em;
             margin-bottom: 44px;
@@ -457,9 +458,10 @@ footer {
             }
           }
           .menu{
-            margin-bottom: 12px;
+            margin-bottom: 18px;
             a{
               font-size: 14px;
+              font-weight: 400;
               color: #fff;
               transition: opacity .3s ease;
                 &:hover{
@@ -482,6 +484,7 @@ footer {
             small{
               color: #fff;
               font-size: 10px;
+              font-weight: 400;
             }
           }
         }
@@ -532,6 +535,7 @@ footer {
             &__link{
               color: #fff;
               font-size: 14px;
+              font-weight: 400;
               transition: opacity .3s ease;
                 &:hover{
                   opacity: 0.5;
@@ -550,6 +554,7 @@ footer {
                   }
                   color: #fff;
                   font-size: 14px;
+                  font-weight: 400;
                 }
               }
             }
