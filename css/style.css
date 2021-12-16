@@ -90,15 +90,6 @@ header.scroll {
   box-shadow: 0px 1px 5px 0px rgba(0, 0, 0, 0.08);
 }
 
-header.scroll .header_inner .header_inner--left .logo a img:first-child {
-  opacity: 0;
-}
-
-header.scroll .header_inner .header_inner--left .logo a .pc {
-  opacity: 1;
-  visibility: visible;
-}
-
 header .header_inner {
   display: flex;
   justify-content: space-between;
@@ -120,15 +111,6 @@ header .header_inner--left .logo {
 
 header .header_inner--left .logo a img:first-child {
   transition: .3s ease-in-out;
-}
-
-header .header_inner--left .logo a .pc {
-  opacity: 0;
-  visibility: hidden;
-  transition: .3s ease-in-out;
-  position: absolute;
-  bottom: -7px;
-  left: 0;
 }
 
 @media only screen and (max-width: 1000px) {
@@ -223,6 +205,10 @@ header .header_inner--right .nav__item__link--arrow {
   margin-left: 9px;
 }
 
+header .header_inner--right .nav__item__link:hover {
+  opacity: .7;
+}
+
 header .header_inner--right .nav__item__link:hover::before {
   transform: scale(1);
 }
@@ -271,7 +257,7 @@ header .header_inner--right .nav__item--sub-menu .wrap--left {
 @media only screen and (max-width: 1200px) {
   header .header_inner--right .nav__item--sub-menu .wrap--left {
     padding-right: 50px;
-    width: 50%;
+    width: 40%;
   }
 }
 
@@ -282,18 +268,49 @@ header .header_inner--right .nav__item--sub-menu .wrap--left h4 {
   color: #001c3e;
 }
 
-header .header_inner--right .nav__item--sub-menu .wrap--left p {
+header .header_inner--right .nav__item--sub-menu .wrap--left a {
   font-family: 'Noto Serif JP', serif;
   font-weight: 700;
   font-size: 20px;
   padding: 12px 0 35px;
+  display: inline-block;
 }
 
-header .header_inner--right .nav__item--sub-menu .wrap--left p img {
+header .header_inner--right .nav__item--sub-menu .wrap--left a:hover span::before {
+  left: 0;
+}
+
+header .header_inner--right .nav__item--sub-menu .wrap--left a:hover span img {
+  left: 50px;
+}
+
+header .header_inner--right .nav__item--sub-menu .wrap--left a span {
+  display: inline-block;
   width: 19px;
   position: relative;
-  top: -7px;
   margin-left: 20px;
+  overflow: hidden;
+}
+
+header .header_inner--right .nav__item--sub-menu .wrap--left a span::before {
+  content: "";
+  background-image: url(/images/common/arrow_icon_header.svg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: 100% auto;
+  width: 19px;
+  height: 19px;
+  display: block;
+  position: absolute;
+  left: -50px;
+  bottom: -3px;
+  transition: .3s ease-in;
+}
+
+header .header_inner--right .nav__item--sub-menu .wrap--left a span img {
+  position: relative;
+  left: 0;
+  transition: .3s ease-in;
 }
 
 header .header_inner--right .nav__item--sub-menu .wrap--left figure {
@@ -305,10 +322,16 @@ header .header_inner--right .nav__item--sub-menu .wrap--right {
   padding-left: 110px;
 }
 
+@media only screen and (max-width: 1300px) {
+  header .header_inner--right .nav__item--sub-menu .wrap--right {
+    padding-left: 50px;
+  }
+}
+
 @media only screen and (max-width: 1200px) {
   header .header_inner--right .nav__item--sub-menu .wrap--right {
     padding-left: 50px;
-    width: 50%;
+    width: 60%;
   }
 }
 
@@ -332,6 +355,16 @@ header .header_inner--right .nav__item--sub-menu .wrap--right ul li:nth-last-chi
 
 header .header_inner--right .nav__item--sub-menu .wrap--right ul li a {
   font-size: 16px;
+}
+
+header .header_inner--right .nav__item--sub-menu .wrap--right ul li a:hover {
+  opacity: .7;
+}
+
+@media only screen and (max-width: 1110px) {
+  header .header_inner--right .nav__item--sub-menu .wrap--right ul li a {
+    font-size: 14px;
+  }
 }
 
 header .header_inner--right .nav .overlay {
@@ -651,6 +684,10 @@ footer .footer_inner .container .bottom .b_right .nav__link--sub-menu__link {
 
 footer .footer_inner .container .bottom .b_right .nav__link--sub-menu__link:hover {
   opacity: 0.5;
+}
+
+footer .footer_inner .container .bottom .b_right .nav__link--sub-menu__link span {
+  margin-right: 6px;
 }
 
 #pageTop {
@@ -1184,7 +1221,7 @@ img[src$=".png"], img[src$=".jpg"] {
 ==================================*/
 #Top main .sect_1 .wrapper {
   position: relative;
-  height: 800px;
+  height: 100vh;
 }
 
 #Top main .sect_1 .wrapper.isOpened .container h1 span {
@@ -1211,7 +1248,6 @@ img[src$=".png"], img[src$=".jpg"] {
 
 #Top main .sect_1 .wrapper .container .sticky {
   width: 50%;
-  height: 1180px;
 }
 
 #Top main .sect_1 .wrapper .container .sticky .content {
@@ -1279,7 +1315,7 @@ img[src$=".png"], img[src$=".jpg"] {
   bottom: 0;
   left: 50%;
   right: 0;
-  height: 510px;
+  height: calc(100% - 290px);
   color: #fff;
 }
 
@@ -1394,12 +1430,15 @@ img[src$=".png"], img[src$=".jpg"] {
   }
 }
 
+#Top main .sect_2 {
+  position: relative;
+}
+
 #Top main .sect_2 .wrapper {
   padding-top: 224px;
-  padding-bottom: 255px;
+  padding-bottom: 280px;
   max-width: 1400px;
   margin: 0 auto;
-  position: relative;
 }
 
 #Top main .sect_2 .wrapper .container .content {
@@ -1445,8 +1484,20 @@ img[src$=".png"], img[src$=".jpg"] {
 
 #Top main .sect_2 .wrapper .float_img {
   position: absolute;
-  bottom: 15px;
+  top: 290px;
   right: 0;
+  z-index: 5;
+}
+
+#Top main .sect_2 .wrapper .float_img img {
+  position: sticky;
+  top: 150px;
+}
+
+#Top main .sect_3 {
+  background-color: #fff;
+  position: relative;
+  z-index: 10;
 }
 
 #Top main .sect_3 .wrapper .row {
@@ -1511,8 +1562,8 @@ img[src$=".png"], img[src$=".jpg"] {
   transition: opacity .3s ease;
 }
 
-#Top main .sect_3 .wrapper .row .col a:hover h6 {
-  opacity: 0.5;
+#Top main .sect_3 .wrapper .row .col a:hover .img_wrap::before {
+  width: 100%;
 }
 
 #Top main .sect_3 .wrapper .row .col a:hover .arrow_icon img {
@@ -1529,13 +1580,27 @@ img[src$=".png"], img[src$=".jpg"] {
   font-size: 22px;
   color: #001c3e;
   padding-bottom: 20px;
-  transition: .3s  ease-in;
 }
 
 @media only screen and (max-width: 1125px) {
   #Top main .sect_3 .wrapper .row .col a h6 {
     font-size: 15px;
   }
+}
+
+#Top main .sect_3 .wrapper .row .col a .img_wrap {
+  position: relative;
+}
+
+#Top main .sect_3 .wrapper .row .col a .img_wrap::before {
+  content: "";
+  display: block;
+  width: 0;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.3);
+  position: absolute;
+  inset: 0;
+  transition: .3s ease-in-out;
 }
 
 #Top main .sect_3 .wrapper .row .col a .arrow_icon {
@@ -1713,53 +1778,49 @@ img[src$=".png"], img[src$=".jpg"] {
   padding-bottom: 140px;
 }
 
-#Top main .sect_5 .wrapper .container {
-  max-width: 1400px;
-  padding-left: 0;
-}
-
-#Top main .sect_5 .wrapper .container .row {
+#Top main .sect_5 .wrapper .row {
   align-items: center;
 }
 
-#Top main .sect_5 .wrapper .container .row .col:first-child {
-  width: 53%;
+#Top main .sect_5 .wrapper .row .col:first-child {
+  width: 52%;
 }
 
-#Top main .sect_5 .wrapper .container .row .col:last-child {
-  width: 47%;
+#Top main .sect_5 .wrapper .row .col:last-child {
+  width: 48%;
   padding-left: 95px;
+  padding-right: 50px;
 }
 
 @media only screen and (max-width: 1200px) {
-  #Top main .sect_5 .wrapper .container .row .col:last-child {
+  #Top main .sect_5 .wrapper .row .col:last-child {
     padding-left: 50px;
   }
 }
 
-#Top main .sect_5 .wrapper .container .row .col:last-child .c-heading--top {
+#Top main .sect_5 .wrapper .row .col:last-child .c-heading--top {
   padding-bottom: 11px;
 }
 
-#Top main .sect_5 .wrapper .container .row .col:last-child .desc {
+#Top main .sect_5 .wrapper .row .col:last-child .desc {
   line-height: 36px;
   margin-top: 40px;
   margin-bottom: 52px;
 }
 
-#Top main .sect_5 .wrapper .container .row .col:last-child .btn_wrap {
+#Top main .sect_5 .wrapper .row .col:last-child .btn_wrap {
   margin-left: 3px;
 }
 
-#Top main .sect_5 .wrapper .container .row .col:last-child .btn_wrap:hover .btn_wrap--text::before {
+#Top main .sect_5 .wrapper .row .col:last-child .btn_wrap:hover .btn_wrap--text::before {
   width: 47px;
 }
 
-#Top main .sect_5 .wrapper .container .row .col:last-child .btn_wrap--text {
+#Top main .sect_5 .wrapper .row .col:last-child .btn_wrap--text {
   padding-left: 12px;
 }
 
-#Top main .sect_5 .wrapper .container .row .col:last-child .btn_wrap--text::before {
+#Top main .sect_5 .wrapper .row .col:last-child .btn_wrap--text::before {
   left: 12px;
   width: 25px;
 }
@@ -1784,7 +1845,6 @@ img[src$=".png"], img[src$=".jpg"] {
 
 #Top main .sect_6 .wrapper .container {
   position: relative;
-  z-index: 3;
   background-color: #ffffff;
   padding-top: 80px;
   padding-bottom: 125px;
@@ -1804,7 +1864,7 @@ img[src$=".png"], img[src$=".jpg"] {
 
 #Top main .sect_6 .wrapper .container .row {
   position: relative;
-  z-index: 3;
+  z-index: 10;
 }
 
 #Top main .sect_6 .wrapper .container .row .col:first-child {
@@ -1822,6 +1882,14 @@ img[src$=".png"], img[src$=".jpg"] {
 
 #Top main .sect_6 .wrapper .container .row .col:last-child .to_list {
   text-align: right;
+}
+
+#Top main .sect_6 .wrapper .container .row .col:last-child .to_list a:hover svg rect {
+  fill: #d60000;
+}
+
+#Top main .sect_6 .wrapper .container .row .col:last-child .to_list a svg rect {
+  fill: #002757;
 }
 
 #Top main .sect_6 .wrapper .container .row .col:last-child .post {
@@ -1863,6 +1931,11 @@ img[src$=".png"], img[src$=".jpg"] {
   position: absolute;
   bottom: -275px;
   right: -50px;
+}
+
+#Top main .sect_7 {
+  position: relative;
+  z-index: 10;
 }
 
 #Top main .sect_7 .wrapper {

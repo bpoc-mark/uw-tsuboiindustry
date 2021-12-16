@@ -34,13 +34,17 @@ $(function () {
   });
 
   $('.nav__item--isFloat-mid').click(function(e){
-    $(this).toggleClass('isActive');
-    $(this).find('.nav__link--sub-menu').slideToggle();
+    if(allowed){
+      $(this).toggleClass('isActive');
+      $(this).find('.nav__link--sub-menu').slideToggle();
+    }
   })
 
   $('.nav__item--isFloat-right').click(function(e){
-    $(this).toggleClass('isActive');
-    $(this).find('.nav__link--sub-menu').slideToggle();
+    if(allowed){
+      $(this).toggleClass('isActive');
+      $(this).find('.nav__link--sub-menu').slideToggle();
+    }
   })
 
   $('.sub_menu_clk').click(function(e){

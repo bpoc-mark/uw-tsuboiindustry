@@ -84,7 +84,7 @@
 					</figure>
 				</div>
 			</section>
-			<section class="sect_3">
+			<section class="sect_3" id="sect_3">
 				<div class="wrapper">
 					<ul class="row">
 						<li class="col bdr-top bdr-right">
@@ -97,7 +97,9 @@
 						<li class="col bdr-top">
 							<a href="">
 								<h6 class="title">総合設備コンサルティング</h6>
-								<img src="/images/top/sect_3/sect_3_img_1.jpg" alt="総合設備コンサルティング">
+								<div class="img_wrap">
+									<img src="/images/top/sect_3/sect_3_img_1.jpg" alt="総合設備コンサルティング">
+								</div>
 								<span class="arrow_icon">
 									<img src="/images/common/arrow_icon.svg"  alt="">
 								</span>
@@ -106,7 +108,9 @@
 						<li class="col bdr-top bdr-right">
 							<a href="">
 								<h6>クリーンルーム</h6>
-								<img src="/images/top/sect_3/sect_3_img_2.jpg" alt="クリーンルーム">
+								<div class="img_wrap">
+									<img src="/images/top/sect_3/sect_3_img_2.jpg" alt="クリーンルーム">
+								</div>
 								<span class="arrow_icon">
 									<img src="/images/common/arrow_icon.svg"  alt="">
 								</span>
@@ -115,7 +119,9 @@
 						<li class="col bdr-top bdr-right">
 							<a href="">
 								<h6>空調換気設備工事</h6>
-								<img src="/images/top/sect_3/sect_3_img_3.jpg" alt="空調換気設備工事">
+								<div class="img_wrap">
+									<img src="/images/top/sect_3/sect_3_img_3.jpg" alt="空調換気設備工事">
+								</div>
 								<span class="arrow_icon">
 									<img src="/images/common/arrow_icon.svg"  alt="">
 								</span>
@@ -124,7 +130,9 @@
 						<li class="col bdr-top">
 							<a href="">
 								<h6>冷熱設備工事</h6>
-								<img src="/images/top/sect_3/sect_3_img_4.jpg" alt="冷熱設備工事">
+								<div class="img_wrap">
+									<img src="/images/top/sect_3/sect_3_img_4.jpg" alt="冷熱設備工事">
+								</div>
 								<span class="arrow_icon">
 									<img src="/images/common/arrow_icon.svg"  alt="">
 								</span>
@@ -133,7 +141,9 @@
 						<li class="col bdr-top bdr-right">
 							<a href="">
 								<h6>給排水衛生工事</h6>
-								<img src="/images/top/sect_3/sect_3_img_5.jpg" alt="給排水衛生工事">
+								<div class="img_wrap">
+									<img src="/images/top/sect_3/sect_3_img_5.jpg" alt="給排水衛生工事">
+								</div>
 								<span class="arrow_icon">
 									<img src="/images/common/arrow_icon.svg"  alt="">
 								</span>
@@ -142,7 +152,9 @@
 						<li class="col bdr-top bdr-right">
 							<a href="">
 								<h6>その他工事</h6>
-								<img src="/images/top/sect_3/sect_3_img_6.jpg" alt="その他工事">
+								<div class="img_wrap">
+									<img src="/images/top/sect_3/sect_3_img_6.jpg" alt="その他工事">
+								</div>
 								<span class="arrow_icon">
 									<img src="/images/common/arrow_icon.svg"  alt="">
 								</span>
@@ -151,7 +163,9 @@
 						<li class="col bdr-top">
 							<a href="">
 								<h6>点検・修理・メンテナンス</h6>
-								<img src="/images/top/sect_3/sect_3_img_7.jpg" alt="点検・修理・メンテナンス">
+								<div class="img_wrap">
+									<img src="/images/top/sect_3/sect_3_img_7.jpg" alt="点検・修理・メンテナンス">
+								</div>
 								<span class="arrow_icon">
 									<img src="/images/common/arrow_icon.svg"  alt="">
 								</span>
@@ -210,34 +224,26 @@
 							</div>
 						</div>
 					</div>
-					<figure class="float_img pc">
-						<img src="/images/top/sect_4/float_img_1.png" alt="">
-					</figure>
 				</div>
 			</section>
 			<section class="sect_5">
 				<div class="wrapper">
-					<div class="container">
-						<div class="row">
-							<div class="col">
-								<img src="/images/top/sect_5/sect_5_img_1.jpg" alt="採用情報">
+					<div class="row">
+						<div class="col">
+							<img src="/images/top/sect_5/sect_5_img_1.jpg" alt="採用情報">
+						</div>
+						<div class="col">
+							<div class="c-heading">
+								<h3 class="c-heading--top">Recruit</h3>
+								<p class="c-heading--sub">採用情報</p>
 							</div>
-							<div class="col">
-								<div class="c-heading">
-									<h3 class="c-heading--top">Recruit</h3>
-									<p class="c-heading--sub">採用情報</p>
-								</div>
-								<p class="desc">つぼい工業は働きやすい環境づくりにも本気で取り組んでいます。<br>一人ひとりがやりがいと成長を感じることのできる会社です。</p>
-								<a href="https://www.tsuboi.biz/recruit/" target="_blank" class="btn_wrap">
-									<span class="btn_wrap--circle"></span>
-									<span class="btn_wrap--text" data-text="詳しくはこちら">詳しくはこちら</span>
-								</a>
-							</div>
+							<p class="desc">つぼい工業は働きやすい環境づくりにも本気で取り組んでいます。<br>一人ひとりがやりがいと成長を感じることのできる会社です。</p>
+							<a href="https://www.tsuboi.biz/recruit/" target="_blank" class="btn_wrap">
+								<span class="btn_wrap--circle"></span>
+								<span class="btn_wrap--text" data-text="詳しくはこちら">詳しくはこちら</span>
+							</a>
 						</div>
 					</div>
-					<figure class="float_img sp">
-						<img src="/images/top/sect_4/float_img_1.png" alt="">
-					</figure>
 				</div>
 			</section>
 			<section class="sect_6">
@@ -253,7 +259,7 @@
 							<div class="col">
 								<div class="to_list">
 									<a href="">
-										<img src="/images/common/to_list_icon.svg" alt="">
+									<svg xmlns="http://www.w3.org/2000/svg" width="22.33" height="15.63" viewBox="0 0 22.33 15.63"><g id="ae7ad000-5736-4529-8f84-6c7233c44b9c" data-name="Layer 2"><g id="a00df368-dcd9-436d-b1cf-9ae78076d5d4" data-name="レイヤー 1"><rect width="3.98" height="2.48"/><rect x="7.19" width="15.14" height="2.48" /><rect y="6.57" width="3.98" height="2.48" /><rect x="7.19" y="6.57" width="15.14" height="2.48" /><rect y="13.15" width="3.98" height="2.48"/><rect x="7.19" y="13.15" width="15.14" height="2.48"/></g></g></svg>
 									</a>
 								</div>
 								<ul class="post">
@@ -290,9 +296,6 @@
 								</ul>
 							</div>
 						</div>
-						<figure class="float_img pc">
-							<img src="/images/top/sect_4/float_img_1.png" alt="">
-						</figure>
 					</div>
 				</div>
 			</section>
@@ -340,11 +343,38 @@
 				{ src: "/images/top/sect_1/bg_img-2.jpg" },
 				{ src: "/images/top/sect_1/bg_img-3.jpg" }
 			],
-			transition: ['fade'],
+			transition: ['blur2'],
 			animation: 'kenburns',
+			animationDuration: 10000,
 			timer: false,
-			delay: 7000,
+			delay: 5000,
 		});
+
+		let allowed = false
+		var w = $(window).width();
+		if (w < 900) {
+			allowed = true;
+		}
+		function float_img(){
+			let sect2Height = $('.sect_2').height();
+			let sect3Height = $('.sect_3').height();
+			let sect4Height = $('.sect_4').height();
+			let sect5Height = $('.sect_5').height();
+			let sect6Height = $('.sect_6').height();
+			let totalHeight = sect2Height + sect3Height + sect4Height + sect5Height + sect6Height;
+			$('.float_img').css({"height": totalHeight });
+		}
+		float_img();
+
+		function float_heroImg(){
+			let heightPercentage = (allowed) ?  0.25 : 0.485;
+			let sect1Height = $('.sect_1').height();
+			let sect2Height = $('.sect_2').height() * heightPercentage;
+			let totalHeight = sect1Height + sect2Height;
+			console.log(heightPercentage)
+			$('.sect_1 .wrapper .container .sticky').css({"height": totalHeight });
+		}
+		float_heroImg();
 	</script>
 
 	<script>

@@ -224,10 +224,6 @@ header .header_inner--right .nav_sp--list--item {
   height: 100%;
 }
 
-header .header_inner--right .nav_sp--list--item:first-child {
-  margin-right: 9px;
-}
-
 header .header_inner--right .nav_sp--list--item:first-child a {
   display: flex;
   align-items: center;
@@ -553,7 +549,7 @@ footer .footer_inner .container .bottom .b_right .nav__item--isFloat-mid.isActiv
 footer .footer_inner .container .bottom .b_right .nav__item--isFloat-mid::before {
   content: "";
   display: block;
-  width: 10px;
+  width: 7px;
   height: 1px;
   background-color: #fff;
   position: absolute;
@@ -566,12 +562,12 @@ footer .footer_inner .container .bottom .b_right .nav__item--isFloat-mid::before
 footer .footer_inner .container .bottom .b_right .nav__item--isFloat-mid::after {
   content: "";
   display: block;
-  width: 10px;
+  width: 7px;
   height: 1px;
   background-color: #fff;
   position: absolute;
   top: 0.7rem;
-  left: 81px;
+  left: 78px;
   transform: rotate(-45deg);
   transition: .3s ease-in-out;
 }
@@ -592,7 +588,7 @@ footer .footer_inner .container .bottom .b_right .nav__item--isFloat-right.isAct
 footer .footer_inner .container .bottom .b_right .nav__item--isFloat-right::before {
   content: "";
   display: block;
-  width: 10px;
+  width: 7px;
   height: 1px;
   background-color: #fff;
   position: absolute;
@@ -605,12 +601,12 @@ footer .footer_inner .container .bottom .b_right .nav__item--isFloat-right::befo
 footer .footer_inner .container .bottom .b_right .nav__item--isFloat-right::after {
   content: "";
   display: block;
-  width: 10px;
+  width: 7px;
   height: 1px;
   background-color: #fff;
   position: absolute;
   top: 0.7rem;
-  left: 81px;
+  left: 78px;
   transform: rotate(-45deg);
   transition: .3s ease-in-out;
 }
@@ -638,6 +634,10 @@ footer .footer_inner .container .bottom .b_right .nav__link--sub-menu__link {
   color: #fff;
   font-size: 15px;
   font-weight: 400;
+}
+
+footer .footer_inner .container .bottom .b_right .nav__link--sub-menu__link span {
+  margin-right: 6px;
 }
 
 #pageTop {
@@ -1167,7 +1167,7 @@ img[src$=".png"], img[src$=".jpg"] {
 ==================================*/
 #Top main .sect_1 .wrapper {
   position: relative;
-  height: 602px;
+  height: 100vh;
 }
 
 #Top main .sect_1 .wrapper.isOpened .container h1 span {
@@ -1190,10 +1190,6 @@ img[src$=".png"], img[src$=".jpg"] {
   padding-top: 102px;
   color: #001c3e;
   mix-blend-mode: exclusion;
-}
-
-#Top main .sect_1 .wrapper .container .sticky {
-  height: 770px;
 }
 
 #Top main .sect_1 .wrapper .container .sticky .content {
@@ -1279,7 +1275,7 @@ img[src$=".png"], img[src$=".jpg"] {
   bottom: 0;
   right: 50px;
   left: -500px;
-  height: 345px;
+  height: calc(100% - 155px);
   background-image: url(/images/top/sect_1/bg_img.jpg);
   background-size: cover;
   background-position: 100% 0;
@@ -1565,47 +1561,33 @@ img[src$=".png"], img[src$=".jpg"] {
   position: relative;
 }
 
-#Top main .sect_5 .wrapper .container {
-  max-width: 1400px;
-  padding-left: 0;
-  padding-right: 0;
-}
-
-#Top main .sect_5 .wrapper .container .row {
+#Top main .sect_5 .wrapper .row {
   align-items: center;
 }
 
-#Top main .sect_5 .wrapper .container .row .col:first-child {
+#Top main .sect_5 .wrapper .row .col:first-child {
   width: 100%;
   margin-bottom: 38px;
 }
 
-#Top main .sect_5 .wrapper .container .row .col:last-child {
+#Top main .sect_5 .wrapper .row .col:last-child {
   width: 100%;
   padding-left: 20px;
   padding-right: 20px;
 }
 
-#Top main .sect_5 .wrapper .container .row .col:last-child .c-heading--top {
+#Top main .sect_5 .wrapper .row .col:last-child .c-heading--top {
   padding-bottom: 2px;
 }
 
-#Top main .sect_5 .wrapper .container .row .col:last-child .desc {
+#Top main .sect_5 .wrapper .row .col:last-child .desc {
   line-height: 30px;
   margin-top: 20px;
   margin-bottom: 40px;
 }
 
-#Top main .sect_5 .wrapper .container .row .col:last-child .btn_wrap {
+#Top main .sect_5 .wrapper .row .col:last-child .btn_wrap {
   margin-left: 8px;
-}
-
-#Top main .sect_5 .wrapper .float_img {
-  max-width: 215px;
-  position: absolute;
-  bottom: -55px;
-  right: 0;
-  z-index: 10;
 }
 
 #Top main .sect_6 .wrapper {

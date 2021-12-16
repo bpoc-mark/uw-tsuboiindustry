@@ -5,7 +5,7 @@
   .sect_1{
     .wrapper{
       position: relative;
-      height: 800px;
+      height: 100vh;
       &.isOpened{
         .container{
           h1{
@@ -38,7 +38,6 @@
         mix-blend-mode: exclusion;
         .sticky{
           width: 50%;
-          height: 1180px;
           .content{
             position: sticky;
             top: 180px;
@@ -96,7 +95,7 @@
         bottom: 0;
         left: 50%;
         right: 0;
-        height: 510px;
+        height: calc(100% - 290px);
         color: #fff;
         @include is-max(1200px){
           left: 100px;
@@ -126,7 +125,6 @@
           }
         }
       }
-      
       .scroll_wrap{
         width: 100px;
         height: 100%;
@@ -200,12 +198,12 @@
   }
 
   .sect_2{
-    .wrapper{
+    position: relative;
+    .wrapper{ 
       padding-top: 224px;
-      padding-bottom: 255px;
+      padding-bottom: 280px;
       max-width: 1400px;
       margin: 0 auto;
-      position: relative;
       .container{
         .content{
           position: relative;
@@ -243,13 +241,21 @@
       }
       .float_img{
         position: absolute;
-        bottom: 15px;
+        top: 290px;
         right: 0;
+        z-index: 5;
+        img{
+          position: sticky;
+          top: 150px;
+        }
       }
     }
   }
 
   .sect_3{
+    background-color: #fff;
+    position: relative;
+    z-index: 10;
     .wrapper{
       .row{
         border-bottom: 1px solid #e2e4e5;
@@ -304,10 +310,11 @@
             padding: 54px 53px 50px;
             transition: opacity .3s ease;
             &:hover{
-              h6{
-                opacity: 0.5;
+              .img_wrap{
+                &::before{
+                  width: 100%;
+                }
               }
-
               .arrow_icon{
                 img{
                   right: -50px
@@ -322,9 +329,21 @@
               font-size: 22px;
               color: #001c3e;
               padding-bottom: 20px;
-              transition: .3s  ease-in;
               @include is-max(1125px){
                 font-size: 15px;
+              }
+            }
+            .img_wrap{
+              position: relative;
+              &::before{
+                content: "";
+                display: block;
+                width: 0;
+                height: 100%;
+                background-color: rgba(0, 0, 0, 0.3);
+                position: absolute;
+                inset: 0;
+                transition: .3s ease-in-out;
               }
             }
             .arrow_icon{
@@ -495,46 +514,43 @@
       background-color: #f5f7f9;
       padding-top: 110px;
       padding-bottom: 140px;
-      .container{
-        max-width: 1400px;
-        padding-left: 0;
-        .row{
-          align-items: center;
-          .col{
-            &:first-child{
-              width: 53%;
+      .row{
+        align-items: center;
+        .col{
+          &:first-child{
+            width: 52%;
+          }
+          &:last-child{
+            width: 48%;
+            padding-left: 95px;
+            padding-right: 50px;
+            @include is-max(1200px){
+              padding-left: 50px;
             }
-            &:last-child{
-              width: 47%;
-              padding-left: 95px;
-              @include is-max(1200px){
-                padding-left: 50px;
+            .c-heading{
+              &--top{
+                padding-bottom: 11px;
               }
-              .c-heading{
-                &--top{
-                  padding-bottom: 11px;
-                }
-              }
-              .desc{
-                line-height: 36px;
-                margin-top: 40px;
-                margin-bottom: 52px;
-              }
-              .btn_wrap{
-                margin-left: 3px;
-                &:hover{
-                  .btn_wrap--text{
-                    &::before{
-                      width: 47px;
-                    }
-                  }
-                }
-                &--text{
-                  padding-left: 12px;
+            }
+            .desc{
+              line-height: 36px;
+              margin-top: 40px;
+              margin-bottom: 52px;
+            }
+            .btn_wrap{
+              margin-left: 3px;
+              &:hover{
+                .btn_wrap--text{
                   &::before{
-                    left: 12px;
-                    width: 25px;
+                    width: 47px;
                   }
+                }
+              }
+              &--text{
+                padding-left: 12px;
+                &::before{
+                  left: 12px;
+                  width: 25px;
                 }
               }
             }
@@ -562,7 +578,6 @@
       }
       .container{
         position: relative;
-        z-index: 3;
         background-color: #ffffff;
         padding-top: 80px;
         padding-bottom: 125px;
@@ -579,7 +594,7 @@
         }
         .row{
           position: relative;
-          z-index: 3;
+          z-index: 10;
           .col{
             &:first-child{
               width: 300px;
@@ -594,6 +609,20 @@
               width: calc(100% - 300px);
               .to_list{
                 text-align: right;
+                a{
+                  &:hover{
+                    svg{
+                      rect{
+                        fill: #d60000;
+                      }
+                    }
+                  }
+                  svg{
+                    rect{
+                      fill: #002757;
+                    }
+                  }
+                }
               }
               .post{
                 padding-top: 40px;
@@ -636,6 +665,8 @@
   }
 
   .sect_7{
+    position: relative;
+    z-index: 10;
     .wrapper{
       background-color: #002260;
       background-image: url(/images/top/sect_7/bg_img.jpg);

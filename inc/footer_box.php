@@ -6,7 +6,7 @@
 					<p>関連事業</p>
 				</div>
 				<div class="col">
-					<a href="https://www.tsuboi.biz/cleanroom/company/" target="_blank">
+					<a href="https://www.tsuboi.biz/cleanroom/" target="_blank">
 						<img src="/images/common/footer_top_img_1.png" class="footer_top_img" alt="ONLY ONE CLEARN ROOM">
 						<span>
 						つぼい工業 クリーンルーム
@@ -58,51 +58,57 @@
 						<li class="nav__item"><a href="/" class="nav__link">選ばれる理由</a></li>
 						<li class="nav__item--isFloat-mid"><a class="nav__link">事業案内</a>
 							<ul class="nav__link--sub-menu">
-								<li class="nav__link--sub-menu__item">
-									<a href="" class="nav__link--sub-menu__link">-  代表あいさつ</a>
+								<li class="nav__link--sub-menu__item sp">
+									<a href="" class="nav__link--sub-menu__link">-  <span></span>事業案内TOP</a>
 								</li>
 								<li class="nav__link--sub-menu__item">
-									<a href="" class="nav__link--sub-menu__link">-  会社概要</a>
+									<a href="" class="nav__link--sub-menu__link">-  <span></span>代表あいさつ</a>
 								</li>
 								<li class="nav__link--sub-menu__item">
-									<a href="" class="nav__link--sub-menu__link">-  沿革</a>
+									<a href="" class="nav__link--sub-menu__link">-  <span></span>会社概要</a>
 								</li>
 								<li class="nav__link--sub-menu__item">
-									<a href="" class="nav__link--sub-menu__link">-  ISO認証取得</a>
+									<a href="" class="nav__link--sub-menu__link">-  <span></span>沿革</a>
 								</li>
 								<li class="nav__link--sub-menu__item">
-									<a href="" class="nav__link--sub-menu__link">-  有資格者</a>
+									<a href="" class="nav__link--sub-menu__link">-  <span></span>ISO認証取得</a>
 								</li>
 								<li class="nav__link--sub-menu__item">
-									<a href="" class="nav__link--sub-menu__link">-  営業拠点</a>
+									<a href="" class="nav__link--sub-menu__link">-  <span></span>有資格者</a>
 								</li>
 								<li class="nav__link--sub-menu__item">
-									<a href="" class="nav__link--sub-menu__link">-  環境方針</a>
+									<a href="" class="nav__link--sub-menu__link">-  <span></span>営業拠点</a>
+								</li>
+								<li class="nav__link--sub-menu__item">
+									<a href="" class="nav__link--sub-menu__link">-  <span></span>環境方針</a>
 								</li>
 							</ul>
 						</li>
 						<li class="nav__item--isFloat-right"><a class="nav__link">会社案内</a>
 							<ul class="nav__link--sub-menu">
-								<li class="nav__link--sub-menu__item">
-									<a href="" class="nav__link--sub-menu__link">-  総合設備コンサルティング</a>
+								<li class="nav__link--sub-menu__item sp">
+									<a href="" class="nav__link--sub-menu__link">-  <span></span>会社案内TOP</a>
 								</li>
 								<li class="nav__link--sub-menu__item">
-									<a href="" class="nav__link--sub-menu__link">-  クリーンルーム</a>
+									<a href="" class="nav__link--sub-menu__link">-  <span></span>総合設備コンサルティング</a>
 								</li>
 								<li class="nav__link--sub-menu__item">
-									<a href="" class="nav__link--sub-menu__link">-  空調換気設備工事</a>
+									<a href="" class="nav__link--sub-menu__link">-  <span></span>クリーンルーム</a>
 								</li>
 								<li class="nav__link--sub-menu__item">
-									<a href="" class="nav__link--sub-menu__link">-  冷熱設備工事</a>
+									<a href="" class="nav__link--sub-menu__link">-  <span></span>空調換気設備工事</a>
 								</li>
 								<li class="nav__link--sub-menu__item">
-									<a href="" class="nav__link--sub-menu__link">-  排水衛生工事</a>
+									<a href="" class="nav__link--sub-menu__link">-  <span></span>冷熱設備工事</a>
 								</li>
 								<li class="nav__link--sub-menu__item">
-									<a href="" class="nav__link--sub-menu__link">-  その他工事</a>
+									<a href="" class="nav__link--sub-menu__link">-  <span></span>排水衛生工事</a>
 								</li>
 								<li class="nav__link--sub-menu__item">
-									<a href="" class="nav__link--sub-menu__link">-  点検・修理・メンテナンス</a>
+									<a href="" class="nav__link--sub-menu__link">-  <span></span>その他工事</a>
+								</li>
+								<li class="nav__link--sub-menu__item">
+									<a href="" class="nav__link--sub-menu__link">-  <span></span>点検・修理・メンテナンス</a>
 								</li>
 							</ul>
 						</li>

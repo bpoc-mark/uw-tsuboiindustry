@@ -5,7 +5,7 @@
   .sect_1{
     .wrapper{
       position: relative;
-      height: 602px;
+      height: 100vh;
       &.isOpened{
         .container{
           h1{
@@ -35,7 +35,6 @@
         color: #001c3e;
         mix-blend-mode: exclusion;
         .sticky{
-          height: 770px;
           .content{
             position: sticky;
             top: 90px;
@@ -106,7 +105,7 @@
           bottom: 0;
           right: 50px;
           left: -500px;
-          height: 345px;
+          height: calc(100% - 155px);
           background-image: url(/images/top/sect_1/bg_img.jpg);
           background-size: cover;
           background-position: 100% 0;
@@ -379,44 +378,32 @@
       background-color: #f5f7f9;
       padding-bottom: 60px;
       position: relative;
-      .container{
-        max-width: 1400px;
-        padding-left: 0;
-        padding-right: 0;
-        .row{
-          align-items: center;
-          .col{
-            &:first-child{
-              width: 100%;
-              margin-bottom: 38px;
+      .row{
+        align-items: center;
+        .col{
+          &:first-child{
+            width: 100%;
+            margin-bottom: 38px;
+          }
+          &:last-child{
+            width: 100%;
+            padding-left: 20px;
+            padding-right: 20px;
+            .c-heading{
+              &--top{
+                padding-bottom: 2px;
+              }
             }
-            &:last-child{
-              width: 100%;
-              padding-left: 20px;
-              padding-right: 20px;
-              .c-heading{
-                &--top{
-                  padding-bottom: 2px;
-                }
-              }
-              .desc{
-                line-height: 30px;
-                margin-top: 20px;
-                margin-bottom: 40px;
-              }
-              .btn_wrap{
-                margin-left: 8px;
-              }
+            .desc{
+              line-height: 30px;
+              margin-top: 20px;
+              margin-bottom: 40px;
+            }
+            .btn_wrap{
+              margin-left: 8px;
             }
           }
         }
-      }
-      .float_img{
-        max-width: 215px;
-        position: absolute;
-        bottom: -55px;
-        right: 0;
-        z-index: 10;
       }
     }
   }
