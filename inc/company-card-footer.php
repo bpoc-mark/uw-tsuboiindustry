@@ -14,7 +14,7 @@ $str = explode('/', $url); ?>
             </a>
         </li>
         <li class="c-cardbtn--item">
-            <a href="" class="c-cardbtn--link">沿　革
+            <a href="/history/" class="c-cardbtn--link <?php if ($str[1] == "history") { echo ' c-cardbtn--link__active '; } ?>">沿　革
                 <span class="c-cardbtn--arrow"><img src="/images/common/arrow_icon.svg" alt=""></span>
             </a>
         </li>
