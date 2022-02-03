@@ -1,29 +1,12 @@
 /*==================================
-  Company-Profile
+  History
 ==================================*/
-#Company-Profile main {
-  .profile-section{
+#History main {
+  .history-section{
     .wrapper{
       padding: 0 0 60px;
       .container{
-        .ttl{
-          @include Noto_Serif(700);
-          font-size: 20px;
-          letter-spacing: .1em;
-          line-height: 33px;
-          color: #001c3e;
-          position: relative;
-          margin: 0 0 13px;
-          &::before{
-            content: "";
-            display: block;
-            width: 28px;
-            height: 3.5px;
-            background-color: #d60000;
-            margin: 0 0 14px;
-          }
-        }
-        .profile-table{
+        .history-table{
           width: 100%;
           table-layout: fixed;
           border: 1px solid #e2e4e5;
@@ -55,26 +38,6 @@
                 text-align: left;
                 line-height: 27px;
                 padding: 7px 15px 9px 15px;
-                .site-link{
-                  text-decoration: underline;
-                  text-underline-offset: 5px;
-                  text-decoratioion-color: #898989;
-                }
-                .address{
-                  display: flex;
-                  flex-wrap: wrap;
-                  &--item{
-                    width: 100%;
-                    &:not(:last-child){
-                      margin: 0 0 15px;
-                    }
-                  }
-                  &--txt{
-                    font-size: 16px;
-                    letter-spacing: .1em;
-                    line-height: 27px;
-                  }
-                }
               }
             }
           }
