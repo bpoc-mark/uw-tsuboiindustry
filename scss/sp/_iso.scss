@@ -1,0 +1,55 @@
+/*==================================
+  ISO
+==================================*/
+#ISO main {
+  .iso-section{
+    .wrapper{
+      padding: 0 0 60px;
+      .container{
+        .row{
+          .col{
+            &:first-child{
+              width: 100%;
+              padding: 0 0 32px 0;
+              .ttl{
+                @include Noto_Serif(700);
+                font-size: 20px;
+                letter-spacing: .1em;
+                line-height: 33px;
+                color: #001c3e;
+                position: relative;
+                margin: 0 0 13px;
+                word-wrap: break-word;
+                &::before{
+                  content: "";
+                  display: block;
+                  width: 28px;
+                  height: 3.5px;
+                  background-color: #d60000;
+                  margin: 0 0 14px;
+                }
+              }
+              .desc{
+                font-size: 15px;
+                line-height: 30px;
+                letter-spacing: .1em;
+                text-align: justify;
+              }
+            }
+            &:last-child{
+              width: 100%;
+              .img_wrap{
+                display: flex;
+                flex-wrap: wrap;
+                justify-content: space-between;
+                &--item{
+                  width: 49%;
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
