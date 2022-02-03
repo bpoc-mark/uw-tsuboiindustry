@@ -1,0 +1,60 @@
+/*==================================
+  Qualified-Person
+==================================*/
+#Qualified-Person main {
+  .qualified-section{
+    .wrapper{
+      padding: 0 0 60px;
+      .container{
+        .row{
+          justify-content: space-between;
+          .col{
+            width: 100%;
+            &:first-child{
+              margin: 0 0 30px;
+            }
+            .qualified-table{
+              width: 100%;
+              border: 1px solid #e2e4e5;
+              tbody{
+                tr{
+                  display: flex;
+                  flex-wrap: wrap;
+                  &:not(:last-child){
+                    border-bottom: 1px solid #e2e4e5;
+                  }
+                  th{
+                    background-color: #f5f7f9;
+                    &:first-child{
+                      width: calc(100% - 70px);
+                      border-right: 1px solid #e2e4e5;
+                      padding: 8px 0 8px;
+                    } 
+                    &:last-child{
+                      width: 70px;
+                      padding: 8px 0 8px;
+                    }
+                  }
+                  td{
+                    background-color: #fff;
+                    &:first-child{
+                      width: calc(100% - 70px);
+                      border-right: 1px solid #e2e4e5;
+                      padding: 11px 15px 10px;
+                    }
+                    &:last-child{
+                      width: 70px;
+                      background-color: #fff;
+                      text-align: right;
+                      padding: 11px 15px 10px 0;
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
