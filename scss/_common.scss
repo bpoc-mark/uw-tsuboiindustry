@@ -329,6 +329,104 @@ header {
 ==================================*/
 footer {
   background: #001740;
+  .cta_section{
+    position: relative;
+    z-index: 10;
+    .wrapper{
+      background-color: #002260;
+      background-image: url(/images/top/sect_7/bg_img.jpg);
+      background-size: 100% auto;
+      background-repeat: no-repeat;
+      padding-bottom: 90px;
+      padding-top: 85px;
+      .container{
+        .row{
+          .col{
+            &:first-child{
+              width: 300px;
+              .c-heading{
+                &--top{
+                  color: #fff;
+                  padding-bottom: 11px;
+                }
+                &--sub{
+                  color: #fff;
+                }
+              }
+            } 
+            &:last-child{
+              width: calc(100% - 300px);
+              padding-left: 85px;
+              @include is-max(1200px){
+                padding-left: 0;
+                padding-right: 150px;
+              }
+              .desc{
+                color: #fff;
+                line-height: 35px;
+                letter-spacing: .1em;
+                padding-bottom: 23px;
+                padding-top: 15px;
+                font-weight: 400;
+              }
+              .tel{
+                p{
+                  color: #fff;
+                  line-height: 35px;
+                  letter-spacing: .1em;
+                  margin-bottom: 2px;
+                  font-weight: 400;
+                }
+                a{
+                  @include Noto_Serif(700);
+                  font-size: 42px;
+                  color: #fff;
+                  span{
+                    @include Noto_Serif(700);
+                    font-size: 30px;
+                  }
+                }
+              }
+              .btn_contact{
+                position: absolute;
+                top: 50%;
+                right: 0;
+                transform: translate(0, -45%);
+                width: 173px;
+                height: 173px;
+                background-color: #003791;
+                border-radius: 50%;
+                transition: .3s ease-in-out;
+                &:hover{
+                  width: 204.3px;
+                  height: 204.3px;
+                  background-color: #d60000;
+                  right: -16px;
+                }
+                a{
+                  display: flex;
+                  align-items: center;
+                  justify-content: center;
+                  flex-direction: column;
+                  text-align: center;
+                  width: 100%;
+                  height: 100%;
+                  @include Noto_Serif(500);
+                  font-size: 16px;
+                  color: #fff;
+                  line-height: 24px;
+                  img{
+                    width: 32px;
+                    margin-bottom: 9px;
+                  }
+                }
+              }
+            } 
+          }
+        }
+      }
+    }
+  }
   .footer_inner{
     .container{
       .top{

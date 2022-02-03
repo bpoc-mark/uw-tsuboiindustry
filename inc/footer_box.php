@@ -1,3 +1,32 @@
+<section class="cta_section">
+	<div class="wrapper">
+		<div class="container">
+			<div class="row">
+				<div class="col">
+					<div class="c-heading">
+						<h3 class="c-heading--top">Contact</h3>
+						<p class="c-heading--sub">お問い合わせ</p>
+					</div>
+				</div>
+				<div class="col">
+					<p class="desc">お客様のご要望や目的に合わせて、最適なご提案や事例などをご案内します。<br>お気軽にご相談ください。</p>
+					<div class="tel">
+						<p>電話でお問い合わせ（24時間対応！）</p>
+						<a href="tel:053-438-1111">
+							<span>Tel.</span>053-438-1111
+						</a>
+					</div>
+					<div class="btn_contact">
+						<a href="">
+							<img src="/images/common/mail_icon.svg" alt="お問い合わせ">
+							メールでの<br class="pc">お問い合わせ
+						</a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
 <div class="footer_inner">
 	<div class="container">
 		<div class="top">
