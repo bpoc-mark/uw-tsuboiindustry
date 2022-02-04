@@ -37,6 +37,14 @@
           justify-content: space-between;
           .col{
             width: 100%;
+            position: relative;
+            &::before{
+              content: "";
+              display: block;
+              width: 28px;
+              height: 3.5px;
+              background-color: #d60000; 
+            }
             &:not(:last-child){
               margin: 0 0 30px
             }
