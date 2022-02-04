@@ -19,7 +19,7 @@ $str = explode('/', $url); ?>
             </a>
         </li>
         <li class="c-cardbtn--item">
-            <a href="//" class="c-cardbtn--link <?php if ($str[1] == "") { echo ' c-cardbtn--link__active '; } ?>">冷熱設備工事
+            <a href="/cold-equipment/" class="c-cardbtn--link <?php if ($str[1] == "cold-equipment") { echo ' c-cardbtn--link__active '; } ?>">冷熱設備工事
                 <span class="c-cardbtn--arrow"><img src="/images/common/arrow_icon.svg" alt=""></span>
             </a>
         </li>
