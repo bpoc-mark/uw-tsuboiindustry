@@ -1,0 +1,80 @@
+/*==================================
+  Environment-Policy
+==================================*/
+#Environment-Policy main {
+  .environment-section{
+    .wrapper{
+      padding: 0 0 55px;
+      .container{
+        .content{
+          position: relative;
+          .list{
+            &--item{
+              &:not(:last-child){
+                margin: 0 0 45px
+              }
+              .ttl{
+                @include Noto_Serif(700);
+                font-size: 20px;
+                letter-spacing: .1em;
+                line-height: 33px;
+                color: #001c3e;
+                position: relative;
+                margin: 0 0 5px;
+                &::before{
+                  content: "";
+                  display: block;
+                  width: 28px;
+                  height: 3.5px;
+                  background-color: #d60000;
+                  margin: 0 0 14px;
+                }
+              }
+              .desc{
+                letter-spacing: .1em;
+                line-height: 30px;
+              }
+              .img-float{
+                margin: 13px 0 0
+              }
+              .roman-list{
+                &--item{
+                  .decimal-list{
+                    padding: 0 0 0 30px;
+                    margin: 0 0 5px;
+                    &--item{
+    
+                    }
+                    &--desc{
+                      letter-spacing: .1em;
+                      line-height: 27px;
+                      text-indent: -21px;
+                      margin: 0 0 0 21px;
+                    }
+                  }
+                }
+                &--desc{
+                  letter-spacing: .1em;
+                  line-height: 27px;
+                  text-indent: -27px;
+                  margin: 0 0 0 27px;
+                }
+                
+              }
+              .square-list{
+                margin: 30px 0 0;
+                &--item{
+
+                }
+                &--desc{
+                  letter-spacing: .1em;
+                  line-height: 27px;
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

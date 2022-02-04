@@ -34,7 +34,7 @@ $str = explode('/', $url); ?>
             </a>
         </li>
         <li class="c-cardbtn--item">
-            <a href="" class="c-cardbtn--link">環境方針
+            <a href="/environment-policy/" class="c-cardbtn--link <?php if ($str[1] == "environment-policy") { echo ' c-cardbtn--link__active '; } ?>">環境方針
                 <span class="c-cardbtn--arrow"><img src="/images/common/arrow_icon.svg" alt=""></span>
             </a>
         </li>
