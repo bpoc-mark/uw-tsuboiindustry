@@ -421,6 +421,9 @@ img {
     @include sp{
       padding: 0 0 40px
     }
+    @include is-max(370px){
+      padding: 0 0 20px
+    }
     &__en{
       @include Cormorant(400);
       font-size: 80px;
@@ -476,6 +479,12 @@ img {
       background: url(/images/cold-equipment/header_bg.jpg) center center / cover no-repeat;
       @include sp{
         background: url(/images/cold-equipment/sp/header_bg.jpg) center center / cover no-repeat;
+      }
+    }
+    &__plumbing-sanitation{
+      background: url(/images/plumbing-sanitation/header_bg.jpg) center center / cover no-repeat;
+      @include sp{
+        background: url(/images/plumbing-sanitation/sp/header_bg.jpg) center center / cover no-repeat;
       }
     }
   }

@@ -1,0 +1,79 @@
+/*==================================
+  Plumbing-Sanitation
+==================================*/
+#Plumbing-Sanitation main {
+  .sect-1{
+    .wrapper{
+      .container{
+        .row{
+          justify-content: space-between;
+          .col{
+            &:first-child{
+              width: 53%;
+            }
+            &:last-child{
+              width: 45%;
+              padding: 15px 0 0;
+            }
+            .ttl{
+              @include Noto_Serif(500);
+              font-size: 48px;
+              letter-spacing: .08em;
+              line-height: 75px;
+              color: #001c3e;
+            }
+            .desc{
+              letter-spacing: .1em;
+              line-height: 36px;
+              text-align: justify;
+            }
+          }
+        }
+      }
+    }
+  }
+  .sect-2{
+    .wrapper{
+      padding: 79px 0 0;
+      .container{
+        .row{
+          justify-content: space-between;
+          .col{
+            width: 47.5%;
+            position: relative;
+            &::before{
+              content: "";
+              display: block;
+              width: 30px;
+              height: 4px;
+              background-color: #d60000; 
+            }
+            .ttl{
+              @include Noto_Serif(700);
+              font-size: 22px;
+              letter-spacing: .05em;
+              line-height: 33px;
+              color: #001c3e;
+              margin: 18px 0 14px;
+              &.cst-mg{
+                margin: 40px 0 25px;
+                @include is-max(1254px){
+                  margin: 18px 0 14px;
+                }
+              }
+            }
+            .desc{
+              line-height: 33px;
+              letter-spacing: .08em;
+              text-align: justify;
+            }
+          }
+        }
+        .btn-cont{
+          text-align: center;
+          padding: 85px 0 135px;
+        }
+      }
+    }
+  }
+}
