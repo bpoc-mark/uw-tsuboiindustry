@@ -24,7 +24,7 @@ $str = explode('/', $url); ?>
             </a>
         </li>
         <li class="c-cardbtn--item">
-            <a href="/" class="c-cardbtn--link <?php if ($str[1] == "") { echo ' c-cardbtn--link__active '; } ?>">給排水衛生工事
+            <a href="/plumbing-sanitation/" class="c-cardbtn--link <?php if ($str[1] == "plumbing-sanitation") { echo ' c-cardbtn--link__active '; } ?>">給排水衛生工事
                 <span class="c-cardbtn--arrow"><img src="/images/common/arrow_icon.svg" alt=""></span>
             </a>
         </li>
