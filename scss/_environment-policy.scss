@@ -1,0 +1,84 @@
+/*==================================
+  Environment-Policy
+==================================*/
+#Environment-Policy main {
+  .environment-section{
+    .wrapper{
+      padding: 0 0 125px;
+      .container{
+        .content{
+          position: relative;
+          .list{
+            width: 60%;
+            &--item{
+              &:not(:last-child){
+                margin: 0 0 59px
+              }
+              .ttl{
+                @include Noto_Serif(700);
+                font-size: 24px;
+                letter-spacing: .1em;
+                line-height: 33px;
+                color: #001c3e;
+                position: relative;
+                margin: 0 0 30px;
+                &::before{
+                  content: "";
+                  display: block;
+                  width: 20px;
+                  height: 4px;
+                  background-color: #d60000;
+                  margin: 0 0 14px;
+                }
+              }
+              .desc{
+                letter-spacing: .1em;
+                line-height: 36px;
+              }
+              .img-float{
+                width: 35%;
+                position: absolute;
+                top: 90px;
+                right: 0;
+              }
+              .roman-list{
+                &--item{
+                  .decimal-list{
+                    padding: 0 0 0 30px;
+                    margin: 0 0 5px;
+                    &--item{
+    
+                    }
+                    &--desc{
+                      letter-spacing: .1em;
+                      line-height: 36px;
+                      text-indent: -21px;
+                      margin: 0 0 0 21px;
+                    }
+                  }
+                }
+                &--desc{
+                  letter-spacing: .1em;
+                  line-height: 36px;
+                  text-indent: -27px;
+                  margin: 0 0 0 27px;
+                }
+                
+              }
+              .square-list{
+                margin: 25px 0 0;
+                &--item{
+
+                }
+                &--desc{
+                  letter-spacing: .1em;
+                  line-height: 27px;
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
