@@ -21,7 +21,7 @@
   <?php include($_SERVER['DOCUMENT_ROOT'] . "/inc/tag/header_tag.php"); ?>
 </head>
 
-<body id="Company-Profile">
+<body id="Profile">
   <?php include($_SERVER['DOCUMENT_ROOT'] . "/inc/tag/content_tag.php"); ?>
   <div id="AllBox">
     <header>
