@@ -29,7 +29,7 @@ $str = explode('/', $url); ?>
             </a>
         </li>
         <li class="c-cardbtn--item">
-            <a href="" class="c-cardbtn--link">営業拠点
+            <a href="/business-base/" class="c-cardbtn--link <?php if ($str[1] == "business-base") { echo ' c-cardbtn--link__active '; } ?>">営業拠点
                 <span class="c-cardbtn--arrow"><img src="/images/common/arrow_icon.svg" alt=""></span>
             </a>
         </li>

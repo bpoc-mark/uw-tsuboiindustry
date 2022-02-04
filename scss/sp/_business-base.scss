@@ -1,0 +1,79 @@
+/*==================================
+  Business-Base
+==================================*/
+#Business-Base main {
+  .map-section{
+    .wrapper{
+      padding: 0 0 60px;
+      .container{
+        .map{
+          &--item{
+            &:not(:last-child){
+              margin: 0 0 45px;
+            }
+            .row{
+              .col{
+                width: 100%;
+                &:first-child{
+                  margin: 0 0 20px;
+                }
+                .ttl{
+                  @include Noto_Serif(700);
+                  font-size: 20px;
+                  letter-spacing: .1em;
+                  line-height: 33px;
+                  color: #001c3e;
+                  position: relative;
+                  margin: 0 0 13px;
+                  &::before{
+                    content: "";
+                    display: block;
+                    width: 28px;
+                    height: 3.5px;
+                    background-color: #d60000;
+                    margin: 0 0 14px;
+                  }
+                }
+                .office-table{
+                  width: 100%;
+                  border: 1px solid #e2e4e5;
+                  tbody{
+                    tr{
+                      display: flex;
+                      flex-wrap: wrap;
+                      &:not(:last-child){
+                        border-bottom: 1px solid #e2e4e5;
+                      }
+                      th{
+                        width: 95px;
+                        background-color: #f5f7f9;
+                        border-right: 1px solid #e2e4e5;
+                        font-weight: 500;
+                        letter-spacing: .1em;
+                        text-align: left;
+                        padding: 9px 0 10px 15px;
+                      }
+                      td{
+                        width: calc(100% - 95px);
+                        font-weight: 500;
+                        letter-spacing: .1em;
+                        padding: 9px 15px 10px 15px;
+                        a{
+                          font-weight: 500;
+                          letter-spacing: .1em;
+                        }
+                      }
+                    }
+                  }
+                }
+                .map_frame{
+                  height: 235px;
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
