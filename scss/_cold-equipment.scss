@@ -1,7 +1,7 @@
 /*==================================
-  Clean-Room
+  Cold-Equipment
 ==================================*/
-#Clean-Room main {
+#Cold-Equipment main {
   .sect-1{
     .wrapper{
       .container{
@@ -39,7 +39,7 @@
         .row{
           justify-content: space-between;
           .col{
-            width: 30%;
+            width: 47.5%;
             position: relative;
             &::before{
               content: "";
@@ -69,10 +69,9 @@
             }
           }
         }
-        .img-wrap{
-          width: 495px;
-          margin: 0 auto;
-          padding: 79px 0 110px;
+        .btn-cont{
+          text-align: center;
+          padding: 85px 0 135px;
         }
       }
     }
