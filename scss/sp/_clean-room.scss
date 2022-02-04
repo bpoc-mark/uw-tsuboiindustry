@@ -1,29 +1,27 @@
 /*==================================
-  Consulting
+  Clean-Room
 ==================================*/
-#Consulting main {
+#Clean-Room main {
   .sect-1{
     .wrapper{
       .container{
         .row{
           justify-content: space-between;
           .col{
+            width: 100%;
             &:first-child{
-              width: 53%;
-            }
-            &:last-child{
-              width: 45%;
+              margin: 0 0 15px
             }
             .ttl{
               @include Noto_Serif(500);
-              font-size: 48px;
+              font-size: 24px;
               letter-spacing: .08em;
-              line-height: 75px;
+              line-height: 37.5px;
               color: #001c3e;
             }
-            .desc{
-              letter-spacing: .1em;
-              line-height: 36px;
+            .desc{ 
+              letter-spacing: .05em;
+              line-height: 30px;
               text-align: justify;
             }
           }
@@ -33,44 +31,45 @@
   }
   .sect-2{
     .wrapper{
-      padding: 79px 0 0;
+      padding: 35px 0 0;
       .container{
         .row{
           justify-content: space-between;
           .col{
-            width: 30%;
+            width: 100%;
             position: relative;
             &::before{
               content: "";
               display: block;
-              width: 30px;
-              height: 4px;
+              width: 28px;
+              height: 3.5px;
               background-color: #d60000; 
+            }
+            &:not(:last-child){
+              margin: 0 0 30px
             }
             .ttl{
               @include Noto_Serif(700);
-              font-size: 22px;
+              font-size: 20px;
               letter-spacing: .05em;
-              line-height: 33px;
+              line-height: 30px;
               color: #001c3e;
-              margin: 18px 0 14px;
-              &.cst-mg{
-                margin: 40px 0 25px;
-                @include is-max(1254px){
-                  margin: 18px 0 14px;
-                }
-              }
+              margin: 16px 0 7px;
+              text-align: justify;
             }
             .desc{
-              line-height: 33px;
-              letter-spacing: .08em;
+              line-height: 27px;
+              letter-spacing: .05em;
               text-align: justify;
             }
           }
         }
-        .btn-cont{
-          text-align: center;
-          padding: 85px 0 135px;
+        .img-wrap{
+          margin: 0 auto;
+          padding: 35px 0 60px;
+          a{
+            box-sizing: border-box;
+          }
         }
       }
     }
