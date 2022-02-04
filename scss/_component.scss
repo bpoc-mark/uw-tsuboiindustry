@@ -487,6 +487,12 @@ img {
         background: url(/images/plumbing-sanitation/sp/header_bg.jpg) center center / cover no-repeat;
       }
     }
+    &__others{
+      background: url(/images/others/header_bg.jpg) center center / cover no-repeat;
+      @include sp{
+        background: url(/images/others/sp/header_bg.jpg) center center / cover no-repeat;
+      }
+    }
   }
 }
 
