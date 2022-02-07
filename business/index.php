@@ -37,7 +37,7 @@
 				<p class="p-header01--text__jp">事業案内</p>
 				</div>
 			</div>
-			<div class="p-header01--bg p-header01--bg__company"></div>
+			<div class="p-header01--bg p-header01--bg__business"></div>
 			</div>
 		</section> 
 		<nav class="c-breadcrumbs">
