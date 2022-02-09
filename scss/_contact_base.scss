@@ -4,8 +4,8 @@
 
 /* input, textarea
 --------------------------------*/
-$text-color: #000;
-$input_bg_color: #dddddd;
+$text-color: #131313;
+$input_bg_color: #f5f7f9;
 $input_border_color: #dddddd;
 
 /* radio_button
@@ -40,7 +40,7 @@ main#Contact {
   input[type="search"]:focus,
   input[type="url"]:focus,
   textarea:focus {
-    color: #000;
+    color: #131313;
     background-color: $input_bg_color;
   }
 
@@ -51,13 +51,16 @@ main#Contact {
   input[type="text"] {
     font-size: 16px;
     line-height: 1.625;
-    letter-spacing: 0.03em;
-    padding: 12px 21px;
-    border: 1px solid $input_border_color;
+    letter-spacing: 0.08em;
+    padding: 16px 30px;
+    border: 1px solid $input_bg_color;
     background: $input_bg_color;
     box-sizing: border-box;
     color: $text-color;
     width: 100%;
+    @include sp{
+      padding: 16px 15px;
+    }
 
     &.zip {
       max-width: 247px;
@@ -94,10 +97,10 @@ main#Contact {
     letter-spacing: 0.03em;
     font-weight: 500;
     color: $text-color;
-    max-width: 140px;
-    width: 100%;
-    background: $input_bg_color;
-    border: 3px solid $input_border_color;
+    // max-width: 140px;
+    // width: 100%;
+    // background: $input_bg_color;
+    // border: 3px solid $input_border_color;
     padding: 10px 19px;
     box-sizing: border-box;
     transition: all 0.3s ease;
@@ -110,7 +113,7 @@ main#Contact {
 
   input[type="checkbox"] {
     & + label {
-      padding-left: 29px;
+      // padding-left: 29px;
       position: relative;
       margin-right: 29px;
       cursor: pointer;
@@ -247,12 +250,19 @@ main#Contact {
     font-size: 16px;
     line-height: 1.625;
     letter-spacing: 0.03em;
-    border: 1px solid $input_border_color;
+    // border: 1px solid $input_border_color;
     background: $input_bg_color;
     box-sizing: border-box;
     width: 100%;
     padding: 12px 21px;
-    min-height: 174px;
+    min-height: 350px;
+    &::placeholder{
+      color: #c3c6ca;
+    }
+    @include sp{
+      padding: 16px 15px;
+      min-height: 200px;
+    }
   }
 
   .overscroll {
@@ -305,33 +315,53 @@ main#Contact {
   .submit_area {
     margin-top: 85px;
     text-align: center;
+    @include sp{
+      margin-top: 35px;
+    }
 
     span {
+      position: relative;
       font-size: 18px;
       line-height: 1.4;
-      letter-spacing: 0.13em;
+      letter-spacing: 0.06em;
       color: $text-color;
-      width: 262px;
-      background: $input_bg_color;
+      width: 480px;
+      background: #fff;
       box-sizing: border-box;
       font-feature-settings: "palt";
       position: relative;
       display: inline-block;
       text-align: center;
       box-sizing: border-box;
-      border: 3px solid $input_border_color;
+      border: 1px solid #dadcdd;
       transition: all 0.3s ease;
+      @include sp{
+        width: 100%
+      }
 
       input[type="submit"] {
+        @include Noto_Serif(700);
         font-size: 18px;
         line-height: 1.4;
-        letter-spacing: 0.13em;
-        color: $text-color;
+        letter-spacing: 0.06em;
+        color: #001c3e;
 
         cursor: pointer;
         width: 100%;
-        height: 58px;
+        height: 90px;
         box-sizing: border-box;
+        @include sp{
+          height: 60px;
+        }
+      }
+
+      img{
+        width: 26px;
+        position: absolute;
+        top: 50%;
+        right: 28px;
+        transform: translate(0, -50%);
+        transition: .3s ease-in-out;
       }
 
       &:hover {
@@ -340,35 +370,45 @@ main#Contact {
         input[type="submit"] {
           color: $text-color;
         }
+        img{
+          right: 15px;
+        }
       }
     }
 
     ul.koumoku {
       max-width: 590px;
       margin: 20px auto 0;
+      @include sp{
+        display: flex;
+        flex-wrap: wrap;
+      }
 
       li {
         font-size: 18px;
         line-height: 1.4;
         letter-spacing: 0.13em;
         color: $text-color;
-
         width: 262px;
-        background: #5f4b08;
+        background: #002260;
         box-sizing: border-box;
         font-feature-settings: "palt";
         position: relative;
         display: inline-block;
         text-align: center;
         box-sizing: border-box;
-        border: 3px solid #5f4b08;
+        border: 3px solid #002260;
         transition: all 0.3s ease;
+
+        @include sp{
+          width: 100%;
+        }
 
         input[type="submit"] {
           font-size: 18px;
           line-height: 1.4;
           letter-spacing: 0.13em;
-          color: $text-color;
+          color: #fff;
 
           cursor: pointer;
           width: 100%;
@@ -394,26 +434,33 @@ main#Contact {
   }
 
   .btn_back {
-    margin-top: 25px;
-    text-align: center;
+    @include sp{
+      order: 2;
+      margin-top: 20px;
+    }
 
     input {
       font-size: 18px;
       line-height: 1.4;
       letter-spacing: 0.13em;
-      color: #fff;
+      color: #002260 !important;
       width: 262px;
-      background: $input_bg_color;
+      background: #fff;
       box-sizing: border-box;
       font-feature-settings: "palt";
       position: relative;
       display: inline-block;
       text-align: center;
       box-sizing: border-box;
-      border: 3px solid $input_border_color;
+      border: 3px solid #fff;
       transition: all 0.3s ease;
       height: 58px;
       padding: 15px 15px 14px;
+      &:hover{
+        background-color: #002260 !important;
+        color: #fff !important;
+        border: 3px solid #002260;
+      }
     }
   }
 
@@ -427,14 +474,14 @@ main#Contact {
       letter-spacing: 0.13em;
       color: #fff;
       width: 262px;
-      background: $input_bg_color;
+      background: #002260;
       box-sizing: border-box;
       font-feature-settings: "palt";
       position: relative;
       display: inline-block;
       text-align: center;
       box-sizing: border-box;
-      border: 3px solid $input_border_color;
+      border: 3px solid #002260;
       transition: all 0.3s ease;
       height: 58px;
       padding: 15px 15px 14px;
