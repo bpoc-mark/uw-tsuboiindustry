@@ -17,7 +17,23 @@ main#Contact {
 
   .agree_area {
     margin: 30px 0 0;
-    text-align: center;
+    text-align: left;
+    .checkAgree{
+      font-size: 16px;
+      font-weight: 500;
+      left: .08em;
+      line-height: 30px;
+      a{
+        text-decoration: underline;
+        text-underline-offset: 8px;
+      }
+      &::before{
+        display: none !important;
+      }
+      &::after{
+        display: none !important;
+      }
+    }
   }
 
   .need {
@@ -102,12 +118,62 @@ main#Contact {
   }
 
   .form_wrap {
-    > p {
-      margin-top: 0 !important;
-      font-size: 16px;
-      line-height: 1.5;
-      letter-spacing: 0.03em;
-      font-weight: 500;
+    padding: 0 0 60px;
+    .desc {
+      letter-spacing: .04em;
+      line-height: 30px;
+      text-align: justify;
+      span{
+        font-size: 20px;
+        color: #d60000;
+        position: relative;
+        top: 6px;
+      }
+    }
+    .tel-wrap{
+      margin: 20px 0 35px;
+      .tel-desc{
+        font-size: 16px;
+        letter-spacing: .1em;
+        color: #001c3e;
+        margin: 0 0 8px;
+      }
+      .tel-num{
+        @include Noto_Serif(700);
+        letter-spacing: .05em;
+        font-size: 21px;
+        color: #001c3e;
+        span{
+          font-size: 15px;
+        }
+      }
+    }
+  }
+
+  &.sfm2{
+    .form-sec{
+      .container{
+        .form_wrap{
+          form{
+            table{
+              tr{
+                border-bottom: 1px solid #e2e4e5;
+                padding-bottom: 20px;
+                th{
+                  font-weight: 700;
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+  &.sfm3{
+    .form-sec{
+      .send_comp{
+        padding: 0 20px 60px;
+      }
     }
   }
 }

@@ -28,6 +28,29 @@
 		</header>
 
 		<main id="Contact" class="sfm3">
+			<section class="p-header01">
+				<div class="p-header01--wrap">
+					<div class="p-header01--text">
+						<div class="container">
+							<h1 class="p-header01--text__en">Contact</h1>
+							<p class="p-header01--text__jp">お問い合わせ</p>
+						</div>
+					</div>
+					<div class="p-header01--bg p-header01--bg__faq"></div>
+				</div>
+			</section> 
+			<nav class="c-breadcrumbs">
+				<div class="container">
+					<ul class="c-breadcrumbs--list">
+						<li class="c-breadcrumbs--item">
+							<a href="" class="c-breadcrumbs--link">TOP</a>
+						</li>
+						<li class="c-breadcrumbs--item">
+							<a href="" class="c-breadcrumbs--link">お問い合わせ</a>
+						</li>
+					</ul>
+				</div>        
+			</nav>
 			<section class="form-sec">
 				<div class="send_comp container">
 					<p>
