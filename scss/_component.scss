@@ -579,6 +579,7 @@ img {
 ==================================*/
 .c-cardbtn{
   $root: &;
+  background-color: #fff;
   &--business{
     #{$root} {
       &--link{
@@ -792,5 +793,22 @@ img {
         width: 27.5px;
       }
     }
+  }
+}
+
+
+/*==================================
+	FLOATING IMAGE
+==================================*/
+.floating-img{
+  width: 402px;
+  position: fixed;
+  top: 95px;
+  right: 0;
+  z-index: -1;
+
+  @include sp{
+    width: 215px;
+    top: 53px;
   }
 }
