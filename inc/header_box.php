@@ -19,7 +19,7 @@ $str = explode('/', $url); ?>
 				<li class="nav__item"><a class="nav__item__link" href="/" <?php if ($str[1] == "") {
 																echo ' class="here"';
 															} ?>>TOP</a></li>
-				<li class="nav__item"><a class="nav__item__link" href="/" <?php if ($str[1] == "") {
+				<li class="nav__item"><a class="nav__item__link" href="/reason/" <?php if ($str[1] == "") {
 																echo ' class="here"';
 															} ?>>選ばれる理由</a></li>
 				<li class="nav__item drop-down"><a class="nav__item__link sub_menu_clk" <?php if ($str[1] == "") {
@@ -37,28 +37,28 @@ $str = explode('/', $url); ?>
 							<div class="wrap--right">
 								<ul>
 									<li>
-										<a href="">事業案内TOP</a>
+										<a href="/business/">事業案内TOP</a>
 									</li>
 									<li>
-										<a href="">総合設備<br class="sp">コンサルティング</a>
+										<a href="/consulting/">総合設備<br class="sp">コンサルティング</a>
 									</li>
 									<li>
-										<a href="">排水衛生工事</a>
+										<a href="/plumbing-sanitation/">排水衛生工事</a>
 									</li>
 									<li>
-										<a href="">クリーンルーム</a>
+										<a href="/clean-room/">クリーンルーム</a>
 									</li>
 									<li>
-										<a href="">その他工事</a>
+										<a href="/others/">その他工事</a>
 									</li>
 									<li>
-										<a href="">空調換気設備工事</a>
+										<a href="/air-conditioning/">空調換気設備工事</a>
 									</li>
 									<li>
-										<a href="">点検・修理・<br class="sp">メンテナンス</a>
+										<a href="/after-maintenance/">点検・修理・<br class="sp">メンテナンス</a>
 									</li>
 									<li>
-										<a href="">冷熱設備工事</a>
+										<a href="/cold-equipment/">冷熱設備工事</a>
 									</li>
 								</ul>
 							</div>
@@ -72,7 +72,7 @@ $str = explode('/', $url); ?>
 						<div class="wrap">
 							<div class="wrap--left">
 								<h4>Company profile</h4>
-								<a href="">会社案内<span><img src="/images/common/arrow_icon_header.svg" alt=""></span></a>
+								<a href="/company/">会社案内<span><img src="/images/common/arrow_icon_header.svg" alt=""></span></a>
 								<figure>
 									<img src="/images/common/header_img_1.jpg" alt="">
 								</figure>
@@ -80,44 +80,44 @@ $str = explode('/', $url); ?>
 							<div class="wrap--right">
 								<ul>
 									<li>
-										<a href="">会社案内TOP</a>
+										<a href="/company/">会社案内TOP</a>
 									</li>
 									<li>
-										<a href="">代表あいさつ</a>
+										<a href="/message/">代表あいさつ</a>
 									</li>
 									<li>
-										<a href="">有資格者</a>
+										<a href="/qualified-person/">有資格者</a>
 									</li>
 									<li>
-										<a href="">会社概要</a>
+										<a href="/company-profile/">会社概要</a>
 									</li>
 									<li>
-										<a href="">営業拠点</a>
+										<a href="/business-base/">営業拠点</a>
 									</li>
 									<li>
-										<a href="">沿革</a>
+										<a href="/history/">沿革</a>
 									</li>
 									<li>
-										<a href="">環境方針</a>
+										<a href="/environment-policy/">環境方針</a>
 									</li>
 									<li>
-										<a href="">ISO認証取得</a>
+										<a href="/iso/">ISO認証取得</a>
 									</li>
 								</ul>
 							</div>
 						</div>
 					</div>											
 				</li>
-				<li class="nav__item"><a class="nav__item__link" href="/" <?php if ($str[1] == "") {
+				<li class="nav__item"><a class="nav__item__link" href="/after-maintenance/" <?php if ($str[1] == "") {
 																echo ' class="here"';
 															} ?>>施工実績</a></li>
-				<li class="nav__item"><a class="nav__item__link" href="/" <?php if ($str[1] == "") {
+				<li class="nav__item"><a class="nav__item__link" href="/faq/" <?php if ($str[1] == "") {
 																echo ' class="here"';
 															} ?>>よくあるご質問</a></li>
 				<li class="nav__item"><a class="nav__item__link" href="https://www.tsuboi.biz/recruit/" target="_blank" <?php if ($str[1] == "") {
 																echo ' class="here"';
 															} ?>>採用情報 <img src="/images/common/arrow_header_icon.svg" class="nav__item__link--arrow" alt=""></a></li>
-				<li class="nav__item--btn-contact"><a class="nav__item__link" href="/" <?php if ($str[1] == "") {
+				<li class="nav__item--btn-contact"><a class="nav__item__link" href="/contact/" <?php if ($str[1] == "") {
 																echo ' class="here"';
 															} ?>><img src="/images/common/mail_icon.svg" alt="お問い合わせ"> お問い合わせ</a></li>
 			</ul>
@@ -146,7 +146,7 @@ $str = explode('/', $url); ?>
 			</a>
 		</div>
 		<div class="col">
-			<a href="" class="btn_contact"><img src="/images/common/mail_icon.svg" alt="お問い合わせ">メールフォーム</a>
+			<a href="/contact/" class="btn_contact"><img src="/images/common/mail_icon.svg" alt="お問い合わせ">メールフォーム</a>
 		</div>
 	</div>
 </div>

@@ -116,6 +116,9 @@
         </div>
       </section>
       <?php include($_SERVER['DOCUMENT_ROOT'] . "/inc/company-card-footer.php"); ?>
+      <div class="floating-img">
+        <img src="/images/top/sect_4/float_img_1.png" alt="">
+      </div>
     </main>
 
     <footer>

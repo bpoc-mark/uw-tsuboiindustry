@@ -112,6 +112,9 @@
           </div>
         </div>
       </section>
+      <div class="floating-img">
+        <img src="/images/top/sect_4/float_img_1.png" alt="">
+      </div>
     </main>
 
     <footer>

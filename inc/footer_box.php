@@ -17,7 +17,7 @@
 						</a>
 					</div>
 					<div class="btn_contact">
-						<a href="">
+						<a href="/contact/">
 							<img src="/images/common/mail_icon.svg" alt="お問い合わせ">
 							メールでの<br class="pc">お問い合わせ
 						</a>
@@ -74,7 +74,7 @@
 				</p>
 				<div class="menu">
 					<a href="https://www.tsuboi.biz/recruit/" target="_blank">採用情報 <img src="/images/common/arrow_footer_icon.svg" alt=""></a>
-					<a href="">プライバシーポリシー</a>
+					<a href="/">プライバシーポリシー</a>
 				</div>
 				<div class="copy">
 					<small>&copy; つぼい工業株式会社 All Rights Reserved.</small>
@@ -84,67 +84,67 @@
 				<nav class="nav">
 					<ul class="nav__list">
 						<li class="nav__item"><a href="/" class="nav__link">TOP</a></li>
-						<li class="nav__item"><a href="/" class="nav__link">選ばれる理由</a></li>
+						<li class="nav__item"><a href="/reason/" class="nav__link">選ばれる理由</a></li>
 						<li class="nav__item--isFloat-mid"><a class="nav__link">事業案内</a>
 							<ul class="nav__link--sub-menu">
 								<li class="nav__link--sub-menu__item sp">
-									<a href="" class="nav__link--sub-menu__link">-  <span></span>事業案内TOP</a>
+									<a href="/company/" class="nav__link--sub-menu__link">-  <span></span>会社案内TOP</a>
 								</li>
 								<li class="nav__link--sub-menu__item">
-									<a href="" class="nav__link--sub-menu__link">-  <span></span>代表あいさつ</a>
+									<a href="/message/" class="nav__link--sub-menu__link">-  <span></span>代表あいさつ</a>
 								</li>
 								<li class="nav__link--sub-menu__item">
-									<a href="" class="nav__link--sub-menu__link">-  <span></span>会社概要</a>
+									<a href="/company-profile/" class="nav__link--sub-menu__link">-  <span></span>会社概要</a>
 								</li>
 								<li class="nav__link--sub-menu__item">
-									<a href="" class="nav__link--sub-menu__link">-  <span></span>沿革</a>
+									<a href="/history/" class="nav__link--sub-menu__link">-  <span></span>沿革</a>
 								</li>
 								<li class="nav__link--sub-menu__item">
-									<a href="" class="nav__link--sub-menu__link">-  <span></span>ISO認証取得</a>
+									<a href="/iso/" class="nav__link--sub-menu__link">-  <span></span>ISO認証取得</a>
 								</li>
 								<li class="nav__link--sub-menu__item">
-									<a href="" class="nav__link--sub-menu__link">-  <span></span>有資格者</a>
+									<a href="/qualified-person/" class="nav__link--sub-menu__link">-  <span></span>有資格者</a>
 								</li>
 								<li class="nav__link--sub-menu__item">
-									<a href="" class="nav__link--sub-menu__link">-  <span></span>営業拠点</a>
+									<a href="/business-base/" class="nav__link--sub-menu__link">-  <span></span>営業拠点</a>
 								</li>
 								<li class="nav__link--sub-menu__item">
-									<a href="" class="nav__link--sub-menu__link">-  <span></span>環境方針</a>
+									<a href="/environment-policy/" class="nav__link--sub-menu__link">-  <span></span>環境方針</a>
 								</li>
 							</ul>
 						</li>
 						<li class="nav__item--isFloat-right"><a class="nav__link">会社案内</a>
 							<ul class="nav__link--sub-menu">
 								<li class="nav__link--sub-menu__item sp">
-									<a href="" class="nav__link--sub-menu__link">-  <span></span>会社案内TOP</a>
+									<a href="/business/" class="nav__link--sub-menu__link">-  <span></span>事業案内TOP</a>
 								</li>
 								<li class="nav__link--sub-menu__item">
-									<a href="" class="nav__link--sub-menu__link">-  <span></span>総合設備コンサルティング</a>
+									<a href="/consulting/" class="nav__link--sub-menu__link">-  <span></span>総合設備コンサルティング</a>
 								</li>
 								<li class="nav__link--sub-menu__item">
-									<a href="" class="nav__link--sub-menu__link">-  <span></span>クリーンルーム</a>
+									<a href="/clean-room/" class="nav__link--sub-menu__link">-  <span></span>クリーンルーム</a>
 								</li>
 								<li class="nav__link--sub-menu__item">
-									<a href="" class="nav__link--sub-menu__link">-  <span></span>空調換気設備工事</a>
+									<a href="/air-conditioning/" class="nav__link--sub-menu__link">-  <span></span>空調換気設備工事</a>
 								</li>
 								<li class="nav__link--sub-menu__item">
-									<a href="" class="nav__link--sub-menu__link">-  <span></span>冷熱設備工事</a>
+									<a href="/cold-equipment/" class="nav__link--sub-menu__link">-  <span></span>冷熱設備工事</a>
 								</li>
 								<li class="nav__link--sub-menu__item">
-									<a href="" class="nav__link--sub-menu__link">-  <span></span>排水衛生工事</a>
+									<a href="/plumbing-sanitation/" class="nav__link--sub-menu__link">-  <span></span>排水衛生工事</a>
 								</li>
 								<li class="nav__link--sub-menu__item">
-									<a href="" class="nav__link--sub-menu__link">-  <span></span>その他工事</a>
+									<a href="/others/" class="nav__link--sub-menu__link">-  <span></span>その他工事</a>
 								</li>
 								<li class="nav__link--sub-menu__item">
-									<a href="" class="nav__link--sub-menu__link">-  <span></span>点検・修理・メンテナンス</a>
+									<a href="/after-maintenance/" class="nav__link--sub-menu__link">-  <span></span>点検・修理・メンテナンス</a>
 								</li>
 							</ul>
 						</li>
-						<li class="nav__item--m-t-b"><a href="/" class="nav__link">施工実績</a></li>
-						<li class="nav__item"><a href="/" class="nav__link">新着情報</a></li>
-						<li class="nav__item"><a href="/" class="nav__link">よくあるご質問</a></li>
-						<li class="nav__item"><a href="/" class="nav__link">お問い合わせ</a></li>
+						<li class="nav__item--m-t-b"><a href="/after-maintenance/" class="nav__link">施工実績</a></li>
+						<li class="nav__item"><a href="/news/" class="nav__link">新着情報</a></li>
+						<li class="nav__item"><a href="/faq/" class="nav__link">よくあるご質問</a></li>
+						<li class="nav__item"><a href="/contact/" class="nav__link">お問い合わせ</a></li>
 					</ul>
 				</nav>
 			</div>
