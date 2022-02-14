@@ -74,7 +74,7 @@
 				</p>
 				<div class="menu">
 					<a href="https://www.tsuboi.biz/recruit/" target="_blank">採用情報 <img src="/images/common/arrow_footer_icon.svg" alt=""></a>
-					<a href="/">プライバシーポリシー</a>
+					<a href="/privacy-policy/">プライバシーポリシー</a>
 				</div>
 				<div class="copy">
 					<small>&copy; つぼい工業株式会社 All Rights Reserved.</small>

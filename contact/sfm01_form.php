@@ -121,7 +121,7 @@
 
 							<div class="agree_area">
 								<input type="checkbox" name="agree" id="checkAgree" checked>
-								<label for="checkAgree" class="checkAgree"><a href="">プライバシーポリシー</a>  に同意の上、「入力内容の確認画面へ」を押してください。</label>
+								<label for="checkAgree" class="checkAgree"><a href="/privacy-policy/">プライバシーポリシー</a>  に同意の上、「入力内容の確認画面へ」を押してください。</label>
 							</div>
 
 							<div class="submit_area">
