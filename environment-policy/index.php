@@ -63,7 +63,7 @@
                 <li class="list--item">
                   <h2 class="ttl">基本理念</h2>
                   <p class="desc">我社は、地球環境保全が人類共通の最重要課題の一つであることを認識し、事業運営を通じ環境への優しさを優先し、地球環境保護と省エネルギーの推進に取り組みます。</p>
-                  <img src="/images/environment-policy/img_1.jpg" alt="基本理念" class="img-float">
+                  <img src="/images/company/environment-policy/img_1.jpg" alt="基本理念" class="img-float">
                 </li>
                 <li class="list--item">
                   <h2 class="ttl">行動方針</h2>

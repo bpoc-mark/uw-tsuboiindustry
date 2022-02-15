@@ -77,17 +77,17 @@
           <div class="container">
             <div class="row">
               <div class="col">
-                <img src="/images/after-maintenance/img_1.jpg" alt="定期点検・委託点検">
+                <img src="/images/business/after-maintenance/img_1.jpg" alt="定期点検・委託点検">
                 <h3 class="ttl">定期点検・委託点検</h3>
                 <p class="desc">ご契約いただいたお客様の大切な設備を、定期的に保守点検、清掃、メンテナンスを行います。「忙しくて忘れてしまう」「設備の担当者がいない」「天井が高くて清掃できない」などでお困りの際は無料診断、無料お見積もりも行っています。</p>
               </div>
               <div class="col">
-                <img src="/images/after-maintenance/img_2.jpg" alt="設備修理">
+                <img src="/images/business/after-maintenance/img_2.jpg" alt="設備修理">
                 <h3 class="ttl">設備修理</h3>
                 <p class="desc">設備の修理は、365日24時間受付対応（静岡県西部地域）。夜間などお客様が不在の際の緊急トラブルにも警備会社と連携して迅速に対応しています。知識と技術を備えたサービスマンがお伺いいたしますので、お困り事は何でもご相談ください。</p>
               </div>
               <div class="col">
-                <img src="/images/after-maintenance/img_3.jpg" alt="貯水槽洗浄">
+                <img src="/images/business/after-maintenance/img_3.jpg" alt="貯水槽洗浄">
                 <h3 class="ttl">貯水槽洗浄</h3>
                 <p class="desc">飲料用の水などを貯めておく貯水槽は長年清掃していないと、水垢やサビなどが溜まっています。そのため貯水槽の大きさに関わらず年１回以上の清掃と検査が義務づけられており、私たちは定期的に清掃・メンテナンスにお伺いし、安全な水の供給に努めています。</p>
               </div>

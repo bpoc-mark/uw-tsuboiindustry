@@ -81,16 +81,16 @@
             <div class="row">
               <div class="col">
                 <picture >
-                  <source srcset="/images/plumbing-sanitation/sp/img_1.jpg" media="(max-width: 899px)">
-                  <img src="/images/plumbing-sanitation/img_1.jpg" alt="浄化槽">
+                  <source srcset="/images/business/plumbing-sanitation/sp/img_1.jpg" media="(max-width: 899px)">
+                  <img src="/images/business/plumbing-sanitation/img_1.jpg" alt="浄化槽">
                 </picture>
                 <h3 class="ttl">浄化槽</h3>
                 <p class="desc">台所やトイレから流れた汚水を微生物の働きを利用してきれいにする浄化槽。浄化槽は多くの微生物が繁殖しやすく、働きやすくなるように設計されています。現在では合併処理浄化槽が一般的で、家庭用の小規模なものから向上や大型施設に合わせたサイズまで、必要に応じたものをご提案、設置いたします。</p>
               </div>
               <div class="col">
                 <picture >
-                  <source srcset="/images/plumbing-sanitation/sp/img_2.jpg" media="(max-width: 899px)">
-                  <img src="/images/plumbing-sanitation/img_2.jpg" alt="消火設備工事">
+                  <source srcset="/images/business/plumbing-sanitation/sp/img_2.jpg" media="(max-width: 899px)">
+                  <img src="/images/business/plumbing-sanitation/img_2.jpg" alt="消火設備工事">
                 </picture>
                 <h3 class="ttl">消火設備工事</h3>
                 <p class="desc">万が一の際に人や製品、機器を守る備えは必要不可欠です。火災感知から放水までを自動に行うスプリンクラーなどを設置することで、火災に備えると同時に火災の被害を最小限に食い止めることができます。タンクやポンプの動作を確認するメンテナンスも行います。</p>

@@ -74,17 +74,17 @@
           <div class="container">
             <div class="row">
               <div class="col">
-                <img src="/images/air-conditioning/img_1.jpg" alt="セントラル空調">
+                <img src="/images/business/air-conditioning/img_1.jpg" alt="セントラル空調">
                 <h3 class="ttl">セントラル空調</h3>
                 <p class="desc">建物内の空調を集中管理している空調。1カ所に設けられた装置から各フロア各部屋へ冷気や暖気を送ります。大型施設へ導入される場合が多く、コスト面からも部屋ごとに空調するよりも効果的です。</p>
               </div>
               <div class="col">
-                <img src="/images/air-conditioning/img_2.jpg" alt="個別空調">
+                <img src="/images/business/air-conditioning/img_2.jpg" alt="個別空調">
                 <h3 class="ttl">個別空調</h3>
                 <p class="desc">各部屋に空調を設置するため、起動や停止、温度や風量の調節を個別に行うことができます。使わない時には停止することができるので、建物内の使用時間帯が異なる場合などに経済的になります。</p>
               </div>
               <div class="col">
-                <img src="/images/air-conditioning/img_3.jpg" alt="換気">
+                <img src="/images/business/air-conditioning/img_3.jpg" alt="換気">
                 <h3 class="ttl">換気</h3>
                 <p class="desc">建物に合わせた換気システムをご提案します。<br>普通換気だけでなく、ロスナイをはじめとする全熱交換器は、排出する室内空気の熱エネルギーを利用して、屋外の空気温度を室内温度に近づけてから室内に取り込むことができるので省エネにも役立ちます。</p>
               </div>

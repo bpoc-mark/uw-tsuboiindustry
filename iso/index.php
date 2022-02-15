@@ -66,10 +66,10 @@
               <div class="col">
                 <ul class="img_wrap">
                   <li class="img_wrap--item">
-                    <img src="/images/iso/img_1.jpg" alt="国際品質規格 JIS Q 9001:2015(ISO9001:2015)認証取得企業">
+                    <img src="/images/company/iso/img_1.jpg" alt="国際品質規格 JIS Q 9001:2015(ISO9001:2015)認証取得企業">
                   </li>
                   <li class="img_wrap--item">
-                    <img src="/images/iso/img_2.jpg" alt="国際品質規格 JIS Q 9001:2015(ISO9001:2015)認証取得企業">
+                    <img src="/images/company/iso/img_2.jpg" alt="国際品質規格 JIS Q 9001:2015(ISO9001:2015)認証取得企業">
                   </li>
                 </ul>
               </div>

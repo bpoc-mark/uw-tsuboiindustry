@@ -58,7 +58,7 @@
       <section class="message_section">
         <div class="wrapper">
           <div class="container">
-            <img src="/images/message/img_1.jpg" alt="坪井 啓隼">
+            <img src="/images/company/message/img_1.jpg" alt="坪井 啓隼">
             <h2 class="ttl">進化発展し続ける企業を<br class="sp">目指し努力しております。</h2>
             <p class="desc">
               弊社は、創業以来、「我々は、お客様に喜ばれる仕事により相互に厚い信頼を得て、適正利潤を確保して、我々の幸福と生活向上を計り我が社の永続的な発展を実現する事により、広く社会に貢献する。」を企業理念とし、また「水と熱に挑む、先進技術。」をキャッチフレーズとし今日まで日々精進して参りました。<br>
