@@ -78,24 +78,24 @@
           <div class="container">
             <div class="row">
               <div class="col">
-                <img src="/images/clean-room/img_1.jpg" alt="水と熱を極めた多くの経験と実績">
+                <img src="/images/business/clean-room/img_1.jpg" alt="水と熱を極めた多くの経験と実績">
                 <h3 class="ttl cst-mg">水と熱を極めた多くの経験と実績</h3>
                 <p class="desc">快適な環境と空間実現を「誠実」「創意工夫」「先進技術」をキャッチフレーズに設計から施工、アフターまで一貫して行って参ります。</p>
               </div>
               <div class="col">
-                <img src="/images/clean-room/img_2.jpg" alt="ご利用シーンやご要望に合わせた最適なご提案">
+                <img src="/images/business/clean-room/img_2.jpg" alt="ご利用シーンやご要望に合わせた最適なご提案">
                 <h3 class="ttl">ご利用シーンやご要望に合わせた<br class="pc">最適なご提案</h3>
                 <p class="desc">設立より60数年の実績と経験によりDQ/IQ/OQ/PQ/VALを含めた様々なニーズにお応えし、より良いご提案を致します。</p>
               </div>
               <div class="col">
-                <img src="/images/clean-room/img_3.jpg" alt="24時間体制のアフターフォロー">
+                <img src="/images/business/clean-room/img_3.jpg" alt="24時間体制のアフターフォロー">
                 <h3 class="ttl cst-mg">24時間体制のアフターフォロー</h3>
                 <p class="desc">快適且つ確実な環境の維持と対応の為アフターメンテナンスのご提案は勿論、お客様のお困り事に真摯に対応致しております。</p>
               </div>
             </div>
             <div class="img-wrap">
-              <a href="">
-                <img src="/images/clean-room/img_4.jpg" alt="ONLY ONE CLEAN ROOM | つぼい工業のクリーンルーム">
+              <a href="https://www.tsuboi.biz/cleanroom/" target="_blank">
+                <img src="/images/business/clean-room/img_4.jpg" alt="ONLY ONE CLEAN ROOM | つぼい工業のクリーンルーム">
               </a>
             </div>
           </div>

@@ -467,57 +467,57 @@ img {
       height: 150px;
     }
     &__company{
-      background: url(/images/company/header_bg.jpg) center center / cover no-repeat;
+      background: url(/images/company/company-page/header_bg.jpg) center center / cover no-repeat;
       @include sp{
-        background: url(/images/company/sp/header_bg.jpg) center center / cover no-repeat;
+        background: url(/images/company/company-page/sp/header_bg.jpg) center center / cover no-repeat;
       }
     }
     &__consulting{
-      background: url(/images/consulting/header_bg.jpg) center center / cover no-repeat;
+      background: url(/images/business/consulting/header_bg.jpg) center center / cover no-repeat;
       @include sp{
-        background: url(/images/consulting/sp/header_bg.jpg) center center / cover no-repeat;
+        background: url(/images/business/consulting/sp/header_bg.jpg) center center / cover no-repeat;
       }
     }
     &__clean-room{
-      background: url(/images/clean-room/header_bg.jpg) center center / cover no-repeat;
+      background: url(/images/business/clean-room/header_bg.jpg) center center / cover no-repeat;
       @include sp{
-        background: url(/images/clean-room/sp/header_bg.jpg) center center / cover no-repeat;
+        background: url(/images/business/clean-room/sp/header_bg.jpg) center center / cover no-repeat;
       }
     }
     &__air-conditioning{
-      background: url(/images/air-conditioning/header_bg.jpg) center center / cover no-repeat;
+      background: url(/images/business/air-conditioning/header_bg.jpg) center center / cover no-repeat;
       @include sp{
-        background: url(/images/air-conditioning/sp/header_bg.jpg) center center / cover no-repeat;
+        background: url(/images/business/air-conditioning/sp/header_bg.jpg) center center / cover no-repeat;
       }
     }
     &__cold-equipment{
-      background: url(/images/cold-equipment/header_bg.jpg) center center / cover no-repeat;
+      background: url(/images/business/cold-equipment/header_bg.jpg) center center / cover no-repeat;
       @include sp{
-        background: url(/images/cold-equipment/sp/header_bg.jpg) center center / cover no-repeat;
+        background: url(/images/business/cold-equipment/sp/header_bg.jpg) center center / cover no-repeat;
       }
     }
     &__plumbing-sanitation{
-      background: url(/images/plumbing-sanitation/header_bg.jpg) center center / cover no-repeat;
+      background: url(/images/business/plumbing-sanitation/header_bg.jpg) center center / cover no-repeat;
       @include sp{
-        background: url(/images/plumbing-sanitation/sp/header_bg.jpg) center center / cover no-repeat;
+        background: url(/images/business/plumbing-sanitation/sp/header_bg.jpg) center center / cover no-repeat;
       }
     }
     &__others{
-      background: url(/images/others/header_bg.jpg) center center / cover no-repeat;
+      background: url(/images/business/others/header_bg.jpg) center center / cover no-repeat;
       @include sp{
-        background: url(/images/others/sp/header_bg.jpg) center center / cover no-repeat;
+        background: url(/images/business/others/sp/header_bg.jpg) center center / cover no-repeat;
       }
     }
     &__after-maintenance{
-      background: url(/images/after-maintenance/header_bg.jpg) center center / cover no-repeat;
+      background: url(/images/business/after-maintenance/header_bg.jpg) center center / cover no-repeat;
       @include sp{
-        background: url(/images/after-maintenance/header_bg.jpg) center center / cover no-repeat;
+        background: url(/images/business/after-maintenance/header_bg.jpg) center center / cover no-repeat;
       }
     }
     &__business{
-      background: url(/images/business/header_bg.jpg) center center / cover no-repeat;
+      background: url(/images/business/business-page/header_bg.jpg) center center / cover no-repeat;
       @include sp{
-        background: url(/images/business/header_bg.jpg) center center / cover no-repeat;
+        background: url(/images/business/business-page/header_bg.jpg) center center / cover no-repeat;
       }
     }
     &__faq{

@@ -63,7 +63,7 @@
 						<a href="/message/">
 							<h6 class="title">代表ごあいさつ</h6>
 							<div class="img_wrap">
-								<img src="/images/company/img_1.jpg" alt="代表ごあいさつ">
+								<img src="/images/company/company-page/img_1.jpg" alt="代表ごあいさつ">
 							</div>
 							<span class="arrow_icon">
 								<img src="/images/common/arrow_icon.svg"  alt="">
@@ -74,7 +74,7 @@
 						<a href="/company-profile/">
 							<h6>会社概要</h6>
 							<div class="img_wrap">
-								<img src="/images/company/img_2.jpg" alt="会社概要">
+								<img src="/images/company/company-page/img_2.jpg" alt="会社概要">
 							</div>
 							<span class="arrow_icon">
 								<img src="/images/common/arrow_icon.svg"  alt="">
@@ -85,7 +85,7 @@
 						<a href="/history/">
 							<h6>沿革</h6>
 							<div class="img_wrap">
-								<img src="/images/company/img_3.jpg" alt="沿革">
+								<img src="/images/company/company-page/img_3.jpg" alt="沿革">
 							</div>
 							<span class="arrow_icon">
 								<img src="/images/common/arrow_icon.svg"  alt="">
@@ -96,7 +96,7 @@
 						<a href="/iso/">
 							<h6>ISO認証取得</h6>
 							<div class="img_wrap">
-								<img src="/images/company/img_4.jpg" alt="ISO認証取得">
+								<img src="/images/company/company-page/img_4.jpg" alt="ISO認証取得">
 							</div>
 							<span class="arrow_icon">
 								<img src="/images/common/arrow_icon.svg"  alt="">
@@ -107,8 +107,8 @@
 						<a href="/qualified-person/">
 							<h6>有資格者</h6>
 							<div class="img_wrap">
-								<img src="/images/company/img_5.jpg" alt="有資格者">
-							</div>
+								<img src="/images/company/company-page/img_5.jpg" alt="有資格者">
+							</div>	
 							<span class="arrow_icon">
 								<img src="/images/common/arrow_icon.svg"  alt="">
 							</span>
@@ -118,7 +118,7 @@
 						<a href="/business-base/">
 							<h6>営業拠点</h6>
 							<div class="img_wrap">
-								<img src="/images/company/img_6.jpg" alt="営業拠点">
+								<img src="/images/company/company-page/img_6.jpg" alt="営業拠点">
 							</div>
 							<span class="arrow_icon">
 								<img src="/images/common/arrow_icon.svg"  alt="">
@@ -129,7 +129,7 @@
 						<a href="/environment-policy/">
 							<h6>環境方針</h6>
 							<div class="img_wrap">
-								<img src="/images/company/img_7.jpg" alt="環境方針">
+								<img src="/images/company/company-page/img_7.jpg" alt="環境方針">
 							</div>
 							<span class="arrow_icon">
 								<img src="/images/common/arrow_icon.svg"  alt="">

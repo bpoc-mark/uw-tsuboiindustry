@@ -81,16 +81,16 @@
             <div class="row">
               <div class="col">
                 <picture >
-                  <source srcset="/images/cold-equipment/sp/img_1.jpg" media="(max-width: 899px)">
-                  <img src="/images/cold-equipment/img_1.jpg" alt="大型冷凍・冷蔵庫">
+                  <source srcset="/images/business/cold-equipment/sp/img_1.jpg" media="(max-width: 899px)">
+                  <img src="/images/business/cold-equipment/img_1.jpg" alt="大型冷凍・冷蔵庫">
                 </picture>
                 <h3 class="ttl">大型冷凍・冷蔵庫</h3>
                 <p class="desc">大型冷凍冷蔵庫は、車の出し入れが可能な業務用の倉庫型や漁協などで使われる製氷機など幅広い用途で使われています。お客様が必要とされる大きさや温度に合わせて設計いたします。</p>
               </div>
               <div class="col">
                 <picture >
-                  <source srcset="/images/cold-equipment/sp/img_2.jpg" media="(max-width: 899px)">
-                  <img src="/images/cold-equipment/img_2.jpg" alt="ショーケース">
+                  <source srcset="/images/business/cold-equipment/sp/img_2.jpg" media="(max-width: 899px)">
+                  <img src="/images/business/cold-equipment/img_2.jpg" alt="ショーケース">
                 </picture>
                 <h3 class="ttl">ショーケース</h3>
                 <p class="desc">ショーケースの目的は、商品を冷やすためだけではなく、効率よく陳列・ディスプレイでき、購買意欲を刺激するレイアウトでなければなりません。豊富な経験から得たノウハウをいかしたご提案をするとともに、室外機の設置場所についてのご相談も承ります。</p>

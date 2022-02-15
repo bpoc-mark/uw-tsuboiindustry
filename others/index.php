@@ -80,17 +80,17 @@
           <div class="container">
             <div class="row">
               <div class="col">
-                <img src="/images/others/img_1.jpg" alt="ガス工事">
+                <img src="/images/business/others/img_1.jpg" alt="ガス工事">
                 <h3 class="ttl">ガス工事</h3>
                 <p class="desc">コンプレッサーをガスエンジンで駆動させ、ヒートポンプ方式で空調を行うGHPをはじめ、工場や住宅、店舗などで必要とされるガス配管設備工事を行います。</p>
               </div>
               <div class="col">
-                <img src="/images/others/img_2.jpg" alt="厨房機器">
+                <img src="/images/business/others/img_2.jpg" alt="厨房機器">
                 <h3 class="ttl">厨房機器</h3>
                 <p class="desc">お客様のご要望をお聞きしたうえで、経験豊富な専門スタッフが機能的で美しい厨房づくりをご提案。飲食店の厨房から給食センターや病院などの大きな厨房まで、設備設計から施工、メンテナンス、また厨房機器の販売もいたします。</p>
               </div>
               <div class="col">
-                <img src="/images/others/img_3.jpg" alt="上下水道本管工事">
+                <img src="/images/business/others/img_3.jpg" alt="上下水道本管工事">
                 <h3 class="ttl">上下水道本管工事</h3>
                 <p class="desc">上下水道はもっとも大切なライフラインです。通常道路の下に布設された水道の本管から水を引き込んだり、下水道へ接続するための工事です。給排水設備工事と合わせて、関係書類の手続きから工事施工までを行っています。</p>
               </div>

@@ -80,17 +80,17 @@
           <div class="container">
             <div class="row">
               <div class="col">
-                <img src="/images/consulting/img_1.jpg" alt="建物の大きさや用途に応じて各種設備の設計・レイアウト">
+                <img src="/images/business/consulting/img_1.jpg" alt="建物の大きさや用途に応じて各種設備の設計・レイアウト">
                 <h3 class="ttl">建物の大きさや用途に応じて各種設備の設計・レイアウト</h3>
                 <p class="desc">各種設備の設計・レイアウトや建物の用途や管理などを総合的に理解することが重要です。十分な打合せを行い、電気、空調、水道などあらゆる設備についてご提案させていただきます。</p>
               </div>
               <div class="col">
-                <img src="/images/consulting/img_2.jpg" alt="エネルギーの効率化や省エネルギーに貢献">
+                <img src="/images/business/consulting/img_2.jpg" alt="エネルギーの効率化や省エネルギーに貢献">
                 <h3 class="ttl">エネルギーの効率化や省エネルギーに貢献</h3>
                 <p class="desc">多くのエネルギーがかかる各種設備。私たちはお客様が必要とされる設備をご提案するとともに、エネルギー分析を通じてエネルギーの効率化や省エネルギーに貢献いたします。</p>
               </div>
               <div class="col">
-                <img src="/images/consulting/img_3.jpg" alt="図面の段階から快適環境のご提案">
+                <img src="/images/business/consulting/img_3.jpg" alt="図面の段階から快適環境のご提案">
                 <h3 class="ttl cst-mg">図面の段階から快適環境のご提案</h3>
                 <p class="desc">図面の段階からの設備設計ができるのも私たちの強みのひとつです。設計の前段階から、大きさに関わらずご要望に応じた設備を設計。満足のいく快適環境をご提案いたします。</p>
               </div>
