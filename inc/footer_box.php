@@ -91,25 +91,25 @@
 									<a href="/company/" class="nav__link--sub-menu__link">-  <span></span>会社案内TOP</a>
 								</li>
 								<li class="nav__link--sub-menu__item">
-									<a href="/message/" class="nav__link--sub-menu__link">-  <span></span>代表あいさつ</a>
+									<a href="/company/message/" class="nav__link--sub-menu__link">-  <span></span>代表あいさつ</a>
 								</li>
 								<li class="nav__link--sub-menu__item">
-									<a href="/company-profile/" class="nav__link--sub-menu__link">-  <span></span>会社概要</a>
+									<a href="/company/profile/" class="nav__link--sub-menu__link">-  <span></span>会社概要</a>
 								</li>
 								<li class="nav__link--sub-menu__item">
-									<a href="/history/" class="nav__link--sub-menu__link">-  <span></span>沿革</a>
+									<a href="/company/history/" class="nav__link--sub-menu__link">-  <span></span>沿革</a>
 								</li>
 								<li class="nav__link--sub-menu__item">
-									<a href="/iso/" class="nav__link--sub-menu__link">-  <span></span>ISO認証取得</a>
+									<a href="/company/iso/" class="nav__link--sub-menu__link">-  <span></span>ISO認証取得</a>
 								</li>
 								<li class="nav__link--sub-menu__item">
-									<a href="/qualified-person/" class="nav__link--sub-menu__link">-  <span></span>有資格者</a>
+									<a href="/company/qualified-person/" class="nav__link--sub-menu__link">-  <span></span>有資格者</a>
 								</li>
 								<li class="nav__link--sub-menu__item">
-									<a href="/business-base/" class="nav__link--sub-menu__link">-  <span></span>営業拠点</a>
+									<a href="/company/business-base/" class="nav__link--sub-menu__link">-  <span></span>営業拠点</a>
 								</li>
 								<li class="nav__link--sub-menu__item">
-									<a href="/environment-policy/" class="nav__link--sub-menu__link">-  <span></span>環境方針</a>
+									<a href="/company/environment-policy/" class="nav__link--sub-menu__link">-  <span></span>環境方針</a>
 								</li>
 							</ul>
 						</li>
@@ -119,29 +119,29 @@
 									<a href="/business/" class="nav__link--sub-menu__link">-  <span></span>事業案内TOP</a>
 								</li>
 								<li class="nav__link--sub-menu__item">
-									<a href="/consulting/" class="nav__link--sub-menu__link">-  <span></span>総合設備コンサルティング</a>
+									<a href="/business/consulting/" class="nav__link--sub-menu__link">-  <span></span>総合設備コンサルティング</a>
 								</li>
 								<li class="nav__link--sub-menu__item">
-									<a href="/clean-room/" class="nav__link--sub-menu__link">-  <span></span>クリーンルーム</a>
+									<a href="/business/clean-room/" class="nav__link--sub-menu__link">-  <span></span>クリーンルーム</a>
 								</li>
 								<li class="nav__link--sub-menu__item">
-									<a href="/air-conditioning/" class="nav__link--sub-menu__link">-  <span></span>空調換気設備工事</a>
+									<a href="/business/air-conditioning/" class="nav__link--sub-menu__link">-  <span></span>空調換気設備工事</a>
 								</li>
 								<li class="nav__link--sub-menu__item">
-									<a href="/cold-equipment/" class="nav__link--sub-menu__link">-  <span></span>冷熱設備工事</a>
+									<a href="/business/cold-equipment/" class="nav__link--sub-menu__link">-  <span></span>冷熱設備工事</a>
 								</li>
 								<li class="nav__link--sub-menu__item">
-									<a href="/plumbing-sanitation/" class="nav__link--sub-menu__link">-  <span></span>排水衛生工事</a>
+									<a href="/business/plumbing-sanitation/" class="nav__link--sub-menu__link">-  <span></span>排水衛生工事</a>
 								</li>
 								<li class="nav__link--sub-menu__item">
-									<a href="/others/" class="nav__link--sub-menu__link">-  <span></span>その他工事</a>
+									<a href="/business/others/" class="nav__link--sub-menu__link">-  <span></span>その他工事</a>
 								</li>
 								<li class="nav__link--sub-menu__item">
-									<a href="/after-maintenance/" class="nav__link--sub-menu__link">-  <span></span>点検・修理・メンテナンス</a>
+									<a href="/business/after-maintenance/" class="nav__link--sub-menu__link">-  <span></span>点検・修理・メンテナンス</a>
 								</li>
 							</ul>
 						</li>
-						<li class="nav__item--m-t-b"><a href="/after-maintenance/" class="nav__link">施工実績</a></li>
+						<li class="nav__item--m-t-b"><a href="/business/after-maintenance/" class="nav__link">施工実績</a></li>
 						<li class="nav__item"><a href="/news/" class="nav__link">新着情報</a></li>
 						<li class="nav__item"><a href="/faq/" class="nav__link">よくあるご質問</a></li>
 						<li class="nav__item"><a href="/contact/" class="nav__link">お問い合わせ</a></li>

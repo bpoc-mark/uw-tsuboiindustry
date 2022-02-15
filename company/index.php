@@ -60,7 +60,7 @@
 						<p class="desc">「お客様に喜ばれる仕事により相互に厚い信頼を得て、適正利潤を確保して、我々の幸福と生活向上を計り我が社の永続的な発展を実現する事により、広く社会に貢献する。」を企業理念とし、また「水と熱に挑む、先進技術。」をキャッチフレーズとし今日まで日々精進して参りました。</p>
 					</li>
 					<li class="col bdr-top">
-						<a href="/message/">
+						<a href="/company/message/">
 							<h6 class="title">代表ごあいさつ</h6>
 							<div class="img_wrap">
 								<img src="/images/company/company-page/img_1.jpg" alt="代表ごあいさつ">
@@ -71,7 +71,7 @@
 						</a>
 					</li>
 					<li class="col bdr-top bdr-right">
-						<a href="/company-profile/">
+						<a href="/company/profile/">
 							<h6>会社概要</h6>
 							<div class="img_wrap">
 								<img src="/images/company/company-page/img_2.jpg" alt="会社概要">
@@ -82,7 +82,7 @@
 						</a>
 					</li>
 					<li class="col bdr-top bdr-right">
-						<a href="/history/">
+						<a href="/company/history/">
 							<h6>沿革</h6>
 							<div class="img_wrap">
 								<img src="/images/company/company-page/img_3.jpg" alt="沿革">
@@ -93,7 +93,7 @@
 						</a>
 					</li>
 					<li class="col bdr-top">
-						<a href="/iso/">
+						<a href="/company/iso/">
 							<h6>ISO認証取得</h6>
 							<div class="img_wrap">
 								<img src="/images/company/company-page/img_4.jpg" alt="ISO認証取得">
@@ -104,7 +104,7 @@
 						</a>
 					</li>
 					<li class="col bdr-top bdr-right">
-						<a href="/qualified-person/">
+						<a href="/company/qualified-person/">
 							<h6>有資格者</h6>
 							<div class="img_wrap">
 								<img src="/images/company/company-page/img_5.jpg" alt="有資格者">
@@ -115,7 +115,7 @@
 						</a>
 					</li>
 					<li class="col bdr-top bdr-right">
-						<a href="/business-base/">
+						<a href="/company/business-base/">
 							<h6>営業拠点</h6>
 							<div class="img_wrap">
 								<img src="/images/company/company-page/img_6.jpg" alt="営業拠点">
@@ -126,7 +126,7 @@
 						</a>
 					</li>
 					<li class="col bdr-top">
-						<a href="/environment-policy/">
+						<a href="/company/environment-policy/">
 							<h6>環境方針</h6>
 							<div class="img_wrap">
 								<img src="/images/company/company-page/img_7.jpg" alt="環境方針">

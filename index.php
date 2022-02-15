@@ -95,7 +95,7 @@
 							<p class="desc">水と熱にかかわるすべてを信頼と総合技術でサポート。快適な環境と空間のための設計・施工を行っています。設計の前段階からの総合コンサルティング、空調換気設備、冷熱設備、給排水衛生、そしてアフターメンテナンスまで、あらゆる場面でお客様のご要望にお応えいたします。</p>
 						</li>
 						<li class="col bdr-top">
-							<a href="/consulting/">
+							<a href="/business/consulting/">
 								<h6 class="title">総合設備コンサルティング</h6>
 								<div class="img_wrap">
 									<img src="/images/top/sect_3/sect_3_img_1.jpg" alt="総合設備コンサルティング">
@@ -106,7 +106,7 @@
 							</a>
 						</li>
 						<li class="col bdr-top bdr-right">
-							<a href="/clean-room/">
+							<a href="/business/clean-room/">
 								<h6>クリーンルーム</h6>
 								<div class="img_wrap">
 									<img src="/images/top/sect_3/sect_3_img_2.jpg" alt="クリーンルーム">
@@ -117,7 +117,7 @@
 							</a>
 						</li>
 						<li class="col bdr-top bdr-right">
-							<a href="/air-conditioning/">
+							<a href="/business/air-conditioning/">
 								<h6>空調換気設備工事</h6>
 								<div class="img_wrap">
 									<img src="/images/top/sect_3/sect_3_img_3.jpg" alt="空調換気設備工事">
@@ -128,7 +128,7 @@
 							</a>
 						</li>
 						<li class="col bdr-top">
-							<a href="/cold-equipment/">
+							<a href="/business/cold-equipment/">
 								<h6>冷熱設備工事</h6>
 								<div class="img_wrap">
 									<img src="/images/top/sect_3/sect_3_img_4.jpg" alt="冷熱設備工事">
@@ -139,7 +139,7 @@
 							</a>
 						</li>
 						<li class="col bdr-top bdr-right">
-							<a href="/plumbing-sanitation/">
+							<a href="/business/plumbing-sanitation/">
 								<h6>給排水衛生工事</h6>
 								<div class="img_wrap">
 									<img src="/images/top/sect_3/sect_3_img_5.jpg" alt="給排水衛生工事">
@@ -150,7 +150,7 @@
 							</a>
 						</li>
 						<li class="col bdr-top bdr-right">
-							<a href="/others/">
+							<a href="/business/others/">
 								<h6>その他工事</h6>
 								<div class="img_wrap">
 									<img src="/images/top/sect_3/sect_3_img_6.jpg" alt="その他工事">
@@ -161,7 +161,7 @@
 							</a>
 						</li>
 						<li class="col bdr-top">
-							<a href="/after-maintenance/">
+							<a href="/business/after-maintenance/">
 								<h6>点検・修理・メンテナンス</h6>
 								<div class="img_wrap">
 									<img src="/images/top/sect_3/sect_3_img_7.jpg" alt="点検・修理・メンテナンス">
@@ -181,7 +181,7 @@
 							<div class="col">
 								<ul class="about--wrap">
 									<li class="about_item">
-										<a href="/after-maintenance/" class="about_item--link">
+										<a href="/business/after-maintenance/" class="about_item--link">
 											<p>
 												<span>01</span>
 												施工実績
@@ -203,7 +203,7 @@
 										</a>
 									</li>
 									<li class="about_item">
-										<a href="/environment-policy/" class="about_item--link">
+										<a href="/company/environment-policy/" class="about_item--link">
 											<p>
 												<span>03</span>
 												環境方針

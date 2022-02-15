@@ -40,25 +40,25 @@ $str = explode('/', $url); ?>
 										<a href="/business/">事業案内TOP</a>
 									</li>
 									<li>
-										<a href="/consulting/">総合設備<br class="sp">コンサルティング</a>
+										<a href="/business/consulting/">総合設備<br class="sp">コンサルティング</a>
 									</li>
 									<li>
-										<a href="/plumbing-sanitation/">排水衛生工事</a>
+										<a href="/business/plumbing-sanitation/">排水衛生工事</a>
 									</li>
 									<li>
-										<a href="/clean-room/">クリーンルーム</a>
+										<a href="/business/clean-room/">クリーンルーム</a>
 									</li>
 									<li>
-										<a href="/others/">その他工事</a>
+										<a href="/business/others/">その他工事</a>
 									</li>
 									<li>
-										<a href="/air-conditioning/">空調換気設備工事</a>
+										<a href="/business/air-conditioning/">空調換気設備工事</a>
 									</li>
 									<li>
-										<a href="/after-maintenance/">点検・修理・<br class="sp">メンテナンス</a>
+										<a href="/business/after-maintenance/">点検・修理・<br class="sp">メンテナンス</a>
 									</li>
 									<li>
-										<a href="/cold-equipment/">冷熱設備工事</a>
+										<a href="/business/cold-equipment/">冷熱設備工事</a>
 									</li>
 								</ul>
 							</div>
@@ -83,32 +83,32 @@ $str = explode('/', $url); ?>
 										<a href="/company/">会社案内TOP</a>
 									</li>
 									<li>
-										<a href="/message/">代表あいさつ</a>
+										<a href="/company/message/">代表あいさつ</a>
 									</li>
 									<li>
-										<a href="/qualified-person/">有資格者</a>
+										<a href="/company/qualified-person/">有資格者</a>
 									</li>
 									<li>
-										<a href="/company-profile/">会社概要</a>
+										<a href="/company/profile/">会社概要</a>
 									</li>
 									<li>
-										<a href="/business-base/">営業拠点</a>
+										<a href="/company/business-base/">営業拠点</a>
 									</li>
 									<li>
-										<a href="/history/">沿革</a>
+										<a href="/company/history/">沿革</a>
 									</li>
 									<li>
-										<a href="/environment-policy/">環境方針</a>
+										<a href="/company/environment-policy/">環境方針</a>
 									</li>
 									<li>
-										<a href="/iso/">ISO認証取得</a>
+										<a href="/company/iso/">ISO認証取得</a>
 									</li>
 								</ul>
 							</div>
 						</div>
 					</div>											
 				</li>
-				<li class="nav__item"><a class="nav__item__link" href="/after-maintenance/" <?php if ($str[1] == "") {
+				<li class="nav__item"><a class="nav__item__link" href="/business/after-maintenance/" <?php if ($str[1] == "") {
 																echo ' class="here"';
 															} ?>>施工実績</a></li>
 				<li class="nav__item"><a class="nav__item__link" href="/faq/" <?php if ($str[1] == "") {
