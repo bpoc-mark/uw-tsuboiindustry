@@ -94,7 +94,7 @@
                 <p class="c-button01--txt">
                   空調換気設備工事の実績
                   <span class="c-button01--arrow">
-                    <img src="/images/common/arrow_icon_wh.svg" alt="">
+                    <img src="/images/common/arrow_icon_wh.svg" alt="矢印アイコン">
                   </span>
                 </p>
               </a>

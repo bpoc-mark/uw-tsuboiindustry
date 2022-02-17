@@ -70,13 +70,13 @@
               <img src="/images/news-detail/img_1.jpg" alt="ホームページをリニューアルしました！">
               <ul class="nav">
                 <li class="nav-prev">
-                  <a href=""><img src="/images/common/arrow_icon.svg" alt=""> Prev</a>
+                  <a href=""><img src="/images/common/arrow_icon.svg" alt="矢印アイコン"> Prev</a>
                 </li>
                 <li class="nav-list">
                   <a href=""><svg xmlns="http://www.w3.org/2000/svg" width="22.33" height="15.63" viewBox="0 0 22.33 15.63"><g id="ae7ad000-5736-4529-8f84-6c7233c44b9c" data-name="Layer 2"><g id="a00df368-dcd9-436d-b1cf-9ae78076d5d4" data-name="レイヤー 1"><rect width="3.98" height="2.48"></rect><rect x="7.19" width="15.14" height="2.48"></rect><rect y="6.57" width="3.98" height="2.48"></rect><rect x="7.19" y="6.57" width="15.14" height="2.48"></rect><rect y="13.15" width="3.98" height="2.48"></rect><rect x="7.19" y="13.15" width="15.14" height="2.48"></rect></g></g></svg></a>
                 </li>
                 <li class="nav-next">
-                  <a href="">Next <img src="/images/common/arrow_icon.svg" alt=""></a>
+                  <a href="">Next <img src="/images/common/arrow_icon.svg" alt="矢印アイコン"></a>
                 </li>
               </ul>
             </div>

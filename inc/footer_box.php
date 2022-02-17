@@ -39,7 +39,7 @@
 						<img src="/images/common/footer_top_img_1.png" class="footer_top_img" alt="ONLY ONE CLEARN ROOM">
 						<span>
 						つぼい工業 クリーンルーム
-						<img src="/images/common/arrow_footer_icon.svg" alt="">
+						<img src="/images/common/arrow_footer_icon.svg" alt="矢印アイコン">
 						</span>
 					</a>
 				</div>
@@ -48,7 +48,7 @@
 						<img src="/images/common/footer_top_img_2.png" class="footer_top_img" alt="SOUSUI 株式会社蒼水">
 						<span>
 						株式会社蒼水
-						<img src="/images/common/arrow_footer_icon.svg" alt="">
+						<img src="/images/common/arrow_footer_icon.svg" alt="矢印アイコン">
 						</span>
 					</a>
 				</div>
@@ -57,7 +57,7 @@
 						<img src="/images/common/footer_top_img_3.png" class="footer_top_img" alt="FROST">
 						<span>
 						株式会社フロスト
-						<img src="/images/common/arrow_footer_icon.svg" alt="">
+						<img src="/images/common/arrow_footer_icon.svg" alt="矢印アイコン">
 						</span>
 					</a>
 				</div>
@@ -73,7 +73,7 @@
 					FAX：053-438-1118
 				</p>
 				<div class="menu">
-					<a href="https://www.tsuboi.biz/recruit/" target="_blank">採用情報 <img src="/images/common/arrow_footer_icon.svg" alt=""></a>
+					<a href="https://www.tsuboi.biz/recruit/" target="_blank">採用情報 <img src="/images/common/arrow_footer_icon.svg" alt="矢印アイコン"></a>
 					<a href="/privacy-policy/">プライバシーポリシー</a>
 				</div>
 				<div class="copy">

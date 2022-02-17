@@ -24,12 +24,12 @@ $str = explode('/', $url); ?>
 															} ?>>選ばれる理由</a></li>
 				<li class="nav__item drop-down"><a class="nav__item__link sub_menu_clk" <?php if ($str[1] == "") {
 																echo ' class="here"';
-															} ?>>事業案内 <img src="/images/common/arrow_icon_header.svg" class="sp nav__item__link--sub_menu_arrow" alt=""></a>
+															} ?>>事業案内 <img src="/images/common/arrow_icon_header.svg" class="sp nav__item__link--sub_menu_arrow" alt="矢印アイコン"></a>
 					<div class="nav__item--sub-menu">
 						<div class="wrap">
 							<div class="wrap--left">
 								<h4>Business information</h4>
-								<a href="/#sect_3">事業案内<span><img src="/images/common/arrow_icon_header.svg" alt=""></span></a>
+								<a href="/#sect_3">事業案内<span><img src="/images/common/arrow_icon_header.svg" alt="事業案内"></span></a>
 								<figure>
 									<img src="/images/common/header_img_2.jpg" alt="">
 								</figure>
@@ -67,12 +67,12 @@ $str = explode('/', $url); ?>
 				</li>
 				<li class="nav__item  drop-down"><a class="nav__item__link sub_menu_clk" <?php if ($str[1] == "") {
 																echo ' class="here"';
-															} ?>>会社案内 <img src="/images/common/arrow_icon_header.svg" class="sp nav__item__link--sub_menu_arrow" alt=""></a>
+															} ?>>会社案内 <img src="/images/common/arrow_icon_header.svg" class="sp nav__item__link--sub_menu_arrow" alt="矢印アイコン"></a>
 					<div class="nav__item--sub-menu">
 						<div class="wrap">
 							<div class="wrap--left">
 								<h4>Company profile</h4>
-								<a href="/company/">会社案内<span><img src="/images/common/arrow_icon_header.svg" alt=""></span></a>
+								<a href="/company/">会社案内<span><img src="/images/common/arrow_icon_header.svg" alt="会社案内"></span></a>
 								<figure>
 									<img src="/images/common/header_img_1.jpg" alt="">
 								</figure>

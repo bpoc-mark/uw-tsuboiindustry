@@ -67,7 +67,7 @@
 							</div>
 							<p class="c-desc">お客様の立場に立って、快適な環境と空間を総合的にコンサルティング。ビルや工場、店舗、公共施設など設計の段階から各種設備の設計・レイアウト等をご提案いたします。</p>
 							<span class="arrow_icon">
-								<img src="/images/common/arrow_icon.svg"  alt="">
+								<img src="/images/common/arrow_icon.svg"  alt="矢印アイコン">
 							</span>
 						</a>
 					</li>
@@ -79,7 +79,7 @@
 							</div>
 							<p class="c-desc">恒温恒湿、除湿空調など確かな技術と経験で、お客様の要望に合わせた最適な空調環境を実現します。</p>
 							<span class="arrow_icon">
-								<img src="/images/common/arrow_icon.svg"  alt="">
+								<img src="/images/common/arrow_icon.svg"  alt="矢印アイコン">
 							</span>
 						</a>
 					</li>
@@ -91,7 +91,7 @@
 							</div>
 							<p class="c-desc">快適な空間のためのエアコンや換気システムなどの空調換気設備をサポートいたします。</p>
 							<span class="arrow_icon">
-								<img src="/images/common/arrow_icon.svg"  alt="">
+								<img src="/images/common/arrow_icon.svg"  alt="矢印アイコン">
 							</span>
 						</a>
 					</li>
@@ -103,7 +103,7 @@
 							</div>
 							<p class="c-desc">大型冷凍冷蔵庫やショーケースなど、大切な商品を守る冷熱設備を、ご要望に合わせた設計・施工、設置いたします。</p>
 							<span class="arrow_icon">
-								<img src="/images/common/arrow_icon.svg"  alt="">
+								<img src="/images/common/arrow_icon.svg"  alt="矢印アイコン">
 							</span>
 						</a>
 					</li>
@@ -115,7 +115,7 @@
 							</div>
 							<p class="c-desc">建物や使用する目的に合わせた設備工事で、快適で衛生的な環境をご提供いたします。</p>
 							<span class="arrow_icon">
-								<img src="/images/common/arrow_icon.svg"  alt="">
+								<img src="/images/common/arrow_icon.svg"  alt="矢印アイコン">
 							</span>
 						</a>
 					</li>
@@ -127,7 +127,7 @@
 							</div>
 							<p class="c-desc">上下水道工事やガス工事、厨房設備にいたるまで、お客様が必要とされる工事を幅広く承っております。</p>
 							<span class="arrow_icon">
-								<img src="/images/common/arrow_icon.svg"  alt="">
+								<img src="/images/common/arrow_icon.svg"  alt="矢印アイコン">
 							</span>
 						</a>
 					</li>
@@ -139,7 +139,7 @@
 							</div>
 							<p class="c-desc">建物等の快適な環境を維持するために重要なメンテナンス。蛇口ひとつからコンプレッサーまで点検・修理を承ります。</p>
 							<span class="arrow_icon">
-								<img src="/images/common/arrow_icon.svg"  alt="">
+								<img src="/images/common/arrow_icon.svg"  alt="矢印アイコン">
 							</span>
 						</a>
 					</li>

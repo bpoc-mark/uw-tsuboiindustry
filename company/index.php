@@ -66,7 +66,7 @@
 								<img src="/images/company/company-page/img_1.jpg" alt="代表ごあいさつ">
 							</div>
 							<span class="arrow_icon">
-								<img src="/images/common/arrow_icon.svg"  alt="">
+								<img src="/images/common/arrow_icon.svg"  alt="矢印アイコン">
 							</span>
 						</a>
 					</li>
@@ -77,7 +77,7 @@
 								<img src="/images/company/company-page/img_2.jpg" alt="会社概要">
 							</div>
 							<span class="arrow_icon">
-								<img src="/images/common/arrow_icon.svg"  alt="">
+								<img src="/images/common/arrow_icon.svg"  alt="矢印アイコン">
 							</span>
 						</a>
 					</li>
@@ -88,7 +88,7 @@
 								<img src="/images/company/company-page/img_3.jpg" alt="沿革">
 							</div>
 							<span class="arrow_icon">
-								<img src="/images/common/arrow_icon.svg"  alt="">
+								<img src="/images/common/arrow_icon.svg"  alt="矢印アイコン">
 							</span>
 						</a>
 					</li>
@@ -99,7 +99,7 @@
 								<img src="/images/company/company-page/img_4.jpg" alt="ISO認証取得">
 							</div>
 							<span class="arrow_icon">
-								<img src="/images/common/arrow_icon.svg"  alt="">
+								<img src="/images/common/arrow_icon.svg"  alt="矢印アイコン">
 							</span>
 						</a>
 					</li>
@@ -110,7 +110,7 @@
 								<img src="/images/company/company-page/img_5.jpg" alt="有資格者">
 							</div>	
 							<span class="arrow_icon">
-								<img src="/images/common/arrow_icon.svg"  alt="">
+								<img src="/images/common/arrow_icon.svg"  alt="矢印アイコン">
 							</span>
 						</a>
 					</li>
@@ -121,7 +121,7 @@
 								<img src="/images/company/company-page/img_6.jpg" alt="営業拠点">
 							</div>
 							<span class="arrow_icon">
-								<img src="/images/common/arrow_icon.svg"  alt="">
+								<img src="/images/common/arrow_icon.svg"  alt="矢印アイコン">
 							</span>
 						</a>
 					</li>
@@ -132,7 +132,7 @@
 								<img src="/images/company/company-page/img_7.jpg" alt="環境方針">
 							</div>
 							<span class="arrow_icon">
-								<img src="/images/common/arrow_icon.svg"  alt="">
+								<img src="/images/common/arrow_icon.svg"  alt="矢印アイコン">
 							</span>
 						</a>
 					</li>
