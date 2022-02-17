@@ -29,9 +29,9 @@ $str = explode('/', $url); ?>
 						<div class="wrap">
 							<div class="wrap--left">
 								<h4>Business information</h4>
-								<a href="/#sect_3">事業案内<span><img src="/images/common/arrow_icon_header.svg" alt="事業案内"></span></a>
+								<a href="/#sect_3">事業案内<span><img src="/images/common/arrow_icon_header.svg" alt="矢印アイコン"></span></a>
 								<figure>
-									<img src="/images/common/header_img_2.jpg" alt="">
+									<img src="/images/common/header_img_2.jpg" alt="事業案内">
 								</figure>
 							</div>
 							<div class="wrap--right">
@@ -72,9 +72,9 @@ $str = explode('/', $url); ?>
 						<div class="wrap">
 							<div class="wrap--left">
 								<h4>Company profile</h4>
-								<a href="/company/">会社案内<span><img src="/images/common/arrow_icon_header.svg" alt="会社案内"></span></a>
+								<a href="/company/">会社案内<span><img src="/images/common/arrow_icon_header.svg" alt="矢印アイコン"></span></a>
 								<figure>
-									<img src="/images/common/header_img_1.jpg" alt="">
+									<img src="/images/common/header_img_1.jpg" alt="会社案内">
 								</figure>
 							</div>
 							<div class="wrap--right">
