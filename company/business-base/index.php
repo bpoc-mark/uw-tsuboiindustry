@@ -85,7 +85,7 @@
                     </table>
                   </div>
                   <div class="col">
-                  <iframe class="map_frame" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3276.9548461376803!2d137.71887350087414!3d34.781912012872496!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x601b208becc118db%3A0xd77e1a0bdcfc8b8c!2s874-5%20Mikataharach%C5%8D%2C%20Kita%20Ward%2C%20Hamamatsu%2C%20Shizuoka%20433-8105%2C%20Japan!5e0!3m2!1sen!2sph!4v1643937113550!5m2!1sjp!2sjp" width="100%" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                  <iframe class="map_frame" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3276.9548461376803!2d137.71887350087414!3d34.781912012872496!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x601b208becc118db%3A0xd77e1a0bdcfc8b8c!2s874-5%20Mikataharach%C5%8D%2C%20Kita%20Ward%2C%20Hamamatsu%2C%20Shizuoka%20433-8105%2C%20Japan!5e0!3m2!1sjp!2sjp!4v1643937113550!5m2!1sjp!2sjp" width="100%" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
                   </div>
                 </div>
               </li>
@@ -115,7 +115,7 @@
                     </table>
                   </div>
                   <div class="col">
-                    <iframe class="map_frame" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3276.9547756874763!2d137.71798621559563!3d34.78191378637128!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x601b208becc118db%3A0xd77e1a0bdcfc8b8c!2s874-5%20Mikataharach%C5%8D%2C%20Kita%20Ward%2C%20Hamamatsu%2C%20Shizuoka%20433-8105%2C%20Japan!5e0!3m2!1sen!2sph!4v1643939175284!5m2!1sjp!2sjp" width="100%" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                    <iframe class="map_frame" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3276.9547756874763!2d137.71798621559563!3d34.78191378637128!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x601b208becc118db%3A0xd77e1a0bdcfc8b8c!2s874-5%20Mikataharach%C5%8D%2C%20Kita%20Ward%2C%20Hamamatsu%2C%20Shizuoka%20433-8105%2C%20Japan!5e0!3m2!1sjp!2sjp!4v1643939175284!5m2!1sjp!2sjp" width="100%" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
                   </div>
                 </div>
               </li>
@@ -145,7 +145,7 @@
                     </table>
                   </div>
                   <div class="col">
-                    <iframe class="map_frame" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3279.1204920318837!2d137.8158782155946!3d34.72735708929694!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x601ae6c8ad521a43%3A0x12a39ae7db59c46e!2s210%20Kodateno%2C%20Iwata%2C%20Shizuoka%20438-0838%2C%20Japan!5e0!3m2!1sen!2sph!4v1643939317632!5m2!1sjp!2sjp" width="100%" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                    <iframe class="map_frame" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3279.1204920318837!2d137.8158782155946!3d34.72735708929694!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x601ae6c8ad521a43%3A0x12a39ae7db59c46e!2s210%20Kodateno%2C%20Iwata%2C%20Shizuoka%20438-0838%2C%20Japan!5e0!3m2!1sjp!2sjp!4v1643939317632!5m2!1sjp!2sjp" width="100%" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
                   </div>
                 </div>
               </li>
@@ -175,7 +175,7 @@
                     </table>
                   </div>
                   <div class="col">
-                    <iframe class="map_frame" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3278.891325229227!2d137.5249986155948!3d34.73313358898754!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x601b2bd89b9c5449%3A0x29f579f6055ef715!2s3135-2%20Shinjo%2C%20Kosai%2C%20Shizuoka%20431-0421%2C%20Japan!5e0!3m2!1sen!2sph!4v1643939428843!5m2!1sjp!2sjp" width="100%" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                    <iframe class="map_frame" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3278.891325229227!2d137.5249986155948!3d34.73313358898754!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x601b2bd89b9c5449%3A0x29f579f6055ef715!2s3135-2%20Shinjo%2C%20Kosai%2C%20Shizuoka%20431-0421%2C%20Japan!5e0!3m2!1sjp!2sjp!4v1643939428843!5m2!1sjp!2sjp" width="100%" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
                   </div>
                 </div>
               </li>

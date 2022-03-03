@@ -181,7 +181,7 @@
 							<div class="col">
 								<ul class="about--wrap">
 									<li class="about_item">
-										<a href="/business/after-maintenance/" class="about_item--link">
+										<a href="/work/" class="about_item--link">
 											<p>
 												<span>01</span>
 												施工実績

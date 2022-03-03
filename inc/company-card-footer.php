@@ -9,7 +9,7 @@ $str = explode('/', $url); ?>
             </a>
         </li>
         <li class="c-cardbtn--item">
-            <a href="/company/profile/" class="c-cardbtn--link <?php if ($str[2] == "company-profile") { echo ' c-cardbtn--link__active '; } ?>">会社概要
+            <a href="/company/profile/" class="c-cardbtn--link <?php if ($str[2] == "profile") { echo ' c-cardbtn--link__active '; } ?>">会社概要
                 <span class="c-cardbtn--arrow"><img src="/images/common/arrow_icon.svg" alt="矢印アイコン"></span>
             </a>
         </li>

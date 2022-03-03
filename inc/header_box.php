@@ -16,15 +16,15 @@ $str = explode('/', $url); ?>
 	<div class="header_inner--right">
 		<nav class="nav">
 			<ul class="nav__list">
-				<li class="nav__item"><a class="nav__item__link" href="/" <?php if ($str[1] == "") {
-																echo ' class="here"';
-															} ?>>TOP</a></li>
-				<li class="nav__item"><a class="nav__item__link" href="/reason/" <?php if ($str[1] == "") {
-																echo ' class="here"';
-															} ?>>選ばれる理由</a></li>
-				<li class="nav__item drop-down"><a class="nav__item__link sub_menu_clk" <?php if ($str[1] == "") {
-																echo ' class="here"';
-															} ?>>事業案内 <img src="/images/common/arrow_icon_header.svg" class="sp nav__item__link--sub_menu_arrow" alt="矢印アイコン"></a>
+				<li class="nav__item"><a class="nav__item__link <?php if ($str[1] == "") {
+																echo 'nav__item__link--active';
+															} ?>" href="/">TOP</a></li>
+				<li class="nav__item"><a class="nav__item__link <?php if ($str[1] == "reason") {
+																echo 'nav__item__link--active';
+															} ?>" href="/reason/">選ばれる理由</a></li>
+				<li class="nav__item drop-down"><a class="nav__item__link sub_menu_clk <?php if ($str[1] == "business") {
+																echo 'nav__item__link--active';
+															} ?>">事業案内 <img src="/images/common/arrow_icon_header.svg" class="sp nav__item__link--sub_menu_arrow" alt="矢印アイコン"></a>
 					<div class="nav__item--sub-menu">
 						<div class="wrap">
 							<div class="wrap--left">
@@ -65,9 +65,9 @@ $str = explode('/', $url); ?>
 						</div>
 					</div>												
 				</li>
-				<li class="nav__item  drop-down"><a class="nav__item__link sub_menu_clk" <?php if ($str[1] == "") {
-																echo ' class="here"';
-															} ?>>会社案内 <img src="/images/common/arrow_icon_header.svg" class="sp nav__item__link--sub_menu_arrow" alt="矢印アイコン"></a>
+				<li class="nav__item  drop-down"><a class="nav__item__link sub_menu_clk <?php if ($str[1] == "company") {
+																echo 'nav__item__link--active';
+															} ?>">会社案内 <img src="/images/common/arrow_icon_header.svg" class="sp nav__item__link--sub_menu_arrow" alt="矢印アイコン"></a>
 					<div class="nav__item--sub-menu">
 						<div class="wrap">
 							<div class="wrap--left">
@@ -108,12 +108,12 @@ $str = explode('/', $url); ?>
 						</div>
 					</div>											
 				</li>
-				<li class="nav__item"><a class="nav__item__link" href="/business/after-maintenance/" <?php if ($str[1] == "") {
-																echo ' class="here"';
-															} ?>>施工実績</a></li>
-				<li class="nav__item"><a class="nav__item__link" href="/faq/" <?php if ($str[1] == "") {
-																echo ' class="here"';
-															} ?>>よくあるご質問</a></li>
+				<li class="nav__item"><a class="nav__item__link <?php if ($str[1] == "work") {
+																echo 'nav__item__link--active';
+															} ?>" href="/work/">施工実績</a></li>
+				<li class="nav__item"><a class="nav__item__link <?php if ($str[1] == "faq") {
+																echo 'nav__item__link--active';
+															} ?>" href="/faq/">よくあるご質問</a></li>
 				<li class="nav__item"><a class="nav__item__link" href="https://www.tsuboi.biz/recruit/" target="_blank" <?php if ($str[1] == "") {
 																echo ' class="here"';
 															} ?>>採用情報 <img src="/images/common/arrow_header_icon.svg" class="nav__item__link--arrow" alt=""></a></li>
