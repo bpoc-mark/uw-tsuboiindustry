@@ -83,7 +83,7 @@
                 </tr>
                 <tr>
                   <th>関連会社</th>
-                  <td>つぼい不動産（株） / <a href="" class="site-link">株式会社蒼水</a>  / <a href="" class="site-link">株式会社フロスト</a></td>
+                  <td>つぼい不動産（株） / <a href="https://www.sousui03.co.jp/" target="_blank" class="site-link">株式会社蒼水</a>  / <a href="https://www.frost-ltd.co.jp/" target="_blank" class="site-link">株式会社フロスト</a></td>
                 </tr>
                 <tr>
                   <th>主要仕入先</th>

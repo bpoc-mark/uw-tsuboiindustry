@@ -141,7 +141,7 @@
 								</li>
 							</ul>
 						</li>
-						<li class="nav__item--m-t-b"><a href="/business/after-maintenance/" class="nav__link">施工実績</a></li>
+						<li class="nav__item--m-t-b"><a href="/work/" class="nav__link">施工実績</a></li>
 						<li class="nav__item"><a href="/news/" class="nav__link">新着情報</a></li>
 						<li class="nav__item"><a href="/faq/" class="nav__link">よくあるご質問</a></li>
 						<li class="nav__item"><a href="/contact/" class="nav__link">お問い合わせ</a></li>
