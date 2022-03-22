@@ -1,0 +1,90 @@
+/*==================================
+  Reason
+==================================*/
+#Reason main {
+  .c-breadcrumbs{
+    background-color: #f5f7f9;
+  }
+  .reason-section{
+    background-color: #f5f7f9;
+    .wrapper{
+      padding: 0 0 60px;
+      .reason{
+        &--item{ 
+          &--reverse{
+            .row{
+              flex-direction: row-reverse;
+              &::before{
+                display: none !important;
+              }
+            }
+          }
+          &--topimg{
+            margin: 2px 0 0;
+            .row{
+              .col{
+                &:last-child{
+                  padding: 0 0 30px;
+                }
+                img{
+                  width: 85%;
+                  margin: 0 auto 0;
+                  display: block;
+                }
+              }
+            }
+          }
+          .row{
+            align-items: center;
+            position: relative;
+            &::before{
+              content: "";
+              display: block;
+              width: calc(100% - 35px);
+              height: 100%;
+              background-color: #fff;
+              position: absolute;
+              top: 0;
+              right: 0;
+              z-index: 1;
+            }
+            .col{
+              position: relative;
+              z-index: 2;
+              width: 100%;
+              &:first-child{
+                padding: 21px 0 23px;
+              }
+              .content{
+                padding: 0 20px 0;
+                .num{
+                  @include Cormorant(400);
+                  font-size: 21px;
+                  color: #d60000;
+                }
+                .ttl-en{
+                  @include Cormorant(400);
+                  font-size: 21px;
+                  color: #001c3e;
+                }
+                .ttl-jp{
+                  @include Noto_Serif(500);
+                  font-size: 28px;
+                  line-height: 40.3px;
+                  letter-spacing: .1em;
+                  color: #001c3e;
+                  margin: 3px 0 20px;
+                }
+                .desc{
+                  letter-spacing: .05em;
+                  line-height: 30px;
+                  text-align: justify;
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

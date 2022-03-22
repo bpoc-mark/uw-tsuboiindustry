@@ -1,0 +1,150 @@
+/*==================================
+  Contact
+==================================*/
+
+main#Contact {
+  .container {
+    margin: auto;
+
+    p > a {
+      background: linear-gradient(#000, #000) 0 100%/0 1px no-repeat;
+      background-size: 100% 1px;
+      padding-bottom: 2px;
+      display: inline;
+
+      &:hover {
+        color: #704f00;
+        background: linear-gradient(#704f00, #704f00) 0 100%/0 1px no-repeat;
+        background-size: 100% 1px;
+      }
+    }
+  }
+
+  .agree_area {
+    margin: 30px 0 0;
+    text-align: left;
+    .checkAgree{
+      font-size: 16px;
+      font-weight: 500;
+      left: .08em;
+      line-height: 30px;
+      a{
+        text-decoration: underline;
+        text-underline-offset: 8px;
+      }
+      &::before{
+        display: none !important;
+      }
+      &::after{
+        display: none !important;
+      }
+    }
+  }
+
+  .need {
+    color: #d60000;
+    font-size: 20px;
+    letter-spacing: .08em;
+    margin: 0 0 0 10px;
+    position: relative;
+    top: 1px;
+  }
+
+  table {
+    display: block;
+
+    tbody {
+      display: block;
+    }
+
+    tr {
+      display: block;
+      margin-bottom: 22px;
+
+      th {
+        font-size: 16px;
+        line-height: 1;
+        letter-spacing: 0.08em;
+        font-weight: 500;
+        display: block;
+        text-align: left;
+        margin-bottom: 17px;
+      }
+
+      td {
+        display: block;
+        .text02 {
+          margin-top: 15px;
+        }
+      }
+    }
+  }
+
+  .check-list {
+    padding-top: 5px;
+    padding-left: 0;
+
+    li {
+      display: inline-block;
+    }
+  }
+
+  .form_wrap {
+    padding: 0 50px 140px;
+    .desc {
+      letter-spacing: .08em;
+      line-height: 33px;
+      span{
+        font-size: 20px;
+        color: #d60000;
+        position: relative;
+        top: 6px;
+      }
+    }
+    .tel-wrap{
+      margin: 40px 0 75px;
+      .tel-desc{
+        font-size: 16px;
+        letter-spacing: .1em;
+        color: #001c3e;
+        margin: 0 0 8px;
+      }
+      .tel-num{
+        @include Noto_Serif(700);
+        letter-spacing: .05em;
+        font-size: 42px;
+        color: #001c3e;
+        span{
+          font-size: 30px;
+        }
+      }
+    }
+  }
+
+  &.sfm2{
+    .form-sec{
+      .container{
+        .form_wrap{
+          form{
+            table{
+              tr{
+                border-bottom: 1px solid #e2e4e5;
+                padding-bottom: 20px;
+                th{
+                  font-weight: 700;
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+  &.sfm3{
+    .form-sec{
+      .send_comp{
+        padding: 0 50px 140px;
+      }
+    }
+  }
+}

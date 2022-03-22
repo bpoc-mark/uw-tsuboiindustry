@@ -1,0 +1,814 @@
+@charset "utf-8";
+@import "_mixins.scss";
+
+/*==================================
+  Component
+==================================*/
+html {
+  overflow: auto;
+  &.no_move {
+    overflow: hidden;
+  }
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+
+  &[src$=".png"],
+  &[src$=".jpg"] {
+    backface-visibility: hidden;
+  }
+}
+
+.container {
+  max-width: 1300px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 50px;
+  padding-right: 50px;
+  box-sizing: border-box;
+  @include sp {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  box-sizing: border-box;
+  .col {
+    position: relative;
+    width: 100%;
+    min-height: 1px;
+    box-sizing: border-box;
+
+    &.col_4 {
+      flex: 0 0 33.3333%;
+      max-width: 33.3333%;
+    }
+  }
+}
+
+/*==================================
+	リスト系
+==================================*/
+
+// お知らせ一覧
+.news_ul {
+  width: calc(100% - 100px);
+  margin: 0 auto 19px;
+  .news_li {
+    border-bottom: 1px solid #e2e4e5;
+    padding: 35px 30px;
+    &:first-child{
+      border-top: 1px solid #e2e4e5;
+    }
+    > a {
+      display: flex;
+      align-items: center;
+      .date {
+        margin-right: 40px;
+        letter-spacing: .1em;
+      }
+
+      .img_wrap {
+        margin-right: 17px;
+      }
+      .title{
+        letter-spacing: .1em;
+      }
+
+      @include pc {
+        .title {
+          background: linear-gradient(#000, #000) 0 100%/0 1px no-repeat;
+          transition: background 0.4s ease;
+        }
+        &:hover {
+          .title {
+            background-size: 100% 1px;
+          }
+        }
+      }
+    }
+  }
+
+  @include sp {
+    width: 100%;
+    .news_li {
+      padding: 14px 0;
+      > a {
+        display: block;
+        position: relative;
+        padding-left: 4px;
+        padding-right: 4px;
+        .img_wrap {
+          margin-right: 0;
+          position: absolute;
+          top: 0;
+          left: -5px;
+          bottom: 0;
+          margin: auto;
+          display: flex;
+          align-items: center;
+          img {
+            max-width: 57px;
+          }
+        }
+
+        .date,
+        .title {
+          display: block;
+        }
+
+        .date {
+          margin: 0 0 7px;
+          letter-spacing: .03em;
+        }
+
+        .title {
+          font-size: 16px;
+          line-height: 1.3;
+          letter-spacing: .05em;
+        }
+      }
+    }
+  }
+}
+
+/*==================================
+	ページナビ
+==================================*/
+.page_navigation {
+  // wordpress 用
+  .wp-pagenavi {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 80px 0 0;
+    @include sp {
+      margin: 60px 0 0;
+    }
+    > .page,
+    .current {
+      @include Cormorant(400);
+      font-size: 20px;
+      width: 40px;
+      height: 40px;
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      border-radius: 50px;
+      box-sizing: border-box;
+      margin: 5px 10px 5px;
+      &:not(.current) {
+        background-color: #f3f3f3;
+        @include pc {
+          &:hover {
+            color: #fff;
+            background-color: #002260;
+          } 
+        }
+      }
+
+      &.current {
+        background-color: #002260;
+        color: #fff;
+      }
+    }
+
+    .nextpostslink,
+    .previouspostslink {
+      position: relative;
+      font-weight: 500;
+      box-sizing: border-box;
+      &::before {
+        content: "";
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        margin: auto;
+        width: 26px;
+        height: 12px;
+        background-image: url(../images/common/arrow_icon.svg);
+        background-repeat: no-repeat;
+        background-size: contain;
+        transition: all 0.3s ease;
+      }
+
+      &.previouspostslink {
+        padding-left: 25px;
+        margin-right: 30px;
+        @include is-max(360px){
+          padding-left: 10px;
+        }
+        &::before {
+          left: 0;
+          transform: scale(-1, 1);
+        }
+
+        @include pc {
+          &:hover {
+            &::before {
+              left: -5px;
+            }
+          }
+        }
+      }
+      &.nextpostslink {
+        padding-right: 25px;
+        margin-left: 30px;
+        @include is-max(360px){
+          padding-right: 10px;
+        }
+        &::before {
+          right: 0;
+        }
+        @include pc {
+          &:hover {
+            &::before {
+              right: -5px;
+            }
+          }
+        }
+      }
+    }
+
+    .list_back {
+      margin-left: 58px;
+      margin-right: 58px;
+      > a {
+        font-weight: 500;
+        > .list_icon {
+          display: inline-block;
+          padding-left: 24px;
+          position: relative;
+          &::before {
+            content: "";
+            position: absolute;
+            top: 0;
+            left: 0;
+            bottom: 0;
+            margin: auto;
+            width: 14px;
+            height: 14px;
+            background-image: url(../img/news/list_icon.svg);
+            background-repeat: no-repeat;
+            background-size: contain;
+            background-position: center;
+          }
+        }
+      }
+    }
+  }
+
+  // movable type 用
+  > ul {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 45px 0 50px;
+    .link_page,
+    .current_page {
+      font-size: 16px;
+      font-weight: 500;
+      width: 40px;
+      height: 40px;
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      border-radius: 5px;
+      box-sizing: border-box;
+      margin: 0 5px;
+      &:not(.current_page) {
+        background-color: #f3f3f3;
+        @include pc {
+          &:hover {
+            color: #fff;
+            background-color: #000;
+          }
+        }
+      }
+
+      &.current_page {
+        background-color: #000;
+        color: #fff;
+      }
+    }
+  }
+}
+
+
+
+/*==================================
+	c-heading
+==================================*/
+.c-heading{
+  &--top{
+    @include Cormorant();
+    font-size: 70px;
+    color: #001c3e;
+    padding-bottom: 16px;
+    @include sp{
+      font-size: 41px;
+    }
+  }
+  &--sub{
+    @include Noto_Serif(700);
+    font-size: 21px;
+    color: #001c3e;
+    letter-spacing: .1em;
+    @include sp{
+      font-size: 18px;
+    }
+  }
+}
+
+/*==================================
+	btn mask
+==================================*/
+.btn-wrap{
+  height: 100px;
+  position: relative;
+  @include pc{
+    &:hover{
+      .btn-wrap__mask{
+        clip-path: circle(30% at 34% 50%);
+        background-color: #d60000;
+      }
+    }
+  }
+  &__mask{
+    padding-left: 50px;
+    position: absolute;
+    top: 50%;
+    left: 0;
+    z-index: 5;
+    height: inherit;
+    display: flex;
+    align-items: center;
+    background-color: #002260;
+    transform: translate(0, -50%);
+    clip-path: circle(16% at 32% 50%);
+    transition: .3s ease-in-out;
+    a{
+      color: #fff;
+    }
+  }
+  &__top{
+    padding-left: 50px;
+    position: absolute;
+    top: 50%;
+    left: 0;
+    z-index: 2;
+    transform: translate(0, -50%);
+  }
+}
+
+.btn_wrap{
+  position: relative;
+  @include pc{
+    &:hover{
+      .btn_wrap--circle{
+        transform: scale(1.1);
+        background-color: #d60000;
+      }
+      .btn_wrap--text{
+        &::before{
+          width: 42px;
+        }
+      }
+    }
+  }
+  
+  &--circle{
+    display: block;
+    position: absolute;
+    top: -28px;
+    left: -25px;
+    width: 78.79px;
+    height: 78.79px;
+    background-color: #002260;
+    border-radius: 50%;
+    transform: scale(.6);
+    transition: all 0.6s cubic-bezier(0.37, -0.02, 0.09, 1);
+  }
+  &--text{
+    white-space: nowrap;
+    z-index: 1;
+    position: relative;
+    padding-left: 15px;
+    letter-spacing: .1em;
+    &::before{
+      letter-spacing: .1em;
+      position: absolute;
+      top: 4px;
+      left: 15px;
+      width: 23px;
+      overflow: hidden;
+      color: #fff;
+      white-space: nowrap;
+      content: attr(data-text);
+      transition: width 0.6s cubic-bezier(0.37, -0.02, 0.09, 1.57) 0s;
+    }
+  }
+}
+
+/*==================================
+	PAGE HEADER
+==================================*/
+.p-header01{
+  &--wrap{
+    height: 675px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-start;
+    @include sp{
+      height: 352.5px;
+    }
+  }
+  &--text{
+    width: 100%;
+    padding: 0 0 60px;
+    @include sp{
+      padding: 0 0 40px
+    }
+    @include is-max(370px){
+      padding: 0 0 20px
+    }
+    &__en{
+      @include Cormorant(400);
+      font-size: 80px;
+      color: #001c3e;
+      @include sp{
+        font-size: 40px
+      }
+    }
+    &__jp{
+      @include Noto_Serif(700);
+      font-size: 24px;
+      letter-spacing: .1em;
+      color: #001c3e;
+      margin: 10px 0 0;
+      @include sp{
+        font-size: 15px;
+        line-height: 22.8px;
+        margin: 9px 0 0;
+      }
+    }
+  }
+  &--bg{
+    width: 100%;
+    height: 300px;
+    @include sp{
+      height: 150px;
+    }
+    &__company{
+      background: url(/images/company/company-page/header_bg.jpg) center center / cover no-repeat;
+      @include sp{
+        background: url(/images/company/company-page/sp/header_bg.jpg) center center / cover no-repeat;
+      }
+    }
+    &__consulting{
+      background: url(/images/business/consulting/header_bg.jpg) center center / cover no-repeat;
+      @include sp{
+        background: url(/images/business/consulting/sp/header_bg.jpg) center center / cover no-repeat;
+      }
+    }
+    &__clean-room{
+      background: url(/images/business/clean-room/header_bg.jpg) center center / cover no-repeat;
+      @include sp{
+        background: url(/images/business/clean-room/sp/header_bg.jpg) center center / cover no-repeat;
+      }
+    }
+    &__air-conditioning{
+      background: url(/images/business/air-conditioning/header_bg.jpg) center center / cover no-repeat;
+      @include sp{
+        background: url(/images/business/air-conditioning/sp/header_bg.jpg) center center / cover no-repeat;
+      }
+    }
+    &__cold-equipment{
+      background: url(/images/business/cold-equipment/header_bg.jpg) center center / cover no-repeat;
+      @include sp{
+        background: url(/images/business/cold-equipment/sp/header_bg.jpg) center center / cover no-repeat;
+      }
+    }
+    &__plumbing-sanitation{
+      background: url(/images/business/plumbing-sanitation/header_bg.jpg) center center / cover no-repeat;
+      @include sp{
+        background: url(/images/business/plumbing-sanitation/sp/header_bg.jpg) center center / cover no-repeat;
+      }
+    }
+    &__others{
+      background: url(/images/business/others/header_bg.jpg) center center / cover no-repeat;
+      @include sp{
+        background: url(/images/business/others/sp/header_bg.jpg) center center / cover no-repeat;
+      }
+    }
+    &__after-maintenance{
+      background: url(/images/business/after-maintenance/header_bg.jpg) center center / cover no-repeat;
+      @include sp{
+        background: url(/images/business/after-maintenance/header_bg.jpg) center center / cover no-repeat;
+      }
+    }
+    &__business{
+      background: url(/images/business/business-page/header_bg.jpg) center center / cover no-repeat;
+      @include sp{
+        background: url(/images/business/business-page/header_bg.jpg) center center / cover no-repeat;
+      }
+    }
+    &__faq{
+      background: url(/images/faq/header_bg.jpg) center center / cover no-repeat;
+      @include sp{
+        background: url(/images/faq/header_bg.jpg) center center / cover no-repeat;
+      }
+    }
+  }
+}
+
+/*==================================
+	PAGE BREADCRUMBS
+==================================*/
+.c-breadcrumbs{
+  height: 130px;
+  @include sp{
+    height: 45px;
+  }
+  &--list{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    padding: 22px 0 0;
+    @include sp{
+      display: none;
+    }
+  }
+  &--item{
+    position: relative;
+    
+    &:not(:last-child){
+      padding: 0 12px 0 0;
+      margin: 0 10px 0 0;
+      &::after{
+        content: "";
+        display: block;
+        width: 4px;
+        height: 4px;
+        border-top: 1px solid #bdbdbd;
+        border-right: 1px solid #bdbdbd;
+        transform: rotate(45deg);
+        position: absolute;
+        top: 10px;
+        right: 0;
+      }
+    }
+  }
+  &--link{
+    font-size: 12px;
+    letter-spacing: .1em;
+    line-height: 24px;
+    color: #757575 !important;
+  }
+}
+
+/*==================================
+	FOOTER CARD BUTTON
+==================================*/
+.c-cardbtn{
+  $root: &;
+  background-color: #fff;
+  &--business{
+    #{$root} {
+      &--link{
+        @include is-max(1000px){
+          font-size: 14px !important;
+        }
+      }
+    }
+  }
+  &--list{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    border-top: 1px solid #e2e4e5;
+  } 
+  &--item{
+    @include pc{
+      width: calc(100% / 4);
+      border-right: 1px solid #e2e4e5;
+      &:nth-child(4){
+        border-right: none;
+      }
+      &:nth-child(-n+4){
+        border-bottom: 1px solid #e2e4e5;
+      }
+    }
+    @include sp{
+      width: 100%;
+      border-bottom: 1px solid #e2e4e5;
+    }
+  }
+  &--link{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 120px;
+    @include Noto_Serif(700);
+    font-size: 18px;
+    letter-spacing: .1em;
+    color: #001c3e;
+    transition: .3s ease-in-out;
+    box-sizing: border-box;
+    &__active{
+      background-color: #f5f7f9;
+    }
+    @include pc{
+      &:hover{
+        background-color: #f5f7f9;
+        #{$root} {
+          &--arrow{
+            img{
+              right: -50px;
+            }
+            &::before{
+              right: 0;
+            }
+          }
+        }
+      }
+    }
+    @include sp{
+      height: 55px;
+      font-size: 16px;
+      justify-content: flex-start;
+      padding: 0 0 0 20px;
+    }
+  }
+  &--arrow{
+    width: 26px;
+    height: 12px;
+    position: absolute;
+    top: 50%;
+    right: 20px;
+    transform: translate(0, -50%);
+    overflow: hidden;
+    @include sp{
+      width: 24px;
+      height: 11px;
+    }
+    img{
+      position: absolute;
+      top: 0;
+      right: 0;
+      -webkit-transition: .3s ease-in;
+      transition: .3s ease-in;
+    }
+    &::before{
+      content: "";
+      background-image: url(/images/common/arrow_icon.svg);
+      background-position: center center;
+      background-repeat: no-repeat;
+      background-size: 100% auto;
+      width: 26px;
+      height: 100%;
+      display: block;
+      position: absolute;
+      right: 50px;
+      bottom: 0;
+      -webkit-transition: .3s ease-in;
+      transition: .3s ease-in;
+    }
+  }
+}
+
+/*==================================
+	BUSINESS BUTTON
+==================================*/
+.c-button01{
+  $root: &;
+  position: relative;
+  display: inline-block;
+  @include sp{
+    display: block;
+  }
+  @include pc{
+    &:hover{
+      #{$root} {
+        &--arrow{
+          background-color: #d60000;
+          width: 50px;
+          height: 50px;
+          bottom: -12px;
+          right: -6px;
+          &::before{
+            opacity: 0;
+          }
+          &::after{
+            left: 0;
+          }
+          img{
+            left: 50px
+          }
+        }
+      }
+    }
+  }
+  &--txt{
+    position: relative;
+    @include Noto_Serif(700);
+    font-size: 18px;
+    color: #001c3e;
+    letter-spacing: .06em;
+    padding: 0 60px 0 0;
+    @include sp{
+      padding: 0;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+    @include is-max(375px){
+      font-size: 14px;
+    }
+  }
+  &--arrow{
+    background-color: #002260;
+    width: 37.41px;
+    height: 37.41px;
+    display: block;
+    border-radius: 50px;
+    position: absolute;
+    bottom: -6px;
+    right: 0;
+    transition: .3s ease-in-out;
+    @include sp{
+      position: relative;
+      bottom: 1px;
+      width: 30px;
+      height: 30px;
+      margin: 0 0 0 20px;
+    }
+    &::after{
+      content: "";
+      background-image: url(/images/common/arrow_icon_wh.svg);
+      background-position: center center;
+      background-repeat: no-repeat;
+      background-size: 100% auto;
+      width: 34px;
+      height: 100%;
+      display: block;
+      position: absolute;
+      left: -50px;
+      bottom: 0;
+      transition: .3s ease-in;
+      @include sp{
+        width: 27.5px;
+        display: none;
+      }
+    }
+    &::before{
+      content: "";
+      display: block;
+      width: 6px;
+      height: 1px;
+      background-color: #6f7f92;
+      position: absolute;
+      top: 50%;
+      left: -7px;
+      transform: translate(0, 0px);
+      transition: .3s ease-in-out;
+    }
+    img{
+      transition: .3s ease-in-out;
+      width: 34px;
+      position: absolute;
+      top: 50%;
+      left: -7px;
+      transform: translate(0, -50%);
+      @include sp{
+        width: 27.5px;
+      }
+    }
+  }
+}
+
+
+/*==================================
+	FLOATING IMAGE
+==================================*/
+.floating-img{
+  width: 402px;
+  position: fixed;
+  top: 95px;
+  right: 0;
+  z-index: -1;
+
+  @include sp{
+    width: 215px;
+    top: 53px;
+  }
+}

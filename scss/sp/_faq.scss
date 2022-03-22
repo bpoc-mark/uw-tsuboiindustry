@@ -1,0 +1,100 @@
+/*==================================
+  FAQ
+==================================*/
+#FAQ main {
+  .c-breadcrumbs{
+    background-color: #f5f7f9;
+  }
+  .faq-section{
+    background-color: #f5f7f9;
+    .wrapper{
+      padding: 0 0 60px;
+      .container{
+        .list{
+          &--item{
+            background-color: #ffffff;
+            &:not(:last-child){
+              margin: 0 0 10px;
+            }
+            .faq{
+              &--row{
+                display: flex;
+                flex-wrap: wrap;
+                justify-content: flex-start;
+                align-items: flex-start;
+                padding: 16px 15px 15px 15px;
+                &.isActive{
+                  .faq--row--question{
+                    &::after{
+                      transform: rotate(45deg);
+                      opacity: 0;
+                    }
+                    &::before{
+                      transform: rotate(90deg);
+                    }
+                  }
+                }
+                &--a{
+                  padding: 16px 15px 15px 15px;
+                }
+                &--lbl{
+                  width: 35px;
+                  @include Cormorant(400);
+                  font-size: 23px;
+                  color: #001c3e;
+                  line-height: 1;
+                  &--answer{
+                    color: #d60000;
+                  }
+                }
+                &--right{
+                  width: calc(100% - 35px);
+                }
+                &--question{
+                  @include Noto_Serif(700);
+                  font-size: 16px;
+                  letter-spacing: .05em;
+                  line-height: 24px;
+                  color: #001c3e;
+                  padding: 0 30px 0 0;
+                  position: relative;
+                  &::after{
+                    content: "";
+                    display: block;
+                    width: 18.5px;
+                    height: 1.5px;
+                    background-color: #c8cbcd;
+                    position: absolute;
+                    top: 13.5px;
+                    right: 0;
+                    transform: rotate(0);
+                    transition: .3s ease-in-out;
+                  }
+                  &::before{
+                    content: "";
+                    display: block;
+                    width: 1.5px;
+                    height: 18.5px;
+                    background-color: #c8cbcd;
+                    position: absolute;
+                    top: 5px;
+                    right: 8px;
+                    transform: rotate(0);
+                    transition: .3s ease-in-out;
+                  }
+                }
+                &--answer{
+                  line-height: 27px;
+                  margin: -7px 0 0;
+                }
+              }
+              .a-wrap{
+                display: none;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

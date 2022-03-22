@@ -1,0 +1,82 @@
+/*==================================
+  Business-Base
+==================================*/
+#Business-Base main {
+  .map-section{
+    .wrapper{
+      padding: 0 0 160px;
+      .container{
+        .map{
+          &--item{
+            &:not(:last-child){
+              margin: 0 0 70px;
+            }
+            .row{
+              .col{
+                &:first-child{
+                  width: 52%;
+                  padding: 0 55px 0 0;
+                }
+                &:last-child{
+                  width: 48%;
+                }
+                .ttl{
+                  @include Noto_Serif(700);
+                  font-size: 24px;
+                  letter-spacing: .1em;
+                  line-height: 33px;
+                  color: #001c3e;
+                  position: relative;
+                  margin: 0 0 21px;
+                  &::before{
+                    content: "";
+                    display: block;
+                    width: 20px;
+                    height: 4px;
+                    background-color: #d60000;
+                    margin: 0 0 14px;
+                  }
+                }
+                .office-table{
+                  width: 100%;
+                  border: 1px solid #e2e4e5;
+                  tbody{
+                    tr{
+                      display: flex;
+                      flex-wrap: wrap;
+                      &:not(:last-child){
+                        border-bottom: 1px solid #e2e4e5;
+                      }
+                      th{
+                        width: 130px;
+                        background-color: #f5f7f9;
+                        border-right: 1px solid #e2e4e5;
+                        font-weight: 500;
+                        letter-spacing: .1em;
+                        text-align: left;
+                        padding: 26px 0 25px 30px;
+                      }
+                      td{
+                        width: calc(100% - 130px);
+                        font-weight: 500;
+                        letter-spacing: .1em;
+                        padding: 26px 20px 25px 20px;
+                        a{
+                          font-weight: 500;
+                          letter-spacing: .1em;
+                        }
+                      }
+                    }
+                  }
+                }
+                .map_frame{
+                  height: 100%;
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

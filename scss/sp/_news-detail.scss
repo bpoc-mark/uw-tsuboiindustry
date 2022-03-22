@@ -1,0 +1,102 @@
+/*==================================
+  News-Detail
+==================================*/
+#News-Detail main {
+  .news-section{
+    .wrapper{
+      padding: 0 0 60px;
+      .container{
+        .content{
+          .top{
+            padding: 0 5px 20px;
+            border-bottom: 1px solid #e2e4e5;
+            .title{
+              font-size: 18px;
+              left: .05em;
+              line-height: 30px;
+            }
+            .date{
+              letter-spacing: .03em;
+              font-size: 15px;
+              display: block;
+              margin: 3px 0 0 ;
+            }
+          }
+          .desc{
+            line-height: 30px;
+            letter-spacing: .05em;
+            margin: 18px 0 37px;
+          }
+          img{
+          }
+          .nav{
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            border-top: 1px solid #e2e4e5;
+            padding: 25px 0 0;
+            margin: 45px 0 0;
+            .nav-prev, .nav-next{
+              a{
+                display: flex;
+                align-items: center;
+                @include Cormorant(400);
+                font-size: 20px;
+                img{
+                  width: 27px;
+                }
+              }
+            }
+            .nav-prev{
+              a{
+                &:hover{
+                  img{
+                    left: -10px;
+                  }
+                }
+                img{
+                  transform: scaleX(-1);
+                  margin-right: 20px;
+                  transition: .3s ease-in-out;
+                  position: relative;
+                  left: 0;
+                }
+              }
+            }
+            .nav-next{
+              a{
+                &:hover{
+                  img{
+                    right: -10px;
+                  }
+                }
+                img{
+                  margin-left: 20px;
+                  transition: .3s ease-in-out;
+                  position: relative;
+                  right: 0;
+                }
+              }
+            }
+            .nav-list{
+              a{
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                width: 48px;
+                height: 48px;
+                background-color: #002260;
+                border-radius: 50px;
+                svg{
+                  rect{
+                    fill: #fff;
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

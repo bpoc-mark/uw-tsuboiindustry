@@ -1,0 +1,32 @@
+/*==================================
+  Privacy-Policy
+==================================*/
+#Privacy-Policy main {
+  .privacy-section{
+    .wrapper{
+      padding: 0 0 120px;
+      .container{
+        .privacy{
+          &--list{
+            &:not(:last-child){
+              margin: 0 0 50px
+            }
+            .ttl{
+              @include Noto_Serif(700);
+              font-size: 22px;
+              letter-spacing: .05em;
+              line-height: 33px;
+              color: #001c3e;
+              margin: 0 0 14px;
+            }
+            .desc{
+              line-height: 33px;
+              letter-spacing: .08em;
+              text-align: justify;
+            }
+          }
+        }
+      }
+    }
+  }
+}

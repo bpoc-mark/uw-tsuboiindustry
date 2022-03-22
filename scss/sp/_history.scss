@@ -1,0 +1,49 @@
+/*==================================
+  History
+==================================*/
+#History main {
+  .history-section{
+    .wrapper{
+      padding: 0 0 60px;
+      .container{
+        .history-table{
+          width: 100%;
+          table-layout: fixed;
+          border: 1px solid #e2e4e5;
+          tbody{
+            tr{
+              display: flex;
+              flex-wrap: wrap;
+              &:not(:last-child){
+                border-bottom: 1px solid #e2e4e5;
+              }
+              th{
+                width: 100%;
+                background-color: #f5f7f9;
+                border-bottom: 1px solid #e2e4e5;
+                font-size: 15px;
+                font-weight: 500;
+                letter-spacing: .1em;
+                color: #131313;
+                text-align: left;
+                line-height: 32px;
+                padding: 3px 15px 2px 15px;
+              }
+              td{
+                width: 100%;
+                font-size: 15px;
+                font-weight: 500;
+                letter-spacing: .1em;
+                color: #131313;
+                text-align: left;
+                line-height: 27px;
+                padding: 7px 15px 9px 15px;
+                background-color: #fff;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

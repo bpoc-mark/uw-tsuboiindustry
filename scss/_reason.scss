@@ -1,0 +1,102 @@
+/*==================================
+  Reason
+==================================*/
+#Reason main {
+  .c-breadcrumbs{
+    background-color: #f5f7f9;
+  }
+  .reason-section{
+    background-color: #f5f7f9;
+    .wrapper{
+      
+      .reason{
+        
+        &--item{
+          &--reverse{
+            .row{
+              flex-direction: row-reverse;
+              &::before{
+                display: none !important;
+              }
+              .col{
+                &:first-child{
+                  padding: 0 50px 0 0 !important;
+                }
+                .content{
+                  margin: 0 auto 0 0 !important;
+                  padding: 0 0 0 80px !important;
+                }
+              }
+            }
+          }
+          &--topimg{
+            .row{
+              .col{
+                img{
+                  width: 89.5%;
+                  margin: -70px 0 0;
+                }
+              }
+            }
+          }
+          .row{
+            align-items: center;
+            position: relative;
+            padding: 0 0 80px;
+            &::before{
+              content: "";
+              display: block;
+              width: calc(100% - 320px);
+              height: 100%;
+              background-color: #fff;
+              position: absolute;
+              top: 0;
+              left: 0;
+              right: 0;
+              margin: 0 auto;
+              z-index: 1;
+            }
+            .col{
+              position: relative;
+              z-index: 2;
+              &:first-child{
+                width: 55%;
+                padding: 0 0 0 50px;
+              }
+              &:last-child{
+                width: 45%;
+              }
+              .content{
+                max-width: 690px;
+                margin: 0 0 0 auto;
+                padding: 0 80px 0 0;
+                .num{
+                  @include Cormorant(400);
+                  font-size: 28px;
+                  color: #d60000;
+                }
+                .ttl-en{
+                  @include Cormorant(400);
+                  font-size: 34px;
+                  color: #001c3e;
+                }
+                .ttl-jp{
+                  @include Noto_Serif(500);
+                  font-size: 48px;
+                  line-height: 30px;
+                  letter-spacing: .08em;
+                  color: #001c3e;
+                  margin: 30px 0 48px;
+                }
+                .desc{
+                  letter-spacing: .1em;
+                  line-height: 36px;
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

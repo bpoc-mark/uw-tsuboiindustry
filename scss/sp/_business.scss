@@ -1,0 +1,74 @@
+/*==================================
+  Business
+==================================*/
+#Business main {
+  .p-header01{
+    &--text{
+      @include is-max(378px){
+        padding: 0 0 20px;
+      }
+    }
+  }
+  .business-section{
+    .wrapper{
+      padding: 0 0 57.5px;
+      .row{
+        border-bottom: 1px solid #e2e4e5;
+        .col{
+          width: 100%;
+          position: relative;
+          padding: 33px 20px 24px;
+          &:not(:first-child){
+            padding: 37px 20px 30px;
+            &::before{
+              content: "";
+              display: block;
+              width: 28px;
+              height: 3.5px;
+              background-color: #d60000;
+              position: absolute;
+              top: -1px;
+              left: 0;
+            }
+          }
+          &.bdr-top{
+            border-top: 1px solid #e2e4e5;
+          }
+          .ttl{
+            @include Noto_Serif(500);
+            font-size: 24px;
+            letter-spacing: .04em;
+            line-height: 37.5px;
+            color: #001c3e;
+          }
+          .desc{
+            line-height: 30px;
+            padding-top: 18px;
+            text-align: justify;
+          }
+          a{
+            display: block;
+            h6{
+              @include Noto_Serif(700);
+              font-size: 20px;
+              color: #001c3e;
+              padding-bottom: 18px;
+            }
+            .c-desc{
+              line-height: 27px;
+              left: .05em;
+              margin: 12px 0 0;
+              text-align: justify;
+            }
+            .arrow_icon{
+              line-height: 0;
+              width: 26px;
+              display: block;
+              margin: 7.5px 0 0 auto;
+            }
+          }
+        }
+      }
+    }
+  }
+}
