@@ -1,0 +1,54 @@
+/*==================================
+  Message
+==================================*/
+#Message main {
+  .p-header01{
+    &--text{
+      &__jp{
+        letter-spacing: 0;
+      }
+    }
+  }
+  .c-breadcrumbs{
+    &--item{
+      &:last-child{
+        .c-breadcrumbs--link{
+          letter-spacing: 0;
+        }
+      }
+    }
+  }
+  .message_section{
+    .wrapper{
+      padding: 0 0 60px;
+      .container{
+        .ttl{
+          @include Noto_Serif(500);
+          font-size: 24px;
+          letter-spacing: .08em;
+          line-height: 37.5px;
+          color: #001c3e;
+          margin: 30px 0 0;
+        }
+        .desc{
+          font-size: 15px;
+          letter-spacing: .1em;
+          line-height: 27px;
+          margin: 17px 0 0;
+          text-align: justify;
+        }
+        .representative{
+          @include Noto_Serif(500);
+          letter-spacing: .08em;
+          color: #001c3e;
+          font-size: 18px;
+          text-align: right;
+          margin: 40px 0 0;
+          span{
+            font-size: 13px;
+          }
+        }
+      }
+    }
+  }
+}
