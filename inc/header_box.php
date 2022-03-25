@@ -36,9 +36,6 @@ $str = explode('/', $url); ?>
 							</div>
 							<div class="wrap--right">
 								<ul class="company-big-menu">
-									<!-- <li>
-										<a href="/company/">会社案内TOP</a>
-									</li> -->
 									<li>
 										<a href="/company/message/">代表あいさつ</a>
 									</li>
@@ -78,10 +75,7 @@ $str = explode('/', $url); ?>
 								</figure>
 							</div>
 							<div class="wrap--right">
-								<ul>
-									<!-- <li>
-										<a href="/business/">事業案内TOP</a>
-									</li> -->
+								<ul class="business-big-menu">
 									<li>
 										<a href="/business/consulting/">総合設備<br class="sp">コンサルティング</a>
 									</li>
@@ -121,7 +115,6 @@ $str = explode('/', $url); ?>
 																echo ' class="here"';
 															} ?>><img src="/images/common/mail_icon.svg" alt="お問い合わせ"> お問い合わせ</a></li>
 			</ul>
-			<div class="overlay"></div>
 		</nav>
 		<nav class="nav_sp sp">
 			<ul class="nav_sp--list">
@@ -137,6 +130,7 @@ $str = explode('/', $url); ?>
 	</div>
 
 </div>
+<div class="overlay"></div>
 
 <div class="float_sp sp">
 	<div class="wrap row">

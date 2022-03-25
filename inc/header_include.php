@@ -1,6 +1,6 @@
 <?php $ua = $_SERVER['HTTP_USER_AGENT'];
 if ((strpos($ua, 'iPhone') !== false) || (strpos($ua, 'iPod') !== false) || (strpos($ua, 'Android') !== false)) : ?>
-  <meta name="viewport" content="width=device-width,initial-scale=1.0">
+  <meta name="viewport" content="width=device-width,initial-scale=1.0, user-scalable=no">
 <?php else : ?>
   <meta name="viewport" content="width=1200">
 <?php endif; ?>
