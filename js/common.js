@@ -41,6 +41,8 @@ $(function () {
     var w = $(window).width();
     if (w > 900) {
       $('.nav__link--sub-menu').removeAttr('style');
+    }else{
+      $(".nav__item--isFloat-mid .nav__link").removeAttr('href');
     }
   });
 
@@ -79,6 +81,10 @@ $(function () {
   $('.menu').click(function(e){
     $(this).find('span').toggleClass('show');
     $('.header_inner--right').find('.nav').toggleClass('isOpen');
+
+    if(!$('.float_sp').hasClass('active')){
+      $('.float_sp').addClass('active');
+    }
   })
 
 });

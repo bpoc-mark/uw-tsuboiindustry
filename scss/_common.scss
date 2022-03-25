@@ -148,6 +148,7 @@ header {
               height: 100%;
               color: #fff;
               font-size: 12px;
+              border-bottom: 1px solid #002260;
               img{
                 width: 24px;
                 margin-bottom: 9px;
@@ -206,6 +207,11 @@ header {
             left: 100px;
             transition: .3s ease-in-out;
             overflow: hidden;
+            @include is-max(1200px){
+              background-color: red;
+              width: calc(100% - 100px);
+              left: 0;
+            }
             .wrap{
               background-color: #f5f7f9;
               display: flex;
@@ -228,7 +234,7 @@ header {
                 a{
                   @include Noto_Serif(700);
                   font-size: 20px;
-                  padding: 12px 0 35px;
+                  margin: 12px 0 35px;
                   display: inline-block;
                   &:hover{
                     span{
@@ -246,6 +252,7 @@ header {
                     position: relative;
                     margin-left: 20px;
                     overflow: hidden;
+                    line-height: 0;
                     &::before{
                       content: "";
                       background-image: url(/images/common/arrow_icon_header.svg);

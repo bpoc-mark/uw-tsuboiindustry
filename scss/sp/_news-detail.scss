@@ -37,6 +37,7 @@
             padding: 25px 0 0;
             margin: 45px 0 0;
             .nav-prev, .nav-next{
+              width: 88px;
               a{
                 display: flex;
                 align-items: center;
@@ -49,11 +50,6 @@
             }
             .nav-prev{
               a{
-                &:hover{
-                  img{
-                    left: -10px;
-                  }
-                }
                 img{
                   transform: scaleX(-1);
                   margin-right: 20px;
@@ -65,11 +61,6 @@
             }
             .nav-next{
               a{
-                &:hover{
-                  img{
-                    right: -10px;
-                  }
-                }
                 img{
                   margin-left: 20px;
                   transition: .3s ease-in-out;

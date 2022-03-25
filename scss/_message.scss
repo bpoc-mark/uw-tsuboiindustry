@@ -2,6 +2,22 @@
   Message
 ==================================*/
 #Message main {
+  .p-header01{
+    &--text{
+      &__jp{
+        letter-spacing: 0;
+      }
+    }
+  }
+  .c-breadcrumbs{
+    &--item{
+      &:last-child{
+        .c-breadcrumbs--link{
+          letter-spacing: 0;
+        }
+      }
+    }
+  }
   .message_section{
     .wrapper{
       padding: 0 0 120px;

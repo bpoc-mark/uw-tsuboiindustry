@@ -44,13 +44,13 @@
         <div class="container">
           <ul class="c-breadcrumbs--list">
             <li class="c-breadcrumbs--item">
-              <a href="" class="c-breadcrumbs--link">TOP</a>
+              <a href="/" class="c-breadcrumbs--link">TOP</a>
             </li>
             <li class="c-breadcrumbs--item">
-              <a href="" class="c-breadcrumbs--link">事業内容</a>
+              <a href="/business/" class="c-breadcrumbs--link">事業内容</a>
             </li>
             <li class="c-breadcrumbs--item">
-              <a href="" class="c-breadcrumbs--link">クリーンルーム</a>
+              <a class="c-breadcrumbs--link">クリーンルーム</a>
             </li>
           </ul>
         </div>        
@@ -96,6 +96,7 @@
             <div class="img-wrap">
               <a href="https://www.tsuboi.biz/cleanroom/" target="_blank">
                 <img src="/images/business/clean-room/img_4.jpg" alt="ONLY ONE CLEAN ROOM | つぼい工業のクリーンルーム">
+                <p>つぼい工業クリーンルーム専用サイト</p>
               </a>
             </div>
           </div>

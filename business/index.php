@@ -44,10 +44,10 @@
 			<div class="container">
 			<ul class="c-breadcrumbs--list">
 				<li class="c-breadcrumbs--item">
-				<a href="" class="c-breadcrumbs--link">TOP</a>
+					<a href="/" class="c-breadcrumbs--link">TOP</a>
 				</li>
 				<li class="c-breadcrumbs--item">
-				<a href="" class="c-breadcrumbs--link">事業案内</a>
+					<a class="c-breadcrumbs--link">事業案内</a>
 				</li>
 			</ul>
 			</div>        

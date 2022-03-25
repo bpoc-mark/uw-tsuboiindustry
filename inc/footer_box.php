@@ -85,7 +85,7 @@
 					<ul class="nav__list">
 						<li class="nav__item"><a href="/" class="nav__link">TOP</a></li>
 						<li class="nav__item"><a href="/reason/" class="nav__link">選ばれる理由</a></li>
-						<li class="nav__item--isFloat-mid"><a class="nav__link">事業案内</a>
+						<li class="nav__item--isFloat-mid"><a class="nav__link" href="/company/">会社案内</a>
 							<ul class="nav__link--sub-menu">
 								<li class="nav__link--sub-menu__item sp">
 									<a href="/company/" class="nav__link--sub-menu__link">-  <span></span>会社案内TOP</a>
@@ -113,7 +113,7 @@
 								</li>
 							</ul>
 						</li>
-						<li class="nav__item--isFloat-right"><a class="nav__link">会社案内</a>
+						<li class="nav__item--isFloat-right"><a class="nav__link" href="/business/">事業案内</a>
 							<ul class="nav__link--sub-menu">
 								<li class="nav__link--sub-menu__item sp">
 									<a href="/business/" class="nav__link--sub-menu__link">-  <span></span>事業案内TOP</a>

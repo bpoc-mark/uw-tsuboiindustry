@@ -22,6 +22,49 @@ $str = explode('/', $url); ?>
 				<li class="nav__item"><a class="nav__item__link <?php if ($str[1] == "reason") {
 																echo 'nav__item__link--active';
 															} ?>" href="/reason/">選ばれる理由</a></li>
+				<li class="nav__item  drop-down"><a class="nav__item__link sub_menu_clk <?php if ($str[1] == "company") {
+																echo 'nav__item__link--active';
+															} ?>">会社案内 <img src="/images/common/arrow_icon_header.svg" class="sp nav__item__link--sub_menu_arrow" alt="矢印アイコン"></a>
+					<div class="nav__item--sub-menu">
+						<div class="wrap">
+							<div class="wrap--left">
+								<h4>Company profile</h4>
+								<a href="/company/">会社案内<span><img src="/images/common/arrow_icon_header.svg" alt="矢印アイコン"></span></a>
+								<figure>
+									<img src="/images/common/header_img_1.jpg" alt="会社案内">
+								</figure>
+							</div>
+							<div class="wrap--right">
+								<ul class="company-big-menu">
+									<!-- <li>
+										<a href="/company/">会社案内TOP</a>
+									</li> -->
+									<li>
+										<a href="/company/message/">代表あいさつ</a>
+									</li>
+									<li>
+										<a href="/company/profile/">会社概要</a>
+									</li>
+									<li>
+										<a href="/company/history/">沿革</a>
+									</li>
+									<li>
+										<a href="/company/iso/">ISO認証取得</a>
+									</li>
+									<li>
+										<a href="/company/qualified-person/">有資格者</a>
+									</li>
+									<li>
+										<a href="/company/business-base/">営業拠点</a>
+									</li>
+									<li>
+										<a href="/company/environment-policy/">環境方針</a>
+									</li>
+								</ul>
+							</div>
+						</div>
+					</div>											
+				</li>
 				<li class="nav__item drop-down"><a class="nav__item__link sub_menu_clk <?php if ($str[1] == "business") {
 																echo 'nav__item__link--active';
 															} ?>">事業案内 <img src="/images/common/arrow_icon_header.svg" class="sp nav__item__link--sub_menu_arrow" alt="矢印アイコン"></a>
@@ -36,77 +79,34 @@ $str = explode('/', $url); ?>
 							</div>
 							<div class="wrap--right">
 								<ul>
-									<li>
+									<!-- <li>
 										<a href="/business/">事業案内TOP</a>
-									</li>
+									</li> -->
 									<li>
 										<a href="/business/consulting/">総合設備<br class="sp">コンサルティング</a>
-									</li>
-									<li>
-										<a href="/business/plumbing-sanitation/">給排水衛生工事</a>
 									</li>
 									<li>
 										<a href="/business/clean-room/">クリーンルーム</a>
 									</li>
 									<li>
-										<a href="/business/others/">その他工事</a>
-									</li>
-									<li>
 										<a href="/business/air-conditioning/">空調換気設備工事</a>
 									</li>
 									<li>
-										<a href="/business/after-maintenance/">点検・修理・<br class="sp">メンテナンス</a>
+										<a href="/business/cold-equipment/">冷熱設備工事</a>
 									</li>
 									<li>
-										<a href="/business/cold-equipment/">冷熱設備工事</a>
+										<a href="/business/plumbing-sanitation/">給排水衛生工事</a>
+									</li>
+									<li>
+										<a href="/business/others/">その他工事</a>
+									</li>
+									<li>
+										<a href="/business/after-maintenance/">点検・修理・<br class="sp">メンテナンス</a>
 									</li>
 								</ul>
 							</div>
 						</div>
 					</div>												
-				</li>
-				<li class="nav__item  drop-down"><a class="nav__item__link sub_menu_clk <?php if ($str[1] == "company") {
-																echo 'nav__item__link--active';
-															} ?>">会社案内 <img src="/images/common/arrow_icon_header.svg" class="sp nav__item__link--sub_menu_arrow" alt="矢印アイコン"></a>
-					<div class="nav__item--sub-menu">
-						<div class="wrap">
-							<div class="wrap--left">
-								<h4>Company profile</h4>
-								<a href="/company/">会社案内<span><img src="/images/common/arrow_icon_header.svg" alt="矢印アイコン"></span></a>
-								<figure>
-									<img src="/images/common/header_img_1.jpg" alt="会社案内">
-								</figure>
-							</div>
-							<div class="wrap--right">
-								<ul>
-									<li>
-										<a href="/company/">会社案内TOP</a>
-									</li>
-									<li>
-										<a href="/company/message/">代表あいさつ</a>
-									</li>
-									<li>
-										<a href="/company/qualified-person/">有資格者</a>
-									</li>
-									<li>
-										<a href="/company/profile/">会社概要</a>
-									</li>
-									<li>
-										<a href="/company/business-base/">営業拠点</a>
-									</li>
-									<li>
-										<a href="/company/history/">沿革</a>
-									</li>
-									<li>
-										<a href="/company/environment-policy/">環境方針</a>
-									</li>
-									<li>
-										<a href="/company/iso/">ISO認証取得</a>
-									</li>
-								</ul>
-							</div>
-						</div>
-					</div>											
 				</li>
 				<li class="nav__item"><a class="nav__item__link <?php if ($str[1] == "work") {
 																echo 'nav__item__link--active';

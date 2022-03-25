@@ -73,6 +73,20 @@
           width: 495px;
           margin: 0 auto;
           padding: 79px 0 110px;
+          a{
+            &:hover{
+              img{
+                opacity: .7;
+              }
+            }
+            img{
+              transition: .3s ease;
+            }
+            p{
+              text-align: center;
+              margin: 10px 0 0;
+            }
+          }
         }
       }
     }
